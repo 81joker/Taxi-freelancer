@@ -1,0 +1,103 @@
+/* ===== الأساس ===== */
+body {
+  font-family: "MutatorSans", sans-serif;
+  background: linear-gradient(135deg, #f1f1f1, #dcdcdc);
+  margin: 0;
+}
+
+/* ===== صندوق الاختبار — متجاوب ===== */
+.quiz-container {
+  background: #fff;
+  max-width: 420px;
+  width: 100%;
+  padding: 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .quiz-container {
+    padding: 1.5rem 2rem;
+  }
+}
+
+/* ===== السؤال ===== */
+#question {
+  font-size: clamp(1rem, 4vw, 1.25rem);
+  line-height: 1.4;
+  color: #333;
+}
+
+@media (min-width: 576px) {
+  #question {
+    font-size: 1.125rem;
+  }
+}
+
+/* ===== أزرار الإجابات — متجاوبة وللمس ===== */
+#answers button {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  min-height: 48px;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f1f1f1;
+  transition: background 0.2s, transform 0.1s;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#answers button:hover {
+  background: #e0e0e0;
+}
+
+#answers button:active {
+  transform: scale(0.98);
+}
+
+@media (min-width: 576px) {
+  #answers button {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
+/* ===== زر التالي ===== */
+#nextBtn {
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  min-height: 48px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#nextBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+/* ===== التغذية الراجعة ===== */
+.correct {
+  color: #0f7b0f;
+  font-weight: bold;
+}
+
+.wrong {
+  color: #c00000;
+  font-weight: bold;
+}
+
+#feedback {
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
+
+/* ===== النتيجة ===== */
+#score {
+  font-weight: bold;
+  color: #333;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
