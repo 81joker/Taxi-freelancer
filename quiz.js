@@ -117,18 +117,17 @@ const questions = [
 const totalQuestions = questions.length;
 
 // خلط عشوائي (Fisher-Yates) — للخيارات وترتيب الأسئلة عند كل فتح/تحديث صفحة
-// function shuffleArray(arr) {
-//     const a = [...arr];
-//     for (let i = a.length - 1; i > 0; i--) {
-//         const j = Math.floor(Math.random() * (i + 1));
-//         [a[i], a[j]] = [a[j], a[i]];
-//     }
-//     return a;
-// }
+function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
 
 // نسخ الأسئلة وخلط ترتيبها عند كل تحميل صفحة
-let remainingQuestions = [...questions];
-// let remainingQuestions = shuffleArray(questions);
+let remainingQuestions = shuffleArray(questions);
 let score = 0;
 let answered = 0;
 
@@ -155,8 +154,7 @@ function loadQuestion() {
     questionEl.textContent = `(${answered + 1} / ${totalQuestions}) ${currentQuestion.question}`;
 
     // خلط الخيارات عشوائياً عند كل سؤال (عند كل تحديث أو فتح صفحة)
-    const shuffledOptions = (currentQuestion.options);
-    // const shuffledOptions = shuffleArray(currentQuestion.options);
+    const shuffledOptions = shuffleArray(currentQuestion.options);
     shuffledOptions.forEach(option => {
         const btn = document.createElement("button");
         btn.textContent = option;
