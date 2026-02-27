@@ -1,47 +1,47 @@
 const questions = [
-    // { question: "Wo ist das Hotel Bristol?", options: ["Schottenring 24", "Kärntner Ring 1", "Kärntner Ring 16", "Hafnersteig 7"], answer: "Kärntner Ring 1" },
-    // { question: "Wo ist das Palais Hansen Kempinski?", options: ["Schottenring 24", "Kärntner Ring 16", "Philharmonikerstraße 4", "Kirchengasse 41"], answer: "Schottenring 24" },
-    // { question: "Wo ist das Hotel Imperial?", options: ["Coburgbastei 4", "Parkring 12", "Kärntner Ring 16", "Riemergasse 8"], answer: "Kärntner Ring 16" },
-    // { question: "Wo ist das Alma Boutique-Hotel?", options: ["Hafnersteig 7", "Hintschiggasse 1", "Wagramer Straße 83-85", "Wildpretmarkt 5"], answer: "Hafnersteig 7" },
-    // { question: "Wo ist das Hotel Sacher Wien?", options: ["Viriotgasse 5", "Neubaugürtel 34-36", "Philharmonikerstraße 4", "Währinger Straße 33"], answer: "Philharmonikerstraße 4" },
-    // { question: "Wo ist das Altstadt Vienna?", options: ["Rechte Wienzeile 93-95", "Kirchengasse 41", "Rennweg 16", "Webgasse 26"], answer: "Kirchengasse 41" },
-    // { question: "Wo ist das Palais Coburg?", options: ["Coburgbastei 4", "Savoyenstraße 2", "Kärntner Straße 18", "Hietzinger Hauptstraße 10-14"], answer: "Coburgbastei 4" },
-    // { question: "Wo ist das Am Parkring?", options: ["Hietzinger Hauptstraße 16", "Sonnwendgasse 8", "Parkring 12", "Lange Gasse 61"], answer: "Parkring 12" },
-    // { question: "Wo ist das Appartement-Hotel an der Riemergasse?", options: ["Stephansplatz 9", "Messestraße 2", "Riemergasse 8", "Mariahilfer Straße 15"], answer: "Riemergasse 8" },
-    // { question: "Wo ist das Arion Cityhotel Vienna?", options: ["Papagenogasse 6", "Hintschiggasse 1", "Schwedenplatz 3-4", "Landstraßer Hauptstraße 153-155"], answer: "Hintschiggasse 1" },
-    // { question: "Wo ist das ARCOTEL Donauzentrum?", options: ["Wagramer Straße 83-85", "Hietzinger Hauptstraße 134", "Trabrennstraße 4", "Rennweg 99"], answer: "Wagramer Straße 83-85" },
-    // { question: "Wo ist das Arthotel ANA Amadeus?", options: ["Opernring 11", "Wildpretmarkt 5", "Filmteichstraße 5", "Tiefer Graben 14-20"], answer: "Wildpretmarkt 5" },
-    // { question: "Wo ist das ARCOTEL Kaiserwasser?", options: ["Wiedner Hauptstraße 27-29", "Kleine Stadtgutgasse 4", "Wagramer Straße 8", "Landstraßer Hauptstraße 120"], answer: "Wagramer Straße 8" },
-    // { question: "Wo ist das Arthotel ANA Gala Vienna?", options: ["Neubaugürtel 26-28", "Viriotgasse 5", "Am Heumarkt 15", "Johann-Staud-Straße 32"], answer: "Viriotgasse 5" },
-    // { question: "Wo ist das ARCOTEL Wimberger?", options: ["Neubaugürtel 34-36", "Handelskai 269", "Dorotheergasse 3", "Margaretenstraße 53"], answer: "Neubaugürtel 34-36" },
-    // { question: "Wo ist das Atlanta?", options: ["Praterstraße 44-46", "Uraniastraße 2", "Währinger Straße 33", "Am Heumarkt 35-37"], answer: "Währinger Straße 33" },
-    // { question: "Wo ist das Austria Trend Hotel Ananas?", options: ["Rechte Wienzeile 93-95", "Hernalser Hauptstraße 187", "Boltzmanngasse 8", "Frankenberggasse 10"], answer: "Rechte Wienzeile 93-95" },
-    // { question: "Wo ist das Austria Trend Hotel Savoyen?", options: ["Favoritenstraße 12", "Weihburggasse 3", "Rennweg 16", "Josefsgasse 4-8"], answer: "Rennweg 16" },
-    // { question: "Wo ist das Austria Trend Hotel Anatol?", options: ["Schulerstraße 10", "Aspernbrückengasse 1", "Webgasse 26", "Rathausstraße 17"], answer: "Webgasse 26" },
-    // { question: "Wo ist das Austria Trend Schloss Wilhelminenberg?", options: ["Savoyenstraße 2", "Hasenauerstraße 12", "Rooseveltplatz 15", "Wiedner Gürtel 14"], answer: "Savoyenstraße 2" },
-    // { question: "Wo ist das Austria Trend Hotel Europa?", options: ["Singerstraße 3", "Lange Gasse 13", "Kärntner Straße 18", "Neustift am Walde 97-99"], answer: "Kärntner Straße 18" },
-    // { question: "Wo ist das Austria Trend Parkhotel Schönbrunn?", options: ["Getreidemarkt 5", "Petersplatz 9", "Hietzinger Hauptstraße 10-14", "Simmeringer Hauptstraße 55"], answer: "Hietzinger Hauptstraße 10-14" },
-    // { question: "Wo ist das Austria Trend Hotel Maximilian?", options: ["Rotensterngasse 10-12", "Taborstraße 12", "Hietzinger Hauptstraße 16", "Mariahilfer Straße 122"], answer: "Hietzinger Hauptstraße 16" },
-    // { question: "Wo ist das AZIMUT Hotel Vienna?", options: ["Große Stadtgutgasse 31", "Mautner-Markhof-Gasse 50-54", "Sonnwendgasse 8", "Kirchberggasse 6-8"], answer: "Sonnwendgasse 8" },
-    // { question: "Wo ist das Baronesse Boutique Hotel?", options: ["Sieveringer Straße 4", "Rudolfsplatz 11", "Lange Gasse 61", "Landstraßer Hauptstraße 28"], answer: "Lange Gasse 61" },
-    // { question: "Wo ist das Hotel Am Stephansplatz?", options: ["Stephansplatz 9", "Schützengasse 19", "Wallgasse 23", "Rennweg 12"], answer: "Stephansplatz 9" },
-    // { question: "Wo ist das Bassena Wien Messe?", options: ["Desider-Friedmann-Platz 2", "Hollandstraße 3", "Messestraße 2", "Wagramer Straße 21"], answer: "Messestraße 2" },
-    // { question: "Wo ist das Boutique Hotel Das Tyrol?", options: ["Felberstraße 4", "Mariahilfer Straße 15", "Rennweg 12a", "Fleischmarkt 1a"], answer: "Mariahilfer Straße 15" },
-    // { question: "Wo ist das Beethoven Wien?", options: ["Papagenogasse 6", "Mariahilfer Straße 32-34", "Mariahilfer Straße 78", "Canettistraße 6"], answer: "Papagenogasse 6" },
-    // { question: "Wo ist das Capricorno?", options: ["Schwedenplatz 3-4", "Habsburgergasse 5", "Schönbrunner Straße 41", "Schlossallee 8"], answer: "Schwedenplatz 3-4" },
-    // { question: "Wo ist das Best Western Plus Amedia?", options: ["Landstraßer Hauptstraße 153-155", "Annagasse 16", "Gudrunstraße 184", "Hernalser Hauptstraße 105"], answer: "Landstraßer Hauptstraße 153-155" },
-    // { question: "Wo ist das Club Hotel Cortina?", options: ["Linke Wienzeile 71", "Wagramer Straße 51", "Wiedner Hauptstraße 44", "Hietzinger Hauptstraße 134"], answer: "Hietzinger Hauptstraße 134" },
-    // { question: "Wo ist das Courtyard by Marriott Prater?", options: ["Trabrennstraße 4", "Harmoniegasse 5-7", "Josefstädter Straße 22", "Baumgasse 83"], answer: "Trabrennstraße 4" },
-    // { question: "Wo ist das Doppio Austria Trend?", options: ["Schottenring 11", "Johannesgasse 28", "Rennweg 99", "Robert-Stolz-Platz 1"], answer: "Rennweg 99" },
-    // { question: "Wo ist das Das Opernring Hotel?", options: ["Opernring 11", "Herrengasse 10", "Herrengasse 12", "Kärntner Straße 22"], answer: "Opernring 11" },
-    // { question: "Wo ist die Eitljörg Panoramaschenke?", options: ["Filmteichstraße 5", "Am Stadtpark 1", "Stephansplatz 12", "Schottenring 3"], answer: "Filmteichstraße 5" },
-    // { question: "Wo ist das Das Tigra?", options: ["Schubertring 5-7", "Kärntner Ring 8", "Tiefer Graben 14-20", "Wiedner Hauptstraße 27-29"], answer: "Tiefer Graben 14-20" },
-    // { question: "Wo ist das Erzherzog Rainer?", options: ["Wiedner Hauptstraße 27-29", "Kleine Stadtgutgasse 4", "Landstraßer Hauptstraße 120", "Neubaugürtel 26-28"], answer: "Wiedner Hauptstraße 27-29" },
-    // { question: "Wo ist der Wilhelmshof?", options: ["Kleine Stadtgutgasse 4", "Am Heumarkt 15", "Johann-Staud-Straße 32", "Handelskai 269"], answer: "Kleine Stadtgutgasse 4" },
-    // { question: "Wo ist das Eurostars Embassy?", options: ["Dorotheergasse 3", "Margaretenstraße 53", "Landstraßer Hauptstraße 120", "Praterstraße 44-46"], answer: "Landstraßer Hauptstraße 120" },
-    // { question: "Wo ist das Fleming's Conference Hotel?", options: ["Neubaugürtel 26-28", "Uraniastraße 2", "Am Heumarkt 35-37", "Hernalser Hauptstraße 187"], answer: "Neubaugürtel 26-28" },
-    // { question: "Wo sind die Hilight Suites?", options: ["Am Heumarkt 15", "Boltzmanngasse 8", "Frankenberggasse 10", "Favoritenstraße 12"], answer: "Am Heumarkt 15" },
-    // { question: "Wo ist das Gallitzinberg?", options: ["Weihburggasse 3", "Josefsgasse 4-8", "Johann-Staud-Straße 32", "Schulerstraße 10"], answer: "Johann-Staud-Straße 32" },
+    { question: "Wo ist das Hotel Bristol?", options: ["Schottenring 24", "Kärntner Ring 1", "Kärntner Ring 16", "Hafnersteig 7"], answer: "Kärntner Ring 1" },
+    { question: "Wo ist das Palais Hansen Kempinski?", options: ["Schottenring 24", "Kärntner Ring 16", "Philharmonikerstraße 4", "Kirchengasse 41"], answer: "Schottenring 24" },
+    { question: "Wo ist das Hotel Imperial?", options: ["Coburgbastei 4", "Parkring 12", "Kärntner Ring 16", "Riemergasse 8"], answer: "Kärntner Ring 16" },
+    { question: "Wo ist das Alma Boutique-Hotel?", options: ["Hafnersteig 7", "Hintschiggasse 1", "Wagramer Straße 83-85", "Wildpretmarkt 5"], answer: "Hafnersteig 7" },
+    { question: "Wo ist das Hotel Sacher Wien?", options: ["Viriotgasse 5", "Neubaugürtel 34-36", "Philharmonikerstraße 4", "Währinger Straße 33"], answer: "Philharmonikerstraße 4" },
+    { question: "Wo ist das Altstadt Vienna?", options: ["Rechte Wienzeile 93-95", "Kirchengasse 41", "Rennweg 16", "Webgasse 26"], answer: "Kirchengasse 41" },
+    { question: "Wo ist das Palais Coburg?", options: ["Coburgbastei 4", "Savoyenstraße 2", "Kärntner Straße 18", "Hietzinger Hauptstraße 10-14"], answer: "Coburgbastei 4" },
+    { question: "Wo ist das Am Parkring?", options: ["Hietzinger Hauptstraße 16", "Sonnwendgasse 8", "Parkring 12", "Lange Gasse 61"], answer: "Parkring 12" },
+    { question: "Wo ist das Appartement-Hotel an der Riemergasse?", options: ["Stephansplatz 9", "Messestraße 2", "Riemergasse 8", "Mariahilfer Straße 15"], answer: "Riemergasse 8" },
+    { question: "Wo ist das Arion Cityhotel Vienna?", options: ["Papagenogasse 6", "Hintschiggasse 1", "Schwedenplatz 3-4", "Landstraßer Hauptstraße 153-155"], answer: "Hintschiggasse 1" },
+    { question: "Wo ist das ARCOTEL Donauzentrum?", options: ["Wagramer Straße 83-85", "Hietzinger Hauptstraße 134", "Trabrennstraße 4", "Rennweg 99"], answer: "Wagramer Straße 83-85" },
+    { question: "Wo ist das Arthotel ANA Amadeus?", options: ["Opernring 11", "Wildpretmarkt 5", "Filmteichstraße 5", "Tiefer Graben 14-20"], answer: "Wildpretmarkt 5" },
+    { question: "Wo ist das ARCOTEL Kaiserwasser?", options: ["Wiedner Hauptstraße 27-29", "Kleine Stadtgutgasse 4", "Wagramer Straße 8", "Landstraßer Hauptstraße 120"], answer: "Wagramer Straße 8" },
+    { question: "Wo ist das Arthotel ANA Gala Vienna?", options: ["Neubaugürtel 26-28", "Viriotgasse 5", "Am Heumarkt 15", "Johann-Staud-Straße 32"], answer: "Viriotgasse 5" },
+    { question: "Wo ist das ARCOTEL Wimberger?", options: ["Neubaugürtel 34-36", "Handelskai 269", "Dorotheergasse 3", "Margaretenstraße 53"], answer: "Neubaugürtel 34-36" },
+    { question: "Wo ist das Atlanta?", options: ["Praterstraße 44-46", "Uraniastraße 2", "Währinger Straße 33", "Am Heumarkt 35-37"], answer: "Währinger Straße 33" },
+    { question: "Wo ist das Austria Trend Hotel Ananas?", options: ["Rechte Wienzeile 93-95", "Hernalser Hauptstraße 187", "Boltzmanngasse 8", "Frankenberggasse 10"], answer: "Rechte Wienzeile 93-95" },
+    { question: "Wo ist das Austria Trend Hotel Savoyen?", options: ["Favoritenstraße 12", "Weihburggasse 3", "Rennweg 16", "Josefsgasse 4-8"], answer: "Rennweg 16" },
+    { question: "Wo ist das Austria Trend Hotel Anatol?", options: ["Schulerstraße 10", "Aspernbrückengasse 1", "Webgasse 26", "Rathausstraße 17"], answer: "Webgasse 26" },
+    { question: "Wo ist das Austria Trend Schloss Wilhelminenberg?", options: ["Savoyenstraße 2", "Hasenauerstraße 12", "Rooseveltplatz 15", "Wiedner Gürtel 14"], answer: "Savoyenstraße 2" },
+    { question: "Wo ist das Austria Trend Hotel Europa?", options: ["Singerstraße 3", "Lange Gasse 13", "Kärntner Straße 18", "Neustift am Walde 97-99"], answer: "Kärntner Straße 18" },
+    { question: "Wo ist das Austria Trend Parkhotel Schönbrunn?", options: ["Getreidemarkt 5", "Petersplatz 9", "Hietzinger Hauptstraße 10-14", "Simmeringer Hauptstraße 55"], answer: "Hietzinger Hauptstraße 10-14" },
+    { question: "Wo ist das Austria Trend Hotel Maximilian?", options: ["Rotensterngasse 10-12", "Taborstraße 12", "Hietzinger Hauptstraße 16", "Mariahilfer Straße 122"], answer: "Hietzinger Hauptstraße 16" },
+    { question: "Wo ist das AZIMUT Hotel Vienna?", options: ["Große Stadtgutgasse 31", "Mautner-Markhof-Gasse 50-54", "Sonnwendgasse 8", "Kirchberggasse 6-8"], answer: "Sonnwendgasse 8" },
+    { question: "Wo ist das Baronesse Boutique Hotel?", options: ["Sieveringer Straße 4", "Rudolfsplatz 11", "Lange Gasse 61", "Landstraßer Hauptstraße 28"], answer: "Lange Gasse 61" },
+    { question: "Wo ist das Hotel Am Stephansplatz?", options: ["Stephansplatz 9", "Schützengasse 19", "Wallgasse 23", "Rennweg 12"], answer: "Stephansplatz 9" },
+    { question: "Wo ist das Bassena Wien Messe?", options: ["Desider-Friedmann-Platz 2", "Hollandstraße 3", "Messestraße 2", "Wagramer Straße 21"], answer: "Messestraße 2" },
+    { question: "Wo ist das Boutique Hotel Das Tyrol?", options: ["Felberstraße 4", "Mariahilfer Straße 15", "Rennweg 12a", "Fleischmarkt 1a"], answer: "Mariahilfer Straße 15" },
+    { question: "Wo ist das Beethoven Wien?", options: ["Papagenogasse 6", "Mariahilfer Straße 32-34", "Mariahilfer Straße 78", "Canettistraße 6"], answer: "Papagenogasse 6" },
+    { question: "Wo ist das Capricorno?", options: ["Schwedenplatz 3-4", "Habsburgergasse 5", "Schönbrunner Straße 41", "Schlossallee 8"], answer: "Schwedenplatz 3-4" },
+    { question: "Wo ist das Best Western Plus Amedia?", options: ["Landstraßer Hauptstraße 153-155", "Annagasse 16", "Gudrunstraße 184", "Hernalser Hauptstraße 105"], answer: "Landstraßer Hauptstraße 153-155" },
+    { question: "Wo ist das Club Hotel Cortina?", options: ["Linke Wienzeile 71", "Wagramer Straße 51", "Wiedner Hauptstraße 44", "Hietzinger Hauptstraße 134"], answer: "Hietzinger Hauptstraße 134" },
+    { question: "Wo ist das Courtyard by Marriott Prater?", options: ["Trabrennstraße 4", "Harmoniegasse 5-7", "Josefstädter Straße 22", "Baumgasse 83"], answer: "Trabrennstraße 4" },
+    { question: "Wo ist das Doppio Austria Trend?", options: ["Schottenring 11", "Johannesgasse 28", "Rennweg 99", "Robert-Stolz-Platz 1"], answer: "Rennweg 99" },
+    { question: "Wo ist das Das Opernring Hotel?", options: ["Opernring 11", "Herrengasse 10", "Herrengasse 12", "Kärntner Straße 22"], answer: "Opernring 11" },
+    { question: "Wo ist die Eitljörg Panoramaschenke?", options: ["Filmteichstraße 5", "Am Stadtpark 1", "Stephansplatz 12", "Schottenring 3"], answer: "Filmteichstraße 5" },
+    { question: "Wo ist das Das Tigra?", options: ["Schubertring 5-7", "Kärntner Ring 8", "Tiefer Graben 14-20", "Wiedner Hauptstraße 27-29"], answer: "Tiefer Graben 14-20" },
+    { question: "Wo ist das Erzherzog Rainer?", options: ["Wiedner Hauptstraße 27-29", "Kleine Stadtgutgasse 4", "Landstraßer Hauptstraße 120", "Neubaugürtel 26-28"], answer: "Wiedner Hauptstraße 27-29" },
+    { question: "Wo ist der Wilhelmshof?", options: ["Kleine Stadtgutgasse 4", "Am Heumarkt 15", "Johann-Staud-Straße 32", "Handelskai 269"], answer: "Kleine Stadtgutgasse 4" },
+    { question: "Wo ist das Eurostars Embassy?", options: ["Dorotheergasse 3", "Margaretenstraße 53", "Landstraßer Hauptstraße 120", "Praterstraße 44-46"], answer: "Landstraßer Hauptstraße 120" },
+    { question: "Wo ist das Fleming's Conference Hotel?", options: ["Neubaugürtel 26-28", "Uraniastraße 2", "Am Heumarkt 35-37", "Hernalser Hauptstraße 187"], answer: "Neubaugürtel 26-28" },
+    { question: "Wo sind die Hilight Suites?", options: ["Am Heumarkt 15", "Boltzmanngasse 8", "Frankenberggasse 10", "Favoritenstraße 12"], answer: "Am Heumarkt 15" },
+    { question: "Wo ist das Gallitzinberg?", options: ["Weihburggasse 3", "Josefsgasse 4-8", "Johann-Staud-Straße 32", "Schulerstraße 10"], answer: "Johann-Staud-Straße 32" },
     { question: "Wo ist das Hilton Vienna Danube Waterfront?", options: ["Handelskai 269", "Aspernbrückengasse 1", "Rathausstraße 17", "Hasenauerstraße 12"], answer: "Handelskai 269" },
     { question: "Wo ist das Graben Hotel?", options: ["Dorotheergasse 3", "Rooseveltplatz 15", "Wiedner Gürtel 14", "Singerstraße 3"], answer: "Dorotheergasse 3" },
     { question: "Wo ist das Holiday Inn Vienna City?", options: ["Lange Gasse 13", "Neustift am Walde 97-99", "Margaretenstraße 53", "Getreidemarkt 5"], answer: "Margaretenstraße 53" },
@@ -117,18 +117,17 @@ const questions = [
 const totalQuestions = questions.length;
 
 // خلط عشوائي (Fisher-Yates) — للخيارات وترتيب الأسئلة عند كل فتح/تحديث صفحة
-// function shuffleArray(arr) {
-//     const a = [...arr];
-//     for (let i = a.length - 1; i > 0; i--) {
-//         const j = Math.floor(Math.random() * (i + 1));
-//         [a[i], a[j]] = [a[j], a[i]];
-//     }
-//     return a;
-// }
+function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
 
 // نسخ الأسئلة وخلط ترتيبها عند كل تحميل صفحة
-let remainingQuestions = [...questions];
-// let remainingQuestions = shuffleArray(questions);
+let remainingQuestions = shuffleArray(questions);
 let score = 0;
 let answered = 0;
 
@@ -149,14 +148,13 @@ function loadQuestion() {
         return;
     }
 
-        // const randomIndex = Math.floor(Math.random() * remainingQuestions.length);
-    const currentQuestion = remainingQuestions.splice(0, 1)[0];
+    const randomIndex = Math.floor(Math.random() * remainingQuestions.length);
+    const currentQuestion = remainingQuestions.splice(randomIndex, 1)[0];
 
     questionEl.textContent = `(${answered + 1} / ${totalQuestions}) ${currentQuestion.question}`;
 
     // خلط الخيارات عشوائياً عند كل سؤال (عند كل تحديث أو فتح صفحة)
-    const shuffledOptions = (currentQuestion.options);
-    // const shuffledOptions = shuffleArray(currentQuestion.options);
+    const shuffledOptions = shuffleArray(currentQuestion.options);
     shuffledOptions.forEach(option => {
         const btn = document.createElement("button");
         btn.textContent = option;
