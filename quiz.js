@@ -102,14 +102,14 @@ const questions = [
     { question: "Wo ist das Hilton Vienna Plaza?", options: ["Schottenring 11", "Kärntner Straße 22", "Am Stadtpark 1", "Stephansplatz 12"], answer: "Schottenring 11" },
     { question: "Wo ist das InterContinental Wien?", options: ["Johannesgasse 28", "Schottenring 3", "Schubertring 5-7", "Kärntner Ring 8"], answer: "Johannesgasse 28" },
     { question: "Wo ist das Le Meridien Wien?", options: ["Robert-Stolz-Platz 1", "Herrengasse 10", "Herrengasse 12", "Kärntner Straße 22"], answer: "Robert-Stolz-Platz 1" },
-    // { question: "Wo ist das Steigenberger Hotel Herrenhof?", options: ["Herrengasse 10", "Am Stadtpark 1", "Stephansplatz 12", "Schottenring 3"], answer: "Herrengasse 10" },
-    // { question: "Wo ist das Radisson Blu Style Hotel?", options: ["Herrengasse 12", "Schubertring 5-7", "Kärntner Ring 8", "Kärntner Ring 1"], answer: "Herrengasse 12" },
-    // { question: "Wo ist das Hotel Ambassador?", options: ["Kärntner Straße 22", "Schottenring 24", "Kärntner Ring 16", "Hafnersteig 7"], answer: "Kärntner Straße 22" },
-    // { question: "Wo ist das Hilton Vienna Park?", options: ["Am Stadtpark 1", "Philharmonikerstraße 4", "Kirchengasse 41", "Coburgbastei 4"], answer: "Am Stadtpark 1" },
-    // { question: "Wo ist das DO & CO Hotel Vienna?", options: ["Stephansplatz 12", "Parkring 12", "Riemergasse 8", "Hintschiggasse 1"], answer: "Stephansplatz 12" },
-    // { question: "Wo ist das Hotel de France?", options: ["Schottenring 3", "Wagramer Straße 83-85", "Wildpretmarkt 5", "Viriotgasse 5"], answer: "Schottenring 3" },
-    // { question: "Wo ist The Ritz-Carlton Vienna?", options: ["Schubertring 5-7", "Neubaugürtel 34-36", "Währinger Straße 33", "Rechte Wienzeile 93-95"], answer: "Schubertring 5-7" },
-    // { question: "Wo ist das Relais & Châteaux Hotel The Ring?", options: ["Kärntner Ring 8", "Rennweg 16", "Webgasse 26", "Savoyenstraße 2"], answer: "Kärntner Ring 8" }
+    { question: "Wo ist das Steigenberger Hotel Herrenhof?", options: ["Herrengasse 10", "Am Stadtpark 1", "Stephansplatz 12", "Schottenring 3"], answer: "Herrengasse 10" },
+    { question: "Wo ist das Radisson Blu Style Hotel?", options: ["Herrengasse 12", "Schubertring 5-7", "Kärntner Ring 8", "Kärntner Ring 1"], answer: "Herrengasse 12" },
+    { question: "Wo ist das Hotel Ambassador?", options: ["Kärntner Straße 22", "Schottenring 24", "Kärntner Ring 16", "Hafnersteig 7"], answer: "Kärntner Straße 22" },
+    { question: "Wo ist das Hilton Vienna Park?", options: ["Am Stadtpark 1", "Philharmonikerstraße 4", "Kirchengasse 41", "Coburgbastei 4"], answer: "Am Stadtpark 1" },
+    { question: "Wo ist das DO & CO Hotel Vienna?", options: ["Stephansplatz 12", "Parkring 12", "Riemergasse 8", "Hintschiggasse 1"], answer: "Stephansplatz 12" },
+    { question: "Wo ist das Hotel de France?", options: ["Schottenring 3", "Wagramer Straße 83-85", "Wildpretmarkt 5", "Viriotgasse 5"], answer: "Schottenring 3" },
+    { question: "Wo ist The Ritz-Carlton Vienna?", options: ["Schubertring 5-7", "Neubaugürtel 34-36", "Währinger Straße 33", "Rechte Wienzeile 93-95"], answer: "Schubertring 5-7" },
+    { question: "Wo ist das Relais & Châteaux Hotel The Ring?", options: ["Kärntner Ring 8", "Rennweg 16", "Webgasse 26", "Savoyenstraße 2"], answer: "Kärntner Ring 8" }
 ];
 
 
@@ -127,8 +127,8 @@ function shuffleArray(arr) {
 }
 
 // نسخ الأسئلة وخلط ترتيبها عند كل تحميل صفحة
-let remainingQuestions = [...questions];
-// let remainingQuestions = shuffleArray(questions);
+// let remainingQuestions = [...questions];
+let remainingQuestions = shuffleArray(questions);
 let score = 0;
 let answered = 0;
 
