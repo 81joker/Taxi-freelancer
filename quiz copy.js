@@ -16,8 +16,8 @@ const questions = [
         options: [
             "Ballhausplatz (Hofburg)",
             "Minoritenplatz 8",
-            "Herrengasse 7",
-            "Johannesgasse 5"
+            "Johannesgasse 5",
+            "Stubenring 1"
         ],
         answer: "Ballhausplatz (Hofburg)"
     },
@@ -26,9 +26,9 @@ const questions = [
         question: "Wo ist das Bundeskanzleramt?",
         options: [
             "Ballhausplatz 2",
+            "Stubenring 1",
             "Herrengasse 7",
-            "Minoritenplatz 5",
-            "Johannesgasse 5"
+            "Minoritenplatz 5"
         ],
         answer: "Ballhausplatz 2"
     },
@@ -45,23 +45,12 @@ const questions = [
     },
 
     {
-        question: "Wo ist das Bundesministerium für Europäische und Internationale Angelegenheiten?",
-        options: [
-            "Minoritenplatz 8",
-            "Herrengasse 7",
-            "Johannesgasse 5",
-            "Stubenring 1"
-        ],
-        answer: "Minoritenplatz 8"
-    },
-
-    {
         question: "Wo ist das Bundesministerium für Bildung, Wissenschaft und Forschung?",
         options: [
             "Minoritenplatz 5",
-            "Herrengasse 7",
             "Johannesgasse 5",
-            "Stubenring 1"
+            "Stubenring 1",
+            "Taborstraße 1"
         ],
         answer: "Minoritenplatz 5"
     },
@@ -70,9 +59,9 @@ const questions = [
         question: "Wo ist das Bundesministerium für Digitalisierung und Wirtschaftsstandort?",
         options: [
             "Stubenring 1",
-            "Johannesgasse 5",
             "Herrengasse 7",
-            "Minoritenplatz 5"
+            "Minoritenplatz 5",
+            "Taborstraße 1"
         ],
         answer: "Stubenring 1"
     },
@@ -83,7 +72,7 @@ const questions = [
             "Taborstraße 1-3",
             "Johannesgasse 5",
             "Minoritenplatz 8",
-            "Herrengasse 7"
+            "Stubenring 1"
         ],
         answer: "Taborstraße 1-3"
     },
@@ -92,31 +81,20 @@ const questions = [
         question: "Wo ist das Bundesministerium für Finanzen?",
         options: [
             "Johannesgasse 5",
+            "Taborstraße 1",
             "Herrengasse 7",
-            "Minoritenplatz 5",
-            "Stubenring 1"
+            "Minoritenplatz 8"
         ],
         answer: "Johannesgasse 5"
     },
 
     {
-        question: "Wo ist das Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie?",
+        question: "Wo ist das Bundesministerium für Klimaschutz?",
         options: [
             "Radetzkystraße 2",
             "Johannesgasse 5",
             "Herrengasse 7",
-            "Minoritenplatz 8"
-        ],
-        answer: "Radetzkystraße 2"
-    },
-
-    {
-        question: "Wo ist das Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport?",
-        options: [
-            "Radetzkystraße 2",
-            "Johannesgasse 5",
-            "Herrengasse 7",
-            "Minoritenplatz 8"
+            "Stubenring 1"
         ],
         answer: "Radetzkystraße 2"
     },
@@ -125,62 +103,52 @@ const questions = [
         question: "Wo ist das Bundesministerium für Landwirtschaft, Regionen und Tourismus?",
         options: [
             "Stubenring 1",
-            "Herrengasse 7",
             "Johannesgasse 5",
-            "Minoritenplatz 5"
+            "Herrengasse 7",
+            "Taborstraße 1"
         ],
         answer: "Stubenring 1"
     },
 
     {
-        question: "Wo ist das Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz?",
-        options: [
-            "Stubenring 1",
-            "Herrengasse 7",
-            "Johannesgasse 5",
-            "Minoritenplatz 5"
-        ],
-        answer: "Stubenring 1"
-    },
-
-    {
-        question: "Wo ist das Bundesministerium für Justiz?",
+        question: "Wo ist das Justizministerium?",
         options: [
             "Museumstraße 7",
-            "Herrengasse 7",
             "Johannesgasse 5",
-            "Minoritenplatz 8"
+            "Minoritenplatz 8",
+            "Stubenring 1"
         ],
         answer: "Museumstraße 7"
     },
 
     {
-        question: "Wo ist das Bundesministerium für Landesverteidigung?",
+        question: "Wo ist das Landesverteidigungsministerium?",
         options: [
             "Roßauer Lände 1",
-            "Herrengasse 7",
+            "Stubenring 1",
             "Johannesgasse 5",
-            "Minoritenplatz 8"
+            "Herrengasse 7"
         ],
         answer: "Roßauer Lände 1"
     },
 
     {
-        question: "Wo ist das Rathaus Wien (Landesregierung und Bürgermeister)?",
+        question: "Wo ist das Rathaus (Landesregierung Wien)?",
         options: [
             "Rathausplatz",
-            "Herrengasse",
             "Schottenring",
-            "Minoritenplatz"
+            "Herrengasse",
+            "Johannesgasse"
         ],
         answer: "Rathausplatz"
     },
+
     {
         question: "Wo ist der Verfassungsgerichtshof?",
         options: [
             "Freyung 8",
             "Judenplatz 11",
-            "Schmerlingplatz 10-11",
+            "Schmerlingplatz 10",
             "Herrengasse 7"
         ],
         answer: "Freyung 8"
@@ -191,47 +159,14 @@ const questions = [
         options: [
             "Judenplatz 11",
             "Freyung 8",
-            "Schmerlingplatz 10-11",
-            "Herrengasse 7"
+            "Schmerlingplatz 10",
+            "Minoritenplatz"
         ],
         answer: "Judenplatz 11"
     },
 
     {
-        question: "Wo ist der Justizpalast?",
-        options: [
-            "Schmerlingplatz 10-11",
-            "Freyung 8",
-            "Judenplatz 11",
-            "Minoritenplatz 5"
-        ],
-        answer: "Schmerlingplatz 10-11"
-    },
-
-    {
-        question: "Wo ist das Oberlandesgericht Wien?",
-        options: [
-            "Schmerlingplatz 10-11",
-            "Freyung 8",
-            "Judenplatz 11",
-            "Rathausplatz"
-        ],
-        answer: "Schmerlingplatz 10-11"
-    },
-
-    {
-        question: "Wo ist die Oberstaatsanwaltschaft?",
-        options: [
-            "Schmerlingplatz 10-11",
-            "Freyung 8",
-            "Judenplatz 11",
-            "Minoritenplatz"
-        ],
-        answer: "Schmerlingplatz 10-11"
-    },
-
-    {
-        question: "Wo ist das Landesgericht für Zivilrechtssachen?",
+        question: "Wo ist der Oberste Gerichtshof?",
         options: [
             "Schmerlingplatz 10-11",
             "Freyung 8",
@@ -240,6 +175,270 @@ const questions = [
         ],
         answer: "Schmerlingplatz 10-11"
     },
+
+    {
+        question: "Wo ist das Landesgericht für Strafsachen?",
+        options: [
+            "Landesgerichtsstraße 11",
+            "Judenplatz 11",
+            "Schmerlingplatz 10",
+            "Freyung 8"
+        ],
+        answer: "Landesgerichtsstraße 11"
+    },
+
+    {
+        question: "Wo ist die Justizanstalt Wien Josefstadt?",
+        options: [
+            "Wickenburggasse 18-20",
+            "Freyung 8",
+            "Judenplatz 11",
+            "Schmerlingplatz"
+        ],
+        answer: "Wickenburggasse 18-20"
+    },
+
+    {
+        question: "Wo ist das Verkehrsamt (Führerschein / Taxi)?",
+        options: [
+            "Dietrichgasse 27",
+            "Herrengasse 7",
+            "Johannesgasse 5",
+            "Minoritenplatz 8"
+        ],
+        answer: "Dietrichgasse 27"
+    },
+
+    {
+        question: "Wo ist die Bundespolizeidirektion Wien?",
+        options: [
+            "Schottenring 7-9",
+            "Herrengasse 7",
+            "Minoritenplatz 8",
+            "Johannesgasse 5"
+        ],
+        answer: "Schottenring 7-9"
+    },
+
+    {
+        question: "Wo ist das Fremdenpolizeiliche Büro?",
+        options: [
+            "Hernalser Gürtel 6-12",
+            "Schottenring 7",
+            "Johannesgasse 5",
+            "Stubenring 1"
+        ],
+        answer: "Hernalser Gürtel 6-12"
+    },
+
+    {
+        question: "Wo ist das Hauptpostamt Wien?",
+        options: [
+            "Fleischmarkt 19",
+            "Johannesgasse 5",
+            "Minoritenplatz 8",
+            "Herrengasse 7"
+        ],
+        answer: "Fleischmarkt 19"
+    },
+
+    {
+        question: "Wo ist der Franz-Josefs-Bahnhof?",
+        options: [
+            "Nordbergstraße",
+            "Europaplatz",
+            "Praterstern",
+            "Eichenstraße"
+        ],
+        answer: "Nordbergstraße"
+    },
+
+    {
+        question: "Wo ist der Westbahnhof?",
+        options: [
+            "Europaplatz",
+            "Nordbergstraße",
+            "Praterstern",
+            "Eichenstraße"
+        ],
+        answer: "Europaplatz"
+    },
+
+    {
+        question: "Wo ist der Hauptbahnhof Wien?",
+        options: [
+            "Am Hauptbahnhof 1",
+            "Nordbergstraße",
+            "Europaplatz",
+            "Eichenstraße"
+        ],
+        answer: "Am Hauptbahnhof 1"
+    },
+
+    {
+        question: "Wo ist der Bahnhof Wien Mitte?",
+        options: [
+            "Landstraßer Hauptstraße",
+            "Europaplatz",
+            "Nordbergstraße",
+            "Praterstern"
+        ],
+        answer: "Landstraßer Hauptstraße"
+    },
+
+    {
+        question: "Wo ist der Bahnhof Wien Nord?",
+        options: [
+            "Praterstern",
+            "Europaplatz",
+            "Eichenstraße",
+            "Nordbergstraße"
+        ],
+        answer: "Praterstern"
+    },
+
+    {
+        question: "Wo ist der Bahnhof Meidling?",
+        options: [
+            "Eichenstraße",
+            "Europaplatz",
+            "Nordbergstraße",
+            "Praterstern"
+        ],
+        answer: "Eichenstraße"
+    },
+
+    {
+        question: "Wo ist das DDSG Schifffahrtszentrum?",
+        options: [
+            "Handelskai 265",
+            "Praterstern",
+            "Europaplatz",
+            "Nordbergstraße"
+        ],
+        answer: "Handelskai 265"
+    },
+
+    {
+        question: "Wo ist die Schwedenbrücke Schifffahrt?",
+        options: [
+            "Franz-Josefs-Kai / Schwedenbrücke",
+            "Handelskai",
+            "Praterstern",
+            "Europaplatz"
+        ],
+        answer: "Franz-Josefs-Kai / Schwedenbrücke"
+    },
+
+    {
+        question: "Wo ist der Wiener Hafen?",
+        options: [
+            "Seitenhafenstraße 15",
+            "Handelskai",
+            "Praterstern",
+            "Europaplatz"
+        ],
+        answer: "Seitenhafenstraße 15"
+    },
+
+    {
+        question: "Wo ist das ORF Fernsehen?",
+        options: [
+            "Würzburggasse 30",
+            "Argentinierstraße 30",
+            "Johannesgasse 5",
+            "Minoritenplatz"
+        ],
+        answer: "Würzburggasse 30"
+    },
+
+    {
+        question: "Wo ist die Arbeiterkammer Wien?",
+        options: [
+            "Prinz Eugen Straße 20-22",
+            "Herrengasse 7",
+            "Minoritenplatz 8",
+            "Johannesgasse 5"
+        ],
+        answer: "Prinz Eugen Straße 20-22"
+    },
+
+    {
+        question: "Wo ist die Wirtschaftskammer Österreich?",
+        options: [
+            "Wiedner Hauptstraße 63",
+            "Herrengasse 7",
+            "Minoritenplatz 8",
+            "Johannesgasse 5"
+        ],
+        answer: "Wiedner Hauptstraße 63"
+    },
+
+    {
+        question: "Wo ist die Wirtschaftskammer Wien?",
+        options: [
+            "Straße der Wiener Wirtschaft 1",
+            "Johannesgasse 5",
+            "Herrengasse 7",
+            "Minoritenplatz 8"
+        ],
+        answer: "Straße der Wiener Wirtschaft 1"
+    },
+
+    {
+        question: "Wo ist das Bezirksamt 1 und 8?",
+        options: [
+            "Wipplingerstraße 8",
+            "Karmelitergasse 9",
+            "Karl Borromäus Platz 3",
+            "Enkplatz 2"
+        ],
+        answer: "Wipplingerstraße 8"
+    },
+
+    {
+        question: "Wo ist das Bezirksamt 2?",
+        options: [
+            "Karmelitergasse 9",
+            "Wipplingerstraße 8",
+            "Enkplatz 2",
+            "Schönbrunner Straße"
+        ],
+        answer: "Karmelitergasse 9"
+    },
+
+    {
+        question: "Wo ist das Bezirksamt 3?",
+        options: [
+            "Karl Borromäus Platz 3",
+            "Wipplingerstraße 8",
+            "Karmelitergasse 9",
+            "Enkplatz"
+        ],
+        answer: "Karl Borromäus Platz 3"
+    },
+
+    {
+        question: "Wo ist das Bezirksamt 11?",
+        options: [
+            "Enkplatz 2",
+            "Karmelitergasse",
+            "Wipplingerstraße",
+            "Schönbrunner Straße"
+        ],
+        answer: "Enkplatz 2"
+    },
+
+    {
+        question: "Wo ist das Bezirksamt 12?",
+        options: [
+            "Schönbrunner Straße 259",
+            "Wipplingerstraße",
+            "Karmelitergasse",
+            "Enkplatz"
+        ],
+        answer: "Schönbrunner Straße 259"
+    }
 
 ];
 
