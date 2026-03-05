@@ -310,27 +310,27 @@ const questions = [
         answer: "Dampfschiffstraße 2"
     },
 
-    // {
-    //     question: "Wo ist die Bundespolizeidirektion Wien?",
-    //     options: [
-    //         "Schottenring 7-9",
-    //         "Hernalser Gürtel 6-12",
-    //         "Dietrichgasse 27",
-    //         "Deutschmeisterplatz 3"
-    //     ],
-    //     answer: "Schottenring 7-9"
-    // },
+    {
+        question: "Wo ist die Bundespolizeidirektion Wien?",
+        options: [
+            "Schottenring 7-9",
+            "Hernalser Gürtel 6-12",
+            "Dietrichgasse 27",
+            "Deutschmeisterplatz 3"
+        ],
+        answer: "Schottenring 7-9"
+    },
 
-    // {
-    //     question: "Wo ist das Fremdenpolizeiliche Büro?",
-    //     options: [
-    //         "Hernalser Gürtel 6-12",
-    //         "Schottenring 7-9",
-    //         "Dietrichgasse 27",
-    //         "Deutschmeisterplatz 3"
-    //     ],
-    //     answer: "Hernalser Gürtel 6-12"
-    // },
+    {
+        question: "Wo ist das Fremdenpolizeiliche Büro?",
+        options: [
+            "Hernalser Gürtel 6-12",
+            "Schottenring 7-9",
+            "Dietrichgasse 27",
+            "Deutschmeisterplatz 3"
+        ],
+        answer: "Hernalser Gürtel 6-12"
+    },
 
     // {
     //     question: "Wo ist das Verkehrsamt (Führerschein / Taxireferat)?",
