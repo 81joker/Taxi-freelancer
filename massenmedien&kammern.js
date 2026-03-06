@@ -65,71 +65,71 @@ const questions = [
         answer: "Richard-Strauss-Straße 16"
     },
 
-    // {
-    //     question: "Wo ist die Österreichische Staatsdruckerei (Druckerei)?",
-    //     options: [
-    //         "Tenschertstraße 7",
-    //         "Laimgrubengasse 10",
-    //         "Prinz Eugen Straße 20-22",
-    //         "Wiedner Hauptstraße 63"
-    //     ],
-    //     answer: "Tenschertstraße 7"
-    // },
+    {
+        question: "Wo ist die Österreichische Staatsdruckerei (Druckerei)?",
+        options: [
+            "Tenschertstraße 7",
+            "Laimgrubengasse 10",
+            "Prinz Eugen Straße 20-22",
+            "Wiedner Hauptstraße 63"
+        ],
+        answer: "Tenschertstraße 7"
+    },
 
-    // {
-    //     question: "Wo ist die APA Austria Presseagentur (IPZ)?",
-    //     options: [
-    //         "Laimgrubengasse 10",
-    //         "Tenschertstraße 7",
-    //         "Prinz Eugen Straße 20-22",
-    //         "Wiedner Hauptstraße 63"
-    //     ],
-    //     answer: "Laimgrubengasse 10"
-    // },
+    {
+        question: "Wo ist die APA Austria Presseagentur (IPZ)?",
+        options: [
+            "Laimgrubengasse 10",
+            "Tenschertstraße 7",
+            "Prinz Eugen Straße 20-22",
+            "Wiedner Hauptstraße 63"
+        ],
+        answer: "Laimgrubengasse 10"
+    },
 
-    // {
-    //     question: "Wo ist die Arbeiterkammer Wien (Kammer)?",
-    //     options: [
-    //         "Prinz Eugen Straße 20-22",
-    //         "Wiedner Hauptstraße 63",
-    //         "Straße der Wiener Wirtschaft 1",
-    //         "Laimgrubengasse 10"
-    //     ],
-    //     answer: "Prinz Eugen Straße 20-22"
-    // },
+    {
+        question: "Wo ist die Arbeiterkammer Wien (Kammer)?",
+        options: [
+            "Prinz Eugen Straße 20-22",
+            "Wiedner Hauptstraße 63",
+            "Straße der Wiener Wirtschaft 1",
+            "Laimgrubengasse 10"
+        ],
+        answer: "Prinz Eugen Straße 20-22"
+    },
 
-    // {
-    //     question: "Wo ist die Wirtschaftskammer Österreich (Kammer)?",
-    //     options: [
-    //         "Wiedner Hauptstraße 63",
-    //         "Prinz Eugen Straße 20-22",
-    //         "Straße der Wiener Wirtschaft 1",
-    //         "Laimgrubengasse 10"
-    //     ],
-    //     answer: "Wiedner Hauptstraße 63"
-    // },
+    {
+        question: "Wo ist die Wirtschaftskammer Österreich (Kammer)?",
+        options: [
+            "Wiedner Hauptstraße 63",
+            "Prinz Eugen Straße 20-22",
+            "Straße der Wiener Wirtschaft 1",
+            "Laimgrubengasse 10"
+        ],
+        answer: "Wiedner Hauptstraße 63"
+    },
 
-    // {
-    //     question: "Wo ist die Wirtschaftskammer Wien (Kammer)?",
-    //     options: [
-    //         "Straße der Wiener Wirtschaft 1",
-    //         "Wiedner Hauptstraße 63",
-    //         "Prinz Eugen Straße 20-22",
-    //         "Laimgrubengasse 10"
-    //     ],
-    //     answer: "Straße der Wiener Wirtschaft 1"
-    // },
+    {
+        question: "Wo ist die Wirtschaftskammer Wien (Kammer)?",
+        options: [
+            "Straße der Wiener Wirtschaft 1",
+            "Wiedner Hauptstraße 63",
+            "Prinz Eugen Straße 20-22",
+            "Laimgrubengasse 10"
+        ],
+        answer: "Straße der Wiener Wirtschaft 1"
+    },
 
-    // {
-    //     question: "Wo ist die Fachgruppe Wien für Personenbeförderungsgewerbe?",
-    //     options: [
-    //         "Straße der Wiener Wirtschaft 1",
-    //         "Wiedner Hauptstraße 63",
-    //         "Prinz Eugen Straße 20-22",
-    //         "Tenschertstraße 7"
-    //     ],
-    //     answer: "Straße der Wiener Wirtschaft 1"
-    // },
+    {
+        question: "Wo ist die Fachgruppe Wien für Personenbeförderungsgewerbe?",
+        options: [
+            "Straße der Wiener Wirtschaft 1",
+            "Wiedner Hauptstraße 63",
+            "Prinz Eugen Straße 20-22",
+            "Tenschertstraße 7"
+        ],
+        answer: "Straße der Wiener Wirtschaft 1"
+    },
 
 ];
 // عدد الأسئلة الكلي
