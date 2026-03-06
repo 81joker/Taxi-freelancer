@@ -1,7 +1,7 @@
 const questions = [
 
     {
-        question: "Wo ist das Hauptpostamt?",
+        question: "Wo ist das Hauptpostamt (Postamt)?",
         options: [
             "Fleischmarkt 19",
             "Althanstraße 10",
@@ -12,7 +12,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist das Postamt Franz-Josefs-Bahnhof?",
+        question: "Wo ist das Postamt Franz-Josefs-Bahnhof (Postamt)?",
         options: [
             "Althanstraße 10",
             "Fleischmarkt 19",
@@ -23,7 +23,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist das Postamt Westbahnhof?",
+        question: "Wo ist das Postamt Westbahnhof (Postamt)?",
         options: [
             "Europaplatz 3",
             "Fleischmarkt 19",
@@ -34,7 +34,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist das Post-Verteilerzentrum?",
+        question: "Wo ist das Post-Verteilerzentrum (Post)?",
         options: [
             "Halban Kurz Straße 11",
             "Europaplatz 3",
@@ -45,7 +45,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Hauptbahnhof Wien?",
+        question: "Wo ist der Hauptbahnhof Wien (Bahnhof)?",
         options: [
             "Am Hauptbahnhof 1",
             "Nordbergstraße",
@@ -56,7 +56,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Franz-Josefs-Bahnhof?",
+        question: "Wo ist der Franz-Josefs-Bahnhof (Bahnhof)?",
         options: [
             "Nordbergstraße",
             "Europaplatz",
@@ -67,7 +67,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Westbahnhof?",
+        question: "Wo ist der Westbahnhof (Bahnhof)?",
         options: [
             "Europaplatz / Felberstraße",
             "Nordbergstraße",
@@ -78,7 +78,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Bahnhof Wien Mitte?",
+        question: "Wo ist der Bahnhof Wien Mitte (Bahnhof)?",
         options: [
             "Landstraßer Hauptstraße",
             "Europaplatz",
@@ -89,7 +89,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der City-Air-Terminal (CAT)?",
+        question: "Wo ist der City-Air-Terminal CAT (Bahnhof / Flughafen Zug)?",
         options: [
             "Gigergasse / Marxergasse",
             "Landstraßer Hauptstraße",
@@ -100,7 +100,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Bahnhof Wien Nord?",
+        question: "Wo ist der Bahnhof Wien Nord (Bahnhof)?",
         options: [
             "Praterstern",
             "Europaplatz",
@@ -111,7 +111,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Bahnhof Hütteldorf?",
+        question: "Wo ist der Bahnhof Hütteldorf (Bahnhof)?",
         options: [
             "Keißlergasse",
             "Praterstern",
@@ -122,7 +122,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Bahnhof Meidling?",
+        question: "Wo ist der Bahnhof Meidling (Bahnhof)?",
         options: [
             "Eichenstraße",
             "Keißlergasse",
@@ -133,7 +133,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Autobusbahnhof (Internationale Busse)?",
+        question: "Wo ist der Autobusbahnhof Erdberg (Internationale Busse)?",
         options: [
             "Erdbergstraße / U3",
             "Südtirolerplatz",
@@ -144,7 +144,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Autobusbahnhof Südtiroler Platz?",
+        question: "Wo ist der Autobusbahnhof Südtiroler Platz (Busbahnhof)?",
         options: [
             "Südtirolerplatz / Wiedner Gürtel / U1",
             "Erdbergstraße",
@@ -155,7 +155,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Autobusbahnhof Floridsdorf?",
+        question: "Wo ist der Autobusbahnhof Floridsdorf (Busbahnhof)?",
         options: [
             "Floridsdorf / Schloßhofer Straße / U6",
             "Erdbergstraße",
@@ -166,7 +166,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Autobusbahnhof Kagran?",
+        question: "Wo ist der Autobusbahnhof Kagran (Busbahnhof)?",
         options: [
             "Dr. Adolf Schärf Platz / U1",
             "Floridsdorf",
@@ -177,7 +177,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Autobusbahnhof Simmering?",
+        question: "Wo ist der Autobusbahnhof Simmering (Busbahnhof)?",
         options: [
             "Simmeringer Platz / U3",
             "Floridsdorf",
@@ -188,7 +188,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist das Vienna Busterminal Stadion Center?",
+        question: "Wo ist das Vienna Busterminal Stadion Center (Busbahnhof)?",
         options: [
             "Olympiaplatz / Engerthstraße 242",
             "Simmeringer Platz",
@@ -199,7 +199,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist das DDSG Schifffahrtszentrum (Wien Reichsbrücke)?",
+        question: "Wo ist das DDSG Schifffahrtszentrum Wien Reichsbrücke (Schifffahrt)?",
         options: [
             "Handelskai 265",
             "Franz-Josefs-Kai",
@@ -210,7 +210,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist die Dampfschiffstation Schwedenbrücke?",
+        question: "Wo ist die Dampfschiffstation Schwedenbrücke (Schifffahrt)?",
         options: [
             "Franz-Josefs-Kai / Schwedenbrücke",
             "Handelskai 265",
@@ -221,7 +221,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Wiener Hafen (Zollfreizone)?",
+        question: "Wo ist der Wiener Hafen Zollfreizone (Hafen)?",
         options: [
             "Seitenhafenstraße 15",
             "Handelskai 265",
@@ -232,7 +232,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Freudenauer Hafen?",
+        question: "Wo ist der Freudenauer Hafen (Hafen)?",
         options: [
             "Freudenauer Hafenstraße 8-10",
             "Seitenhafenstraße 15",
@@ -243,7 +243,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Alberner Hafen?",
+        question: "Wo ist der Alberner Hafen (Hafen)?",
         options: [
             "Alberner Hafen Zufahrtsstraße",
             "Freudenauer Hafenstraße",
@@ -254,7 +254,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist der Kuchelauer Hafen?",
+        question: "Wo ist der Kuchelauer Hafen (Hafen)?",
         options: [
             "Kuchelauer Hafenstraße",
             "Freudenauer Hafenstraße",
@@ -265,7 +265,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist die KFZ Verwahrstelle der MA 48?",
+        question: "Wo ist die KFZ Verwahrstelle der MA 48 (KFZ Verkehr)?",
         options: [
             "Jedletzbergerstraße 1",
             "Trauzlgasse 1",
@@ -276,7 +276,7 @@ const questions = [
     },
 
     {
-        question: "Wo ist die Bundesanstalt Verkehr (Bundesprüfanstalt)?",
+        question: "Wo ist die Bundesanstalt Verkehr Bundesprüfanstalt (Verkehrsamt)?",
         options: [
             "Trauzlgasse 1",
             "Jedletzbergerstraße 1",
@@ -284,9 +284,9 @@ const questions = [
             "Kuchelauer Hafenstraße"
         ],
         answer: "Trauzlgasse 1"
-    },
-];
+    }
 
+];
 // عدد الأسئلة الكلي
 const totalQuestions = questions.length;
 
@@ -301,8 +301,8 @@ function shuffleArray(arr) {
 }
 
 // نسخ الأسئلة وخلط ترتيبها عند كل تحميل صفحة
-let remainingQuestions = [...questions];
-// let remainingQuestions = shuffleArray(questions);
+// let remainingQuestions = [...questions];
+let remainingQuestions = shuffleArray(questions);
 let score = 0;
 let answered = 0;
 
