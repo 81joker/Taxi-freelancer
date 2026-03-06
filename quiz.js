@@ -1,314 +1,314 @@
 const questions = [
 
-    // {
-    //     question: "Wo ist das Parlament (Nationalrat und Bundesrat)?",
-    //     options: [
-    //         "Dr. Karl Renner-Ring 3",
-    //         "Ballhausplatz 2",
-    //         "Herrengasse 7",
-    //         "Minoritenplatz 8"
-    //     ],
-    //     answer: "Dr. Karl Renner-Ring 3"
-    // },
+    {
+        question: "Wo ist das Parlament (Nationalrat und Bundesrat)?",
+        options: [
+            "Dr. Karl Renner-Ring 3",
+            "Ballhausplatz 2",
+            "Herrengasse 7",
+            "Minoritenplatz 8"
+        ],
+        answer: "Dr. Karl Renner-Ring 3"
+    },
 
-    // {
-    //     question: "Wo ist der Bundespräsident (Präsidentschaftskanzlei)?",
-    //     options: [
-    //         "Ballhausplatz (Hofburg)",
-    //         "Minoritenplatz 8",
-    //         "Herrengasse 7",
-    //         "Johannesgasse 5"
-    //     ],
-    //     answer: "Ballhausplatz (Hofburg)"
-    // },
+    {
+        question: "Wo ist der Bundespräsident (Präsidentschaftskanzlei)?",
+        options: [
+            "Ballhausplatz (Hofburg)",
+            "Minoritenplatz 8",
+            "Herrengasse 7",
+            "Johannesgasse 5"
+        ],
+        answer: "Ballhausplatz (Hofburg)"
+    },
 
-    // {
-    //     question: "Wo ist das Bundeskanzleramt?",
-    //     options: [
-    //         "Ballhausplatz 2",
-    //         "Herrengasse 7",
-    //         "Minoritenplatz 5",
-    //         "Johannesgasse 5"
-    //     ],
-    //     answer: "Ballhausplatz 2"
-    // },
+    {
+        question: "Wo ist das Bundeskanzleramt?",
+        options: [
+            "Ballhausplatz 2",
+            "Herrengasse 7",
+            "Minoritenplatz 5",
+            "Johannesgasse 5"
+        ],
+        answer: "Ballhausplatz 2"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Inneres?",
-    //     options: [
-    //         "Herrengasse 7",
-    //         "Minoritenplatz 8",
-    //         "Johannesgasse 5",
-    //         "Stubenring 1"
-    //     ],
-    //     answer: "Herrengasse 7"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Inneres?",
+        options: [
+            "Herrengasse 7",
+            "Minoritenplatz 8",
+            "Johannesgasse 5",
+            "Stubenring 1"
+        ],
+        answer: "Herrengasse 7"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Europäische und Internationale Angelegenheiten?",
-    //     options: [
-    //         "Minoritenplatz 8",
-    //         "Herrengasse 7",
-    //         "Johannesgasse 5",
-    //         "Stubenring 1"
-    //     ],
-    //     answer: "Minoritenplatz 8"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Europäische und Internationale Angelegenheiten?",
+        options: [
+            "Minoritenplatz 8",
+            "Herrengasse 7",
+            "Johannesgasse 5",
+            "Stubenring 1"
+        ],
+        answer: "Minoritenplatz 8"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Bildung, Wissenschaft und Forschung?",
-    //     options: [
-    //         "Minoritenplatz 5",
-    //         "Herrengasse 7",
-    //         "Johannesgasse 5",
-    //         "Stubenring 1"
-    //     ],
-    //     answer: "Minoritenplatz 5"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Bildung, Wissenschaft und Forschung?",
+        options: [
+            "Minoritenplatz 5",
+            "Herrengasse 7",
+            "Johannesgasse 5",
+            "Stubenring 1"
+        ],
+        answer: "Minoritenplatz 5"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Digitalisierung und Wirtschaftsstandort?",
-    //     options: [
-    //         "Stubenring 1",
-    //         "Johannesgasse 5",
-    //         "Herrengasse 7",
-    //         "Minoritenplatz 5"
-    //     ],
-    //     answer: "Stubenring 1"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Digitalisierung und Wirtschaftsstandort?",
+        options: [
+            "Stubenring 1",
+            "Johannesgasse 5",
+            "Herrengasse 7",
+            "Minoritenplatz 5"
+        ],
+        answer: "Stubenring 1"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Arbeit?",
-    //     options: [
-    //         "Taborstraße 1-3",
-    //         "Johannesgasse 5",
-    //         "Minoritenplatz 8",
-    //         "Herrengasse 7"
-    //     ],
-    //     answer: "Taborstraße 1-3"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Arbeit?",
+        options: [
+            "Taborstraße 1-3",
+            "Johannesgasse 5",
+            "Minoritenplatz 8",
+            "Herrengasse 7"
+        ],
+        answer: "Taborstraße 1-3"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Finanzen?",
-    //     options: [
-    //         "Johannesgasse 5",
-    //         "Herrengasse 7",
-    //         "Minoritenplatz 5",
-    //         "Stubenring 1"
-    //     ],
-    //     answer: "Johannesgasse 5"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Finanzen?",
+        options: [
+            "Johannesgasse 5",
+            "Herrengasse 7",
+            "Minoritenplatz 5",
+            "Stubenring 1"
+        ],
+        answer: "Johannesgasse 5"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie?",
-    //     options: [
-    //         "Radetzkystraße 2",
-    //         "Johannesgasse 5",
-    //         "Herrengasse 7",
-    //         "Minoritenplatz 8"
-    //     ],
-    //     answer: "Radetzkystraße 2"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie?",
+        options: [
+            "Radetzkystraße 2",
+            "Johannesgasse 5",
+            "Herrengasse 7",
+            "Minoritenplatz 8"
+        ],
+        answer: "Radetzkystraße 2"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport?",
-    //     options: [
-    //         "Radetzkystraße 2",
-    //         "Johannesgasse 5",
-    //         "Herrengasse 7",
-    //         "Minoritenplatz 8"
-    //     ],
-    //     answer: "Radetzkystraße 2"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport?",
+        options: [
+            "Radetzkystraße 2",
+            "Johannesgasse 5",
+            "Herrengasse 7",
+            "Minoritenplatz 8"
+        ],
+        answer: "Radetzkystraße 2"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Landwirtschaft, Regionen und Tourismus?",
-    //     options: [
-    //         "Stubenring 1",
-    //         "Herrengasse 7",
-    //         "Johannesgasse 5",
-    //         "Minoritenplatz 5"
-    //     ],
-    //     answer: "Stubenring 1"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Landwirtschaft, Regionen und Tourismus?",
+        options: [
+            "Stubenring 1",
+            "Herrengasse 7",
+            "Johannesgasse 5",
+            "Minoritenplatz 5"
+        ],
+        answer: "Stubenring 1"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz?",
-    //     options: [
-    //         "Stubenring 1",
-    //         "Herrengasse 7",
-    //         "Johannesgasse 5",
-    //         "Minoritenplatz 5"
-    //     ],
-    //     answer: "Stubenring 1"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz?",
+        options: [
+            "Stubenring 1",
+            "Herrengasse 7",
+            "Johannesgasse 5",
+            "Minoritenplatz 5"
+        ],
+        answer: "Stubenring 1"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Justiz?",
-    //     options: [
-    //         "Museumstraße 7",
-    //         "Herrengasse 7",
-    //         "Johannesgasse 5",
-    //         "Minoritenplatz 8"
-    //     ],
-    //     answer: "Museumstraße 7"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Justiz?",
+        options: [
+            "Museumstraße 7",
+            "Herrengasse 7",
+            "Johannesgasse 5",
+            "Minoritenplatz 8"
+        ],
+        answer: "Museumstraße 7"
+    },
 
-    // {
-    //     question: "Wo ist das Bundesministerium für Landesverteidigung?",
-    //     options: [
-    //         "Roßauer Lände 1",
-    //         "Herrengasse 7",
-    //         "Johannesgasse 5",
-    //         "Minoritenplatz 8"
-    //     ],
-    //     answer: "Roßauer Lände 1"
-    // },
+    {
+        question: "Wo ist das Bundesministerium für Landesverteidigung?",
+        options: [
+            "Roßauer Lände 1",
+            "Herrengasse 7",
+            "Johannesgasse 5",
+            "Minoritenplatz 8"
+        ],
+        answer: "Roßauer Lände 1"
+    },
 
-    // {
-    //     question: "Wo ist das Rathaus Wien (Landesregierung und Bürgermeister)?",
-    //     options: [
-    //         "Rathausplatz",
-    //         "Herrengasse",
-    //         "Schottenring",
-    //         "Minoritenplatz"
-    //     ],
-    //     answer: "Rathausplatz"
-    // },
-    // {
-    //     question: "Wo ist der Verfassungsgerichtshof?",
-    //     options: [
-    //         "Freyung 8",
-    //         "Judenplatz 11",
-    //         "Schmerlingplatz 10-11",
-    //         "Herrengasse 7"
-    //     ],
-    //     answer: "Freyung 8"
-    // },
+    {
+        question: "Wo ist das Rathaus Wien (Landesregierung und Bürgermeister)?",
+        options: [
+            "Rathausplatz",
+            "Herrengasse",
+            "Schottenring",
+            "Minoritenplatz"
+        ],
+        answer: "Rathausplatz"
+    },
+    {
+        question: "Wo ist der Verfassungsgerichtshof?",
+        options: [
+            "Freyung 8",
+            "Judenplatz 11",
+            "Schmerlingplatz 10-11",
+            "Herrengasse 7"
+        ],
+        answer: "Freyung 8"
+    },
 
-    // {
-    //     question: "Wo ist der Verwaltungsgerichtshof?",
-    //     options: [
-    //         "Judenplatz 11",
-    //         "Freyung 8",
-    //         "Schmerlingplatz 10-11",
-    //         "Herrengasse 7"
-    //     ],
-    //     answer: "Judenplatz 11"
-    // },
+    {
+        question: "Wo ist der Verwaltungsgerichtshof?",
+        options: [
+            "Judenplatz 11",
+            "Freyung 8",
+            "Schmerlingplatz 10-11",
+            "Herrengasse 7"
+        ],
+        answer: "Judenplatz 11"
+    },
 
-    // {
-    //     question: "Wo ist der Justizpalast?",
-    //     options: [
-    //         "Schmerlingplatz 10-11",
-    //         "Freyung 8",
-    //         "Judenplatz 11",
-    //         "Minoritenplatz 5"
-    //     ],
-    //     answer: "Schmerlingplatz 10-11"
-    // },
+    {
+        question: "Wo ist der Justizpalast?",
+        options: [
+            "Schmerlingplatz 10-11",
+            "Freyung 8",
+            "Judenplatz 11",
+            "Minoritenplatz 5"
+        ],
+        answer: "Schmerlingplatz 10-11"
+    },
 
-    // {
-    //     question: "Wo ist das Oberlandesgericht Wien?",
-    //     options: [
-    //         "Schmerlingplatz 10-11",
-    //         "Freyung 8",
-    //         "Judenplatz 11",
-    //         "Rathausplatz"
-    //     ],
-    //     answer: "Schmerlingplatz 10-11"
-    // },
+    {
+        question: "Wo ist das Oberlandesgericht Wien?",
+        options: [
+            "Schmerlingplatz 10-11",
+            "Freyung 8",
+            "Judenplatz 11",
+            "Rathausplatz"
+        ],
+        answer: "Schmerlingplatz 10-11"
+    },
 
-    // {
-    //     question: "Wo ist die Oberstaatsanwaltschaft?",
-    //     options: [
-    //         "Schmerlingplatz 10-11",
-    //         "Freyung 8",
-    //         "Judenplatz 11",
-    //         "Minoritenplatz"
-    //     ],
-    //     answer: "Schmerlingplatz 10-11"
-    // },
+    {
+        question: "Wo ist die Oberstaatsanwaltschaft?",
+        options: [
+            "Schmerlingplatz 10-11",
+            "Freyung 8",
+            "Judenplatz 11",
+            "Minoritenplatz"
+        ],
+        answer: "Schmerlingplatz 10-11"
+    },
 
-    // {
-    //     question: "Wo ist das Landesgericht für Zivilrechtssachen?",
-    //     options: [
-    //         "Schmerlingplatz 10-11",
-    //         "Freyung 8",
-    //         "Judenplatz 11",
-    //         "Herrengasse 7"
-    //     ],
-    //     answer: "Schmerlingplatz 10-11"
-    // },
-
-
+    {
+        question: "Wo ist das Landesgericht für Zivilrechtssachen?",
+        options: [
+            "Schmerlingplatz 10-11",
+            "Freyung 8",
+            "Judenplatz 11",
+            "Herrengasse 7"
+        ],
+        answer: "Schmerlingplatz 10-11"
+    },
 
 
-    // {
-    //     question: "Wo ist das Landesgericht für Strafsachen?",
-    //     options: [
-    //         "Landesgerichtsstraße 11",
-    //         "Wickenburggasse 18-20",
-    //         "Schottenring 7-9",
-    //         "Dietrichgasse 27"
-    //     ],
-    //     answer: "Landesgerichtsstraße 11"
-    // },
 
-    // {
-    //     question: "Wo ist die Justizanstalt Wien Josefstadt?",
-    //     options: [
-    //         "Wickenburggasse 18-20",
-    //         "Landesgerichtsstraße 11",
-    //         "Althanstraße 39-45",
-    //         "Dampfschiffstraße 2"
-    //     ],
-    //     answer: "Wickenburggasse 18-20"
-    // },
 
-    // {
-    //     question: "Wo ist das Justiz-Zentrum Wien Mitte?",
-    //     options: [
-    //         "Marxergasse 1a",
-    //         "Landesgerichtsstraße 11",
-    //         "Wickenburggasse 18-20",
-    //         "Althanstraße 39-45"
-    //     ],
-    //     answer: "Marxergasse 1a"
-    // },
+    {
+        question: "Wo ist das Landesgericht für Strafsachen?",
+        options: [
+            "Landesgerichtsstraße 11",
+            "Wickenburggasse 18-20",
+            "Schottenring 7-9",
+            "Dietrichgasse 27"
+        ],
+        answer: "Landesgerichtsstraße 11"
+    },
 
-    // {
-    //     question: "Wo ist das Arbeits- und Sozialgericht Wien?",
-    //     options: [
-    //         "Althanstraße 39-45",
-    //         "Marxergasse 1a",
-    //         "Wickenburggasse 18-20",
-    //         "Landesgerichtsstraße 11"
-    //     ],
-    //     answer: "Althanstraße 39-45"
-    // },
+    {
+        question: "Wo ist die Justizanstalt Wien Josefstadt?",
+        options: [
+            "Wickenburggasse 18-20",
+            "Landesgerichtsstraße 11",
+            "Althanstraße 39-45",
+            "Dampfschiffstraße 2"
+        ],
+        answer: "Wickenburggasse 18-20"
+    },
 
-    // {
-    //     question: "Wo ist das Landesgerichtliches Gefangenenhaus II?",
-    //     options: [
-    //         "Hernalser Gürtel 6-12",
-    //         "Althanstraße 39-45",
-    //         "Wickenburggasse 18-20",
-    //         "Marxergasse 1a"
-    //     ],
-    //     answer: "Hernalser Gürtel 6-12"
-    // },
+    {
+        question: "Wo ist das Justiz-Zentrum Wien Mitte?",
+        options: [
+            "Marxergasse 1a",
+            "Landesgerichtsstraße 11",
+            "Wickenburggasse 18-20",
+            "Althanstraße 39-45"
+        ],
+        answer: "Marxergasse 1a"
+    },
 
-    // {
-    //     question: "Wo ist der Rechnungshof?",
-    //     options: [
-    //         "Dampfschiffstraße 2",
-    //         "Marxergasse 1a",
-    //         "Schottenring 7-9",
-    //         "Althanstraße 39-45"
-    //     ],
-    //     answer: "Dampfschiffstraße 2"
-    // },
+    {
+        question: "Wo ist das Arbeits- und Sozialgericht Wien?",
+        options: [
+            "Althanstraße 39-45",
+            "Marxergasse 1a",
+            "Wickenburggasse 18-20",
+            "Landesgerichtsstraße 11"
+        ],
+        answer: "Althanstraße 39-45"
+    },
+
+    {
+        question: "Wo ist das Landesgerichtliches Gefangenenhaus II?",
+        options: [
+            "Hernalser Gürtel 6-12",
+            "Althanstraße 39-45",
+            "Wickenburggasse 18-20",
+            "Marxergasse 1a"
+        ],
+        answer: "Hernalser Gürtel 6-12"
+    },
+
+    {
+        question: "Wo ist der Rechnungshof?",
+        options: [
+            "Dampfschiffstraße 2",
+            "Marxergasse 1a",
+            "Schottenring 7-9",
+            "Althanstraße 39-45"
+        ],
+        answer: "Dampfschiffstraße 2"
+    },
 
     {
         question: "Wo ist die Bundespolizeidirektion Wien?",
@@ -496,6 +496,293 @@ const questions = [
         ],
         answer: "Lehmanngasse 3a"
     },
+
+    // Postgebäude und Polizeidirektion Wien (Zentrale) haben die gleiche Adresse: "Wiener Ringstraße 1"
+    {
+        question: "Wo ist das Hauptpostamt?",
+        options: [
+            "Fleischmarkt 19",
+            "Althanstraße 10",
+            "Europaplatz 3",
+            "Halban Kurz Straße 11"
+        ],
+        answer: "Fleischmarkt 19"
+    },
+
+    {
+        question: "Wo ist das Postamt Franz-Josefs-Bahnhof?",
+        options: [
+            "Althanstraße 10",
+            "Fleischmarkt 19",
+            "Europaplatz 3",
+            "Halban Kurz Straße 11"
+        ],
+        answer: "Althanstraße 10"
+    },
+
+    {
+        question: "Wo ist das Postamt Westbahnhof?",
+        options: [
+            "Europaplatz 3",
+            "Fleischmarkt 19",
+            "Althanstraße 10",
+            "Halban Kurz Straße 11"
+        ],
+        answer: "Europaplatz 3"
+    },
+
+    {
+        question: "Wo ist das Post-Verteilerzentrum?",
+        options: [
+            "Halban Kurz Straße 11",
+            "Europaplatz 3",
+            "Althanstraße 10",
+            "Fleischmarkt 19"
+        ],
+        answer: "Halban Kurz Straße 11"
+    },
+
+    {
+        question: "Wo ist der Hauptbahnhof Wien?",
+        options: [
+            "Am Hauptbahnhof 1",
+            "Nordbergstraße",
+            "Europaplatz",
+            "Landstraßer Hauptstraße"
+        ],
+        answer: "Am Hauptbahnhof 1"
+    },
+
+    {
+        question: "Wo ist der Franz-Josefs-Bahnhof?",
+        options: [
+            "Nordbergstraße",
+            "Europaplatz",
+            "Landstraßer Hauptstraße",
+            "Praterstern"
+        ],
+        answer: "Nordbergstraße"
+    },
+
+    {
+        question: "Wo ist der Westbahnhof?",
+        options: [
+            "Europaplatz / Felberstraße",
+            "Nordbergstraße",
+            "Landstraßer Hauptstraße",
+            "Praterstern"
+        ],
+        answer: "Europaplatz / Felberstraße"
+    },
+
+    {
+        question: "Wo ist der Bahnhof Wien Mitte?",
+        options: [
+            "Landstraßer Hauptstraße",
+            "Europaplatz",
+            "Nordbergstraße",
+            "Praterstern"
+        ],
+        answer: "Landstraßer Hauptstraße"
+    },
+
+    {
+        question: "Wo ist der City-Air-Terminal (CAT)?",
+        options: [
+            "Gigergasse / Marxergasse",
+            "Landstraßer Hauptstraße",
+            "Praterstern",
+            "Europaplatz"
+        ],
+        answer: "Gigergasse / Marxergasse"
+    },
+
+    {
+        question: "Wo ist der Bahnhof Wien Nord?",
+        options: [
+            "Praterstern",
+            "Europaplatz",
+            "Nordbergstraße",
+            "Landstraßer Hauptstraße"
+        ],
+        answer: "Praterstern"
+    },
+
+    {
+        question: "Wo ist der Bahnhof Hütteldorf?",
+        options: [
+            "Keißlergasse",
+            "Praterstern",
+            "Eichenstraße",
+            "Europaplatz"
+        ],
+        answer: "Keißlergasse"
+    },
+
+    {
+        question: "Wo ist der Bahnhof Meidling?",
+        options: [
+            "Eichenstraße",
+            "Keißlergasse",
+            "Europaplatz",
+            "Nordbergstraße"
+        ],
+        answer: "Eichenstraße"
+    },
+
+    {
+        question: "Wo ist der Autobusbahnhof (Internationale Busse)?",
+        options: [
+            "Erdbergstraße / U3",
+            "Südtirolerplatz",
+            "Floridsdorf",
+            "Dr. Adolf Schärf Platz"
+        ],
+        answer: "Erdbergstraße / U3"
+    },
+
+    {
+        question: "Wo ist der Autobusbahnhof Südtiroler Platz?",
+        options: [
+            "Südtirolerplatz / Wiedner Gürtel / U1",
+            "Erdbergstraße",
+            "Floridsdorf",
+            "Simmeringer Platz"
+        ],
+        answer: "Südtirolerplatz / Wiedner Gürtel / U1"
+    },
+
+    {
+        question: "Wo ist der Autobusbahnhof Floridsdorf?",
+        options: [
+            "Floridsdorf / Schloßhofer Straße / U6",
+            "Erdbergstraße",
+            "Dr. Adolf Schärf Platz",
+            "Simmeringer Platz"
+        ],
+        answer: "Floridsdorf / Schloßhofer Straße / U6"
+    },
+
+    {
+        question: "Wo ist der Autobusbahnhof Kagran?",
+        options: [
+            "Dr. Adolf Schärf Platz / U1",
+            "Floridsdorf",
+            "Erdbergstraße",
+            "Simmeringer Platz"
+        ],
+        answer: "Dr. Adolf Schärf Platz / U1"
+    },
+
+    {
+        question: "Wo ist der Autobusbahnhof Simmering?",
+        options: [
+            "Simmeringer Platz / U3",
+            "Floridsdorf",
+            "Erdbergstraße",
+            "Kagran"
+        ],
+        answer: "Simmeringer Platz / U3"
+    },
+
+    {
+        question: "Wo ist das Vienna Busterminal Stadion Center?",
+        options: [
+            "Olympiaplatz / Engerthstraße 242",
+            "Simmeringer Platz",
+            "Erdbergstraße",
+            "Floridsdorf"
+        ],
+        answer: "Olympiaplatz / Engerthstraße 242"
+    },
+
+    {
+        question: "Wo ist das DDSG Schifffahrtszentrum (Wien Reichsbrücke)?",
+        options: [
+            "Handelskai 265",
+            "Franz-Josefs-Kai",
+            "Seitenhafenstraße 15",
+            "Freudenauer Hafenstraße"
+        ],
+        answer: "Handelskai 265"
+    },
+
+    {
+        question: "Wo ist die Dampfschiffstation Schwedenbrücke?",
+        options: [
+            "Franz-Josefs-Kai / Schwedenbrücke",
+            "Handelskai 265",
+            "Seitenhafenstraße 15",
+            "Freudenauer Hafenstraße"
+        ],
+        answer: "Franz-Josefs-Kai / Schwedenbrücke"
+    },
+
+    {
+        question: "Wo ist der Wiener Hafen (Zollfreizone)?",
+        options: [
+            "Seitenhafenstraße 15",
+            "Handelskai 265",
+            "Freudenauer Hafenstraße",
+            "Kuchelauer Hafenstraße"
+        ],
+        answer: "Seitenhafenstraße 15"
+    },
+
+    {
+        question: "Wo ist der Freudenauer Hafen?",
+        options: [
+            "Freudenauer Hafenstraße 8-10",
+            "Seitenhafenstraße 15",
+            "Alberner Hafen Zufahrtsstraße",
+            "Kuchelauer Hafenstraße"
+        ],
+        answer: "Freudenauer Hafenstraße 8-10"
+    },
+
+    {
+        question: "Wo ist der Alberner Hafen?",
+        options: [
+            "Alberner Hafen Zufahrtsstraße",
+            "Freudenauer Hafenstraße",
+            "Kuchelauer Hafenstraße",
+            "Seitenhafenstraße"
+        ],
+        answer: "Alberner Hafen Zufahrtsstraße"
+    },
+
+    {
+        question: "Wo ist der Kuchelauer Hafen?",
+        options: [
+            "Kuchelauer Hafenstraße",
+            "Freudenauer Hafenstraße",
+            "Alberner Hafen Zufahrtsstraße",
+            "Seitenhafenstraße"
+        ],
+        answer: "Kuchelauer Hafenstraße"
+    },
+
+    {
+        question: "Wo ist die KFZ Verwahrstelle der MA 48?",
+        options: [
+            "Jedletzbergerstraße 1",
+            "Trauzlgasse 1",
+            "Kuchelauer Hafenstraße",
+            "Seitenhafenstraße"
+        ],
+        answer: "Jedletzbergerstraße 1"
+    },
+
+    {
+        question: "Wo ist die Bundesanstalt Verkehr (Bundesprüfanstalt)?",
+        options: [
+            "Trauzlgasse 1",
+            "Jedletzbergerstraße 1",
+            "Freudenauer Hafenstraße",
+            "Kuchelauer Hafenstraße"
+        ],
+        answer: "Trauzlgasse 1"
+    },
 ];
 
 // عدد الأسئلة الكلي
@@ -512,8 +799,8 @@ function shuffleArray(arr) {
 }
 
 // نسخ الأسئلة وخلط ترتيبها عند كل تحميل صفحة
-// let remainingQuestions = [...questions];
-let remainingQuestions = shuffleArray(questions);
+let remainingQuestions = [...questions];
+// let remainingQuestions = shuffleArray(questions);
 let score = 0;
 let answered = 0;
 
