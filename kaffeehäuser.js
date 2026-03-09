@@ -136,7 +136,6 @@ const questions = [
         options: [
             "Josefstädter Straße 2",
             "Gumpendorfer Straße 11",
-            "Josefstädter Straße 66",
             "Auhofstraße 2"
         ],
         answer: "Josefstädter Straße 2"
@@ -146,7 +145,7 @@ const questions = [
         question: "Wo ist das Café Hummel?",
         options: [
             "Josefstädter Straße 66",
-            "Josefstädter Straße 2",
+            "Gumpendorfer Straße 11",
             "Auhofstraße 2",
             "Mariahilfer Straße 73"
         ],
@@ -178,8 +177,8 @@ function shuffleArray(arr) {
 }
 
 // نسخ الأسئلة وخلط ترتيبها عند كل تحميل صفحة
-let remainingQuestions = [...questions];
-// let remainingQuestions = shuffleArray(questions);
+// let remainingQuestions = [...questions];
+let remainingQuestions = shuffleArray(questions);
 let score = 0;
 let answered = 0;
 
