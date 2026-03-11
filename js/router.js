@@ -24,7 +24,11 @@ const routes = {
 
     post: "js/Postgebäude&Verkehr.js",
 
-    polizei: "js/polizeiinspektion.js"
+    polizei: "js/polizeiinspektion.js",
+
+    universitäten: "js/universitäten.js",
+
+    museen: "js/museen.js",
 
 };
 
