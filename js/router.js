@@ -30,6 +30,8 @@ const routes = {
 
     museen: "js/museen.js",
 
+    sehenswürdigkeiten: "js/Sehenswürdigkeiten.js",
+
 };
 
 const script = document.createElement("script");
