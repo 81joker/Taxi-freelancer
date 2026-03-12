@@ -32,6 +32,8 @@ const routes = {
 
     sehenswürdigkeiten: "js/Sehenswürdigkeiten.js",
 
+    sehenswürdigkeiten02: "js/Sehenswürdigkeiten02.js",
+
 };
 
 const script = document.createElement("script");
