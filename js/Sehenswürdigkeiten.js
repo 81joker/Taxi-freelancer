@@ -239,6 +239,118 @@ const questions = [
             "Belvedere"
         ],
         answer: "Urania"
+    },
+
+
+
+    {
+        question: "Wo befindet sich der Stephansdom?",
+        options: [
+            "Stephansplatz",
+            "Heldenplatz",
+            "Karlsplatz",
+            "Mariahilfer Straße"
+        ],
+        answer: "Stephansplatz"
+    },
+
+    {
+        question: "Wo befindet sich das Riesenrad?",
+        options: [
+            "Prater",
+            "Stephansplatz",
+            "Heldenplatz",
+            "Karlsplatz"
+        ],
+        answer: "Prater"
+    },
+
+    {
+        question: "Wo befindet sich das Schloss Belvedere?",
+        options: [
+            "Prinz Eugen Straße",
+            "Kärntner Straße",
+            "Mariahilfer Straße",
+            "Ringstraße"
+        ],
+        answer: "Prinz Eugen Straße"
+    },
+
+    {
+        question: "Wo befindet sich das Hundertwasser Haus?",
+        options: [
+            "Löwengasse",
+            "Mariahilfer Straße",
+            "Kärntner Straße",
+            "Landstraße"
+        ],
+        answer: "Löwengasse"
+    },
+
+    {
+        question: "Wo befindet sich das Haus des Meeres?",
+        options: [
+            "Fritz Grünbaum Platz",
+            "Stephansplatz",
+            "Heldenplatz",
+            "Schwarzenbergplatz"
+        ],
+        answer: "Fritz Grünbaum Platz"
+    },
+
+    {
+        question: "Wo befindet sich das Sigmund Freud Museum?",
+        options: [
+            "Berggasse",
+            "Kärntner Straße",
+            "Ringstraße",
+            "Stephansplatz"
+        ],
+        answer: "Berggasse"
+    },
+
+    {
+        question: "Wo befindet sich das Schloss Schönbrunn?",
+        options: [
+            "Schönbrunner Schlossstraße",
+            "Mariahilfer Straße",
+            "Ringstraße",
+            "Kärntner Straße"
+        ],
+        answer: "Schönbrunner Schlossstraße"
+    },
+
+    {
+        question: "Wo befindet sich der Donauturm?",
+        options: [
+            "Donauturmstraße",
+            "Ringstraße",
+            "Kärntner Straße",
+            "Stephansplatz"
+        ],
+        answer: "Donauturmstraße"
+    },
+
+    {
+        question: "Wo befindet sich die UNO City?",
+        options: [
+            "Wagramer Straße",
+            "Mariahilfer Straße",
+            "Kärntner Straße",
+            "Ringstraße"
+        ],
+        answer: "Wagramer Straße"
+    },
+
+    {
+        question: "Wo befindet sich die Karlskirche?",
+        options: [
+            "Kreuzherrengasse",
+            "Stephansplatz",
+            "Heldenplatz",
+            "Mariahilfer Straße"
+        ],
+        answer: "Kreuzherrengasse"
     }
 
 ];
