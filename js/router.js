@@ -34,6 +34,8 @@ const routes = {
 
     sehenswürdigkeiten02: "js/Sehenswürdigkeiten02.js",
 
+    donaukanalQuestions: "js/donaukanalQuestions.js",
+
 };
 
 const script = document.createElement("script");
