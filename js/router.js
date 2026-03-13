@@ -39,6 +39,8 @@ const routes = {
     nummerierung: "js/nummerierungs-system.js",
 
     strassengeographie: "js/strassengeographie.js",
+
+    wichtige_strassen_ring: "js/wichtige_strassen_ring.js",
 };
 
 const script = document.createElement("script");
