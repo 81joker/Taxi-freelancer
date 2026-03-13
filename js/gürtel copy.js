@@ -7,63 +7,19 @@ const questions = [
         options: [
             "Landstraßer Hauptstraße",
             "Mariahilfer Straße",
-            "Währinger Straße",
-            "Prager Straße"
+            "Prager Straße",
+            "Währinger Straße"
         ],
         answer: "Landstraßer Hauptstraße"
-    },
-
-    {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
-        options: [
-            "Adolf-Blamauer-Gasse",
-            "Laxenburger Straße",
-            "Operngasse",
-            "Liechtensteinstraße"
-        ],
-        answer: "Adolf-Blamauer-Gasse"
-    },
-
-    {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
-        options: [
-            "Fasangasse",
-            "Praterstraße",
-            "Währinger Straße",
-            "Favoritenstraße"
-        ],
-        answer: "Fasangasse"
-    },
-
-    {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
-        options: [
-            "Jacquingasse",
-            "Babenbergerstraße",
-            "Grillparzerstraße",
-            "Wipplingerstraße"
-        ],
-        answer: "Jacquingasse"
-    },
-
-    {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
-        options: [
-            "Prinz-Eugen-Straße",
-            "Johannesgasse",
-            "Operngasse",
-            "Liechtensteinstraße"
-        ],
-        answer: "Prinz-Eugen-Straße"
     },
 
     {
         question: "Welche Straße liegt am Wiedner Gürtel?",
         options: [
             "Favoritenstraße",
-            "Prager Straße",
-            "Mariahilfer Straße",
-            "Währinger Straße"
+            "Operngasse",
+            "Babenbergerstraße",
+            "Liechtensteinstraße"
         ],
         answer: "Favoritenstraße"
     },
@@ -71,53 +27,20 @@ const questions = [
     {
         question: "Welche Straße liegt am Margaretengürtel?",
         options: [
-            "Klierbegasse",
-            "Praterstraße",
-            "Operngasse",
-            "Liechtensteinstraße"
-        ],
-        answer: "Klierbegasse"
-    },
-
-    {
-        question: "Welche Straße liegt am Margaretengürtel?",
-        options: [
             "Wiedner Hauptstraße",
-            "Johannesgasse",
+            "Praterstraße",
             "Grillparzerstraße",
-            "Prager Straße"
+            "Schottengasse"
         ],
         answer: "Wiedner Hauptstraße"
-    },
-
-    {
-        question: "Welche Straße liegt am Margaretengürtel?",
-        options: [
-            "Reinprechtsdorfer Straße",
-            "Lassallestraße",
-            "Favoritenstraße",
-            "Praterstraße"
-        ],
-        answer: "Reinprechtsdorfer Straße"
-    },
-
-    {
-        question: "Welche Straße liegt am Margaretengürtel?",
-        options: [
-            "Schönbrunner Straße",
-            "Währinger Straße",
-            "Operngasse",
-            "Prager Straße"
-        ],
-        answer: "Schönbrunner Straße"
     },
 
     {
         question: "Welche Straße liegt am Gumpendorfer Gürtel?",
         options: [
             "Gumpendorfer Straße",
-            "Favoritenstraße",
             "Praterstraße",
+            "Favoritenstraße",
             "Währinger Straße"
         ],
         answer: "Gumpendorfer Straße"
@@ -138,55 +61,22 @@ const questions = [
         question: "Welche Straße liegt am Neubaugürtel?",
         options: [
             "Westbahnstraße",
+            "Praterstraße",
             "Favoritenstraße",
-            "Währinger Straße",
-            "Operngasse"
+            "Währinger Straße"
         ],
         answer: "Westbahnstraße"
-    },
-
-    {
-        question: "Welche Straße liegt am Neubaugürtel?",
-        options: [
-            "Burgasse",
-            "Johannesgasse",
-            "Grillparzerstraße",
-            "Wipplingerstraße"
-        ],
-        answer: "Burgasse"
     },
 
     {
         question: "Welche Straße liegt am Lerchenfelder Gürtel?",
         options: [
             "Lerchenfelder Straße",
-            "Praterstraße",
-            "Favoritenstraße",
-            "Operngasse"
-        ],
-        answer: "Lerchenfelder Straße"
-    },
-
-    {
-        question: "Welche Straße liegt am Lerchenfelder Gürtel?",
-        options: [
-            "Josefstädter Straße",
-            "Prager Straße",
-            "Währinger Straße",
-            "Lassallestraße"
-        ],
-        answer: "Josefstädter Straße"
-    },
-
-    {
-        question: "Welche Straße liegt am Hernalser Gürtel?",
-        options: [
-            "Laudongasse",
             "Operngasse",
             "Johannesgasse",
-            "Währinger Straße"
+            "Liechtensteinstraße"
         ],
-        answer: "Laudongasse"
+        answer: "Lerchenfelder Straße"
     },
 
     {
@@ -194,21 +84,10 @@ const questions = [
         options: [
             "Alserstraße",
             "Praterstraße",
-            "Favoritenstraße",
-            "Liechtensteinstraße"
+            "Währinger Straße",
+            "Babenbergerstraße"
         ],
         answer: "Alserstraße"
-    },
-
-    {
-        question: "Welche Straße liegt am Hernalser Gürtel?",
-        options: [
-            "Lazarettgasse",
-            "Operngasse",
-            "Johannesgasse",
-            "Wipplingerstraße"
-        ],
-        answer: "Lazarettgasse"
     },
 
     {
@@ -216,32 +95,10 @@ const questions = [
         options: [
             "Währinger Straße",
             "Prager Straße",
-            "Favoritenstraße",
-            "Praterstraße"
-        ],
-        answer: "Währinger Straße"
-    },
-
-    {
-        question: "Welche Straße liegt am Währinger Gürtel?",
-        options: [
-            "Fuchsthallergasse",
-            "Operngasse",
-            "Johannesgasse",
-            "Lassallestraße"
-        ],
-        answer: "Fuchsthallergasse"
-    },
-
-    {
-        question: "Welche Straße liegt am Währinger Gürtel?",
-        options: [
-            "Nußdorfer Straße",
-            "Praterstraße",
-            "Währinger Straße",
+            "Lassallestraße",
             "Favoritenstraße"
         ],
-        answer: "Nußdorfer Straße"
+        answer: "Währinger Straße"
     },
 
     {
@@ -267,17 +124,6 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Lerchenfelder Gürtel (äußerer Gürtel)?",
-        options: [
-            "Neulerchenfelder Straße",
-            "Praterstraße",
-            "Favoritenstraße",
-            "Währinger Straße"
-        ],
-        answer: "Neulerchenfelder Straße"
-    },
-
-    {
         question: "Welche Straße liegt am Neubaugürtel (äußerer Gürtel)?",
         options: [
             "Hütteldorferstraße",
@@ -300,50 +146,6 @@ const questions = [
     },
 
     {
-        question: "Welche Autobahn ist die Westautobahn?",
-        options: [
-            "A1",
-            "A2",
-            "A22",
-            "A23"
-        ],
-        answer: "A1"
-    },
-
-    {
-        question: "Welche Autobahn ist die Südautobahn?",
-        options: [
-            "A2",
-            "A1",
-            "A4",
-            "A22"
-        ],
-        answer: "A2"
-    },
-
-    {
-        question: "Welche Autobahn ist die Ostautobahn?",
-        options: [
-            "A4",
-            "A1",
-            "A2",
-            "A23"
-        ],
-        answer: "A4"
-    },
-
-    {
-        question: "Welche Autobahn ist die Außenringautobahn?",
-        options: [
-            "A21",
-            "A2",
-            "A1",
-            "A23"
-        ],
-        answer: "A21"
-    },
-
-    {
         question: "Welche Autobahn ist die Donauuferautobahn?",
         options: [
             "A22",
@@ -359,10 +161,32 @@ const questions = [
         options: [
             "A23",
             "A1",
-            "A2",
+            "A21",
             "A22"
         ],
         answer: "A23"
+    },
+
+    {
+        question: "Welche Autobahn ist die Südautobahn?",
+        options: [
+            "A2",
+            "A1",
+            "A4",
+            "A22"
+        ],
+        answer: "A2"
+    },
+
+    {
+        question: "Welche Autobahn ist die Westautobahn?",
+        options: [
+            "A1",
+            "A2",
+            "A23",
+            "A22"
+        ],
+        answer: "A1"
     },
 
     {
@@ -370,8 +194,8 @@ const questions = [
         options: [
             "S1",
             "S2",
-            "A21",
-            "A23"
+            "A23",
+            "A21"
         ],
         answer: "S1"
     },
