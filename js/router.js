@@ -36,7 +36,9 @@ const routes = {
 
     donaukanalQuestions: "js/donaukanalQuestions.js",
 
-    nummerierung: "js/nummerierungs-system.js"
+    nummerierung: "js/nummerierungs-system.js",
+
+    strassengeographie: "js/strassengeographie.js",
 };
 
 const script = document.createElement("script");
