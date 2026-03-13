@@ -36,6 +36,7 @@ const routes = {
 
     donaukanalQuestions: "js/donaukanalQuestions.js",
 
+    nummerierung: "js/nummerierungs-system.js"
 };
 
 const script = document.createElement("script");
