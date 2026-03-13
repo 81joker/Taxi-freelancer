@@ -1,60 +1,192 @@
 const questions = [
+
     {
-        "title": "Wichtige Straßen und Autobahnen",
-        "section": "Ringstraße und Franz-Josefs-Kai",
-        "data": {
+        question: "Welche Straße führt vom Stubenring stadtauswärts?",
+        options: [
+            "Weiskirchnerstraße",
+            "Operngasse",
+            "Babenbergerstraße",
+            "Grillparzerstraße"
+        ],
+        answer: "Weiskirchnerstraße"
+    },
 
-            "Stubenring": [
-                "Oskar-Kokoschka-Platz (Marxergasse)",
-                "Weiskirchnerstraße"
-            ],
+    {
+        question: "Welche Straße führt vom Parkring stadtauswärts?",
+        options: [
+            "Johannesgasse",
+            "Operngasse",
+            "Liechtensteinstraße",
+            "Babenbergerstraße"
+        ],
+        answer: "Johannesgasse"
+    },
 
-            "Parkring": [
-                "Johannesgasse"
-            ],
+    {
+        question: "Welcher Platz führt vom Schubertring stadtauswärts?",
+        options: [
+            "Schwarzenbergplatz",
+            "Schmerlingplatz",
+            "Rathausplatz",
+            "Julius-Raab-Platz"
+        ],
+        answer: "Schwarzenbergplatz"
+    },
 
-            "Schubertring": [
-                "Schwarzenbergplatz"
-            ],
+    {
+        question: "Welche Straße führt vom Opernring stadtauswärts?",
+        options: [
+            "Operngasse",
+            "Johannesgasse",
+            "Grillparzerstraße",
+            "Wipplingerstraße"
+        ],
+        answer: "Operngasse"
+    },
 
-            "Kärntnerring": [],
+    {
+        question: "Welche Straße führt vom Opernring stadtauswärts?",
+        options: [
+            "Eschenbachgasse",
+            "Babenbergerstraße",
+            "Liechtensteinstraße",
+            "Volksgartenstraße"
+        ],
+        answer: "Eschenbachgasse"
+    },
 
-            "Opernring": [
-                "Operngasse",
-                "Eschenbachgasse"
-            ],
+    {
+        question: "Welche Straße führt vom Burgring stadtauswärts?",
+        options: [
+            "Babenbergerstraße",
+            "Operngasse",
+            "Johannesgasse",
+            "Währinger Straße"
+        ],
+        answer: "Babenbergerstraße"
+    },
 
-            "Burgring": [
-                "Babenbergerstraße"
-            ],
+    {
+        question: "Welcher Platz führt vom Dr. Karl-Renner-Ring stadtauswärts?",
+        options: [
+            "Schmerlingplatz",
+            "Schwarzenbergplatz",
+            "Julius-Raab-Platz",
+            "Morzinplatz"
+        ],
+        answer: "Schmerlingplatz"
+    },
 
-            "DrKarlRennerRing": [
-                "Schmerlingplatz",
-                "Volksgartenstraße",
-                "Rathausplatz / Stadiongasse"
-            ],
+    {
+        question: "Welche Straße führt vom Dr. Karl-Renner-Ring stadtauswärts?",
+        options: [
+            "Volksgartenstraße",
+            "Operngasse",
+            "Johannesgasse",
+            "Babenbergerstraße"
+        ],
+        answer: "Volksgartenstraße"
+    },
 
-            "Universitätsring": [
-                "Grillparzerstraße",
-                "Schottengasse / Währinger Straße"
-            ],
+    {
+        question: "Welcher Platz führt vom Dr. Karl-Renner-Ring stadtauswärts?",
+        options: [
+            "Rathausplatz",
+            "Schwarzenbergplatz",
+            "Morzinplatz",
+            "Schmerlingplatz"
+        ],
+        answer: "Rathausplatz"
+    },
 
-            "Schottenring": [
-                "Hohenstaufengasse",
-                "Liechtensteinstraße",
-                "Wipplingerstraße / Peregringasse"
-            ],
+    {
+        question: "Welche Straße führt vom Universitätsring stadtauswärts?",
+        options: [
+            "Grillparzerstraße",
+            "Johannesgasse",
+            "Operngasse",
+            "Wipplingerstraße"
+        ],
+        answer: "Grillparzerstraße"
+    },
 
-            "FranzJosefsKai": [
-                "Salztorbrücke",
-                "Marienbrücke",
-                "Schwedenbrücke",
-                "Aspernbrücke",
-                "Uraniastraße"
-            ]
+    {
+        question: "Welche Straße führt vom Universitätsring stadtauswärts?",
+        options: [
+            "Währinger Straße",
+            "Liechtensteinstraße",
+            "Johannesgasse",
+            "Babenbergerstraße"
+        ],
+        answer: "Währinger Straße"
+    },
 
-        }
+    {
+        question: "Welche Straße führt vom Schottenring stadtauswärts?",
+        options: [
+            "Hohenstaufengasse",
+            "Operngasse",
+            "Grillparzerstraße",
+            "Volksgartenstraße"
+        ],
+        answer: "Hohenstaufengasse"
+    },
+
+    {
+        question: "Welche Straße führt vom Schottenring stadtauswärts?",
+        options: [
+            "Liechtensteinstraße",
+            "Johannesgasse",
+            "Babenbergerstraße",
+            "Operngasse"
+        ],
+        answer: "Liechtensteinstraße"
+    },
+
+    {
+        question: "Welche Straße führt vom Schottenring stadtauswärts?",
+        options: [
+            "Wipplingerstraße",
+            "Operngasse",
+            "Volksgartenstraße",
+            "Grillparzerstraße"
+        ],
+        answer: "Wipplingerstraße"
+    },
+
+    {
+        question: "Welche Brücke führt vom Franz-Josefs-Kai über den Donaukanal?",
+        options: [
+            "Schwedenbrücke",
+            "Floridsdorfer Brücke",
+            "Reichsbrücke",
+            "Brigittenauer Brücke"
+        ],
+        answer: "Schwedenbrücke"
+    },
+
+    {
+        question: "Welche Brücke führt vom Franz-Josefs-Kai über den Donaukanal?",
+        options: [
+            "Aspernbrücke",
+            "Reichsbrücke",
+            "Nordbrücke",
+            "Floridsdorfer Brücke"
+        ],
+        answer: "Aspernbrücke"
+    },
+
+    {
+        question: "Welche Straße führt vom Franz-Josefs-Kai stadtauswärts?",
+        options: [
+            "Uraniastraße",
+            "Operngasse",
+            "Johannesgasse",
+            "Babenbergerstraße"
+        ],
+        answer: "Uraniastraße"
     }
+
 ];
 // عدد الأسئلة الكلي
 const totalQuestions = questions.length;
