@@ -67,6 +67,16 @@ const questions = [
         ],
         answer: "Favoritenstraße"
     },
+    {
+        question: "Welche Straße liegt am Wiedner Gürtel?",
+        options: [
+            "Südtirolerplatz",
+            "Prager Straße",
+            "Mariahilfer Straße",
+            "Währinger Straße"
+        ],
+        answer: "Südtirolerplatz"
+    },
 
     {
         question: "Welche Straße liegt am Margaretengürtel?",
