@@ -294,7 +294,46 @@ const questions = [
         ],
         answer: "Döblinger Hauptstraße"
     },
-
+    {
+        question: "Äußerer Gürtel: Welche Straße liegt am Währinger Gürtel?",
+        options: [
+            "Sternwartestraße",
+            "Prager Straße",
+            "Favoritenstraße",
+            "Praterstraße"
+        ],
+        answer: "Sternwartestraße"
+    },
+    {
+        question: "Äußerer Gürtel: Welche Straße liegt am Währinger Gürtel?",
+        options: [
+            "Heiligenstädter Straße",
+            "Gentzgasse",
+            "Favoritenstraße",
+            "Praterstraße"
+        ],
+        answer: "Gentzgasse"
+    },
+    {
+        question: "Äußerer Gürtel: Welche Straße liegt am Währinger Gürtel?",
+        options: [
+            "Heiligenstädter Straße",
+            "Lassallestraße",
+            "Währinger Straße",
+            "Praterstraße"
+        ],
+        answer: "Währinger Straße"
+    },
+    {
+        question: "Äußerer Gürtel: Welche Straße liegt am Währinger Gürtel?",
+        options: [
+            "Heiligenstädter Straße",
+            "Lassallestraße",
+            "Jörgerstraße",
+            "Praterstraße"
+        ],
+        answer: "Jörgerstraße"
+    },
     {
         question: "Welche Straße liegt am Hernalser Gürtel (äußerer Gürtel)?",
         options: [
