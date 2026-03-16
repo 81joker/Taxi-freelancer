@@ -396,6 +396,86 @@ const questions = [
         ],
         answer: "Hütteldorferstraße"
     },
+    {
+        question: "Welche Straße liegt am Neubaugürtel (äußerer Gürtel)?",
+        options: [
+            "Operngasse",
+            "Lassallestraße",
+            "Märzstraße",
+            "Praterstraße"
+        ],
+        answer: "Märzstraße"
+    },
+    {
+        question: "Welche Straße liegt am Neubaugürtel (äußerer Gürtel)?",
+        options: [
+            "Operngasse",
+            "Felberstraße",
+            "Lassallestraße",
+            "Praterstraße"
+        ],
+        answer: "Felberstraße"
+    },
+    {
+        question: "Welche Straße liegt am Europa Platz (äußerer Gürtel)?",
+        options: [
+            "Operngasse",
+            "Lassallestraße",
+            "Mariahilfer Straße",
+            "Praterstraße"
+        ],
+        answer: "Mariahilfer Straße"
+    },
+    {
+        question: "Welche Straße liegt am Sechshauser Gürtel (äußerer Gürtel)?",
+        options: [
+            "Operngasse",
+            "Sechshauser Gürtel – Linke Wienzeile",
+            "Lassallestraße",
+            "Praterstraße"
+        ],
+        answer: "Sechshauser Gürtel – Linke Wienzeile"
+    },
+    {
+        question: "Welche Straße liegt am Gaudenzdorfer Gürtel (äußerer Gürtel)?",
+        options: [
+            "Operngasse",
+            "Lassallestraße",
+            "Arndtstraße",
+            "Praterstraße"
+        ],
+        answer: "Arndtstraße"
+    },
+    {
+        question: "Welche Straße liegt am Gaudenzdorfer Gürtel (äußerer Gürtel)?",
+        options: [
+            "Steinbauergasse",
+            "Operngasse",
+            "Lassallestraße",
+            "Praterstraße"
+        ],
+        answer: "Steinbauergasse"
+    },
+    {
+        question: "Welche Straße liegt am Gaudenzdorfer Gürtel (äußerer Gürtel)?",
+        options: [
+            "Operngasse",
+            "Lassallestraße",
+            "Praterstraße",
+            "Flürschützstraße",
+        ],
+        answer: "Flürschützstraße"
+    },
+    {
+        question: "Welche Straße liegt am Gaudenzdorfer Gürtel (äußerer Gürtel)?",
+        options: [
+            "Operngasse",
+            "Eichenstraße",
+            "Lassallestraße",
+            "Praterstraße",
+        ],
+        answer: "Eichenstraße"
+    },
 
     {
         question: "Welche Straße liegt am Wiedner Gürtel (äußerer Gürtel)?",
