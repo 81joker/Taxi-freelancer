@@ -355,6 +355,36 @@ const questions = [
         ],
         answer: "Neulerchenfelder Straße"
     },
+    {
+        question: "Welche Straße liegt am Lerchenfelder Gürtel (äußerer Gürtel)?",
+        options: [
+            "Thalia",
+            "Praterstraße",
+            "Favoritenstraße",
+            "Währinger Straße"
+        ],
+        answer: "Thalia"
+    },
+    {
+        question: "Welche Straße liegt am Lerchenfelder Gürtel (äußerer Gürtel)?",
+        options: [
+            "Hansner",
+            "Praterstraße",
+            "Favoritenstraße",
+            "Währinger Straße"
+        ],
+        answer: "Hansner"
+    },
+    {
+        question: "Welche Straße liegt am Lerchenfelder Gürtel (äußerer Gürtel)?",
+        options: [
+            "Praterstraße",
+            "koppstraße",
+            "Favoritenstraße",
+            "Währinger Straße"
+        ],
+        answer: "koppstraße"
+    },
 
     {
         question: "Welche Straße liegt am Neubaugürtel (äußerer Gürtel)?",
