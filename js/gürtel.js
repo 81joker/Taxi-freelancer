@@ -88,6 +88,16 @@ const questions = [
         ],
         answer: "Klierbegasse"
     },
+    {
+        question: "Welche Straße liegt am Margaretengürtel?",
+        options: [
+            "Matzleinsdorfer Platz",
+            "Praterstraße",
+            "Operngasse",
+            "Liechtensteinstraße"
+        ],
+        answer: "Matzleinsdorfer Platz"
+    },
 
     {
         question: "Welche Straße liegt am Margaretengürtel?",
@@ -109,6 +119,26 @@ const questions = [
             "Praterstraße"
         ],
         answer: "Reinprechtsdorfer Straße"
+    },
+    {
+        question: "Welche Straße liegt am Margaretengürtel?",
+        options: [
+            "Siebenbrunnengasse",
+            "Lassallestraße",
+            "Favoritenstraße",
+            "Praterstraße"
+        ],
+        answer: "Siebenbrunnengasse"
+    },
+    {
+        question: "Welche Straße liegt am Margaretengürtel?",
+        options: [
+            "Arbeitergasse",
+            "Lassallestraße",
+            "Favoritenstraße",
+            "Praterstraße"
+        ],
+        answer: "Arbeitergasse"
     },
 
     {
