@@ -3,7 +3,7 @@
 const questions = [
 
     {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
+        question: "Innerer Gürtel:Welche Straße liegt am Landstraßer Gürtel?",
         options: [
             "Landstraßer Hauptstraße",
             "Mariahilfer Straße",
@@ -14,7 +14,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
+        question: "Innerer Gürtel:Welche Straße liegt am Landstraßer Gürtel?",
         options: [
             "Adolf-Blamauer-Gasse",
             "Laxenburger Straße",
@@ -25,7 +25,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
+        question: "Innerer Gürtel:Welche Straße liegt am Landstraßer Gürtel?",
         options: [
             "Fasangasse",
             "Praterstraße",
@@ -36,7 +36,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
+        question: "Innerer Gürtel:Welche Straße liegt am Landstraßer Gürtel?",
         options: [
             "Jacquingasse",
             "Babenbergerstraße",
@@ -47,7 +47,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Landstraßer Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Landstraßer Gürtel?",
         options: [
             "Prinz-Eugen-Straße",
             "Johannesgasse",
@@ -58,7 +58,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Wiedner Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Wiedner Gürtel?",
         options: [
             "Favoritenstraße",
             "Prager Straße",
@@ -68,7 +68,7 @@ const questions = [
         answer: "Favoritenstraße"
     },
     {
-        question: "Welche Straße liegt am Wiedner Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Wiedner Gürtel?",
         options: [
             "Südtirolerplatz",
             "Prager Straße",
@@ -79,7 +79,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Margaretengürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Margaretengürtel?",
         options: [
             "Klierbegasse",
             "Praterstraße",
@@ -89,7 +89,7 @@ const questions = [
         answer: "Klierbegasse"
     },
     {
-        question: "Welche Straße liegt am Margaretengürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Margaretengürtel?",
         options: [
             "Matzleinsdorfer Platz",
             "Praterstraße",
@@ -100,7 +100,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Margaretengürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Margaretengürtel?",
         options: [
             "Wiedner Hauptstraße",
             "Johannesgasse",
@@ -111,7 +111,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Margaretengürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Margaretengürtel?",
         options: [
             "Reinprechtsdorfer Straße",
             "Lassallestraße",
@@ -121,7 +121,7 @@ const questions = [
         answer: "Reinprechtsdorfer Straße"
     },
     {
-        question: "Welche Straße liegt am Margaretengürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Margaretengürtel?",
         options: [
             "Siebenbrunnengasse",
             "Lassallestraße",
@@ -131,7 +131,7 @@ const questions = [
         answer: "Siebenbrunnengasse"
     },
     {
-        question: "Welche Straße liegt am Margaretengürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Margaretengürtel?",
         options: [
             "Arbeitergasse",
             "Lassallestraße",
@@ -142,7 +142,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Margaretengürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Margaretengürtel?",
         options: [
             "Schönbrunner Straße",
             "Währinger Straße",
@@ -153,7 +153,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Gumpendorfer Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Gumpendorfer Gürtel?",
         options: [
             "Gumpendorfer Straße",
             "Favoritenstraße",
@@ -164,7 +164,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Mariahilfer Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Mariahilfer Gürtel?",
         options: [
             "Mariahilfer Straße",
             "Lassallestraße",
@@ -175,7 +175,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Neubaugürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Neubaugürtel?",
         options: [
             "Westbahnstraße",
             "Favoritenstraße",
@@ -186,7 +186,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Neubaugürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Neubaugürtel?",
         options: [
             "Burgasse",
             "Johannesgasse",
@@ -197,7 +197,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Lerchenfelder Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Lerchenfelder Gürtel?",
         options: [
             "Lerchenfelder Straße",
             "Praterstraße",
@@ -208,7 +208,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Lerchenfelder Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Lerchenfelder Gürtel?",
         options: [
             "Josefstädter Straße",
             "Prager Straße",
@@ -219,7 +219,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Hernalser Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Hernalser Gürtel?",
         options: [
             "Laudongasse",
             "Operngasse",
@@ -230,7 +230,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Hernalser Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Hernalser Gürtel?",
         options: [
             "Alserstraße",
             "Praterstraße",
@@ -241,7 +241,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Hernalser Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Hernalser Gürtel?",
         options: [
             "Lazarettgasse",
             "Operngasse",
@@ -252,7 +252,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Währinger Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Währinger Gürtel?",
         options: [
             "Währinger Straße",
             "Prager Straße",
@@ -263,7 +263,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Währinger Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Währinger Gürtel?",
         options: [
             "Fuchsthallergasse",
             "Operngasse",
@@ -274,7 +274,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Währinger Gürtel?",
+        question: "Innerer Gürtel: Welche Straße liegt am Währinger Gürtel?",
         options: [
             "Nußdorfer Straße",
             "Praterstraße",
@@ -285,7 +285,7 @@ const questions = [
     },
 
     {
-        question: "Welche Straße liegt am Döblinger Gürtel?",
+        question: "Äußerer Gürtel: Welche Straße liegt am Döblinger Gürtel?",
         options: [
             "Döblinger Hauptstraße",
             "Prager Straße",
