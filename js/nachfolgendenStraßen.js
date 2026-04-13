@@ -63,7 +63,7 @@ const questions = [
             "Arndtstraße",
             "Felberstraße"
         ],
-        answer: "Landgutgasse"
+        answer: "Wiedner Hauptstraße / Reinprechtsdorfer Straße"
     },
 
     {
