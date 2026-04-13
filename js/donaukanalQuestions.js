@@ -118,9 +118,9 @@ const questions = [
             "Haidequerstraße",
             "Seitenhafenstraße",
             "Zinnergasse",
-            "Zinnergasse"
+            "Floridsdorfer Hauptstraße"
         ],
-        answer: "Haidequerstraße"
+        answer: "Zinnergasse"
     },
     {
         question: "Wie heißt die Haidequerstraße nach der Brücke über den Donaukanal?",
