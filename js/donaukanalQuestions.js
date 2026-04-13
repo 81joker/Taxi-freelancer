@@ -117,12 +117,21 @@ const questions = [
         options: [
             "Haidequerstraße",
             "Seitenhafenstraße",
-            "Floridsdorfer Hauptstraße",
-            "Wagramer Straße"
+            "Zinnergasse",
+            "Zinnergasse"
         ],
         answer: "Haidequerstraße"
     },
-
+    {
+        question: "Wie heißt die Haidequerstraße nach der Brücke über den Donaukanal?",
+        options: [
+            "Haidequerstraße",
+            "Seitenhafenstraße",
+            "Zinnergasse",
+            "Floridsdorfer Hauptstraße"
+        ],
+        answer: "Seitenhafenstraße"
+    },
     {
         question: "Wie heißt die Zinnergasse nach der Brücke über den Donaukanal?",
         options: [
