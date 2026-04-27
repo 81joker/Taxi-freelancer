@@ -69,7 +69,7 @@ const questions = [
         question: "Wo liegt die Klinik Donaustadt (vormals SMZ Ost)?",
         options: [
             "Langobardenstraße 122",
-            "Langobardenstraße 180",
+            "Lazarettgasse 16-18",
             "Brünner Straße 238",
             "Donauschingenstraße 13"
         ],
@@ -157,7 +157,7 @@ const questions = [
         question: "Wo liegt das Sanitätszentrum Ost (ehem. Heeresspital)?",
         options: [
             "Brünner Straße 238",
-            "Brünner Straße 68",
+            "Brünner Gasse 68",
             "Langobardenstraße 122",
             "Strebersdorfer Straße 2"
         ],
@@ -278,7 +278,7 @@ const questions = [
         question: "Wo liegt die Klinik Favoriten?",
         options: [
             "Kundratstraße 3",
-            "Kundratstraße 37",
+            "Donauschingenstraße 13",
             "Nikolsdorfergasse 32",
             "Baumgasse 20A"
         ],
@@ -322,7 +322,7 @@ const questions = [
         question: "Wo liegt die Klinik Floridsdorf?",
         options: [
             "Brünner Straße 68",
-            "Brünner Straße 238",
+            "Brünner Gasse 22",
             "Langobardenstraße 122",
             "Langobardenstraße 180"
         ],
