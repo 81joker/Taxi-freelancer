@@ -2,6 +2,8 @@ const params = new URLSearchParams(window.location.search);
 const quiz = params.get("quiz") || "kultur";
 
 const routes = {
+    alle_adressen: "js/alle_adressen.js",
+
     parlament: "js/parlament.js",
 
     kabaretts: "js/kabaretts-volksbühnen.js",
