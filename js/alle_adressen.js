@@ -428,8 +428,8 @@ function shuffleArray(arr) {
 }
 
 // نسخ الأسئلة وخلط ترتيبها عند كل تحميل صفحة
-let remainingQuestions = [...questions];
-// let remainingQuestions = shuffleArray(questions);
+// let remainingQuestions = [...questions];
+let remainingQuestions = shuffleArray(questions);
 let score = 0;
 let answered = 0;
 
