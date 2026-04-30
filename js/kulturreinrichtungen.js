@@ -50,7 +50,7 @@ const questions = [
             "Fleischmarkt 24",
             "Opernring 2"
         ],
-        answer: "Seilerstätte 25",
+        answer: " Seilerstätte/Himmelpfortg. 25",
     },
 
     {

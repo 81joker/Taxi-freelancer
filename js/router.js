@@ -34,7 +34,7 @@ const routes = {
 
     sehenswürdigkeiten: "js/Sehenswürdigkeiten.js",
 
-    sehenswürdigkeiten02: "js/Sehenswürdigkeiten02.js",
+    nachfolgendenStraßen: "js/nachfolgendenStraßen.js",
 
     donaukanalQuestions: "js/donaukanalQuestions.js",
 
@@ -45,6 +45,8 @@ const routes = {
     wichtige_strassen_ring: "js/wichtige_strassen_ring.js",
 
     gürtel: "js/gürtel.js",
+
+    sehenswürdigkeiten02: "js/sehenswürdigkeiten02.js",
 };
 
 const script = document.createElement("script");
