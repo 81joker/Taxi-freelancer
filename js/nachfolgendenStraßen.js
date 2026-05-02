@@ -54,6 +54,16 @@ const questions = [
         ],
         answer: "Favoritenstraße"
     },
+    {
+        question: "Wie heißt die  Kliebergasse Straße nach dem Gürtel?",
+        options: [
+            "Landgutgasse",
+            "Landgutgasse",
+            "Arndtstraße",
+            "Sechshauser Straße"
+        ],
+        answer: "Landgutgasse"
+    },
 
     {
         question: "Wie heißt die Gudrunstraße nach dem Gürtel?",
@@ -63,7 +73,7 @@ const questions = [
             "Arndtstraße",
             "Felberstraße"
         ],
-        answer: "Wiedner Hauptstraße / Reinprechtsdorfer Straße"
+        answer: "Wiedner Hauptstraße /Reinprechtsdorfer Straße"
     },
 
     {
