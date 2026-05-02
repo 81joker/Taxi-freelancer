@@ -69,11 +69,11 @@ const questions = [
         question: "Wie heißt die Gudrunstraße nach dem Gürtel?",
         options: [
             "Landgutgasse",
-            "Favoritenstraße",
+            "Wiedner Hauptstraße / Reinprechtsdorfer Straße",
             "Arndtstraße",
             "Felberstraße"
         ],
-        answer: "Wiedner Hauptstraße /Reinprechtsdorfer Straße"
+        answer: "Wiedner Hauptstraße / Reinprechtsdorfer Straße"
     },
 
     {
