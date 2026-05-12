@@ -4,9 +4,10 @@ const questions = [
 question: "Nach welchem System sind die Wiener Plätze nummeriert?",
 options: [
 "Im Uhrzeigersinn, beginnend bei den dem Stadtzentrum näheren Häusern",
-"Gegen den Uhrzeigersinn",
-"Nach Bezirken",
-"Alphabetisch"
+"Im Uhrzeigersinn, jedoch ausgehend vom äußersten Punkt der Platzfläche",
+"Gegen den Uhrzeigersinn mit Start an der verkehrsreichsten Seite",
+"Nach administrativen Bezirkszuordnungen segmentiert",
+"Alphabetisch entsprechend der angrenzenden Straßennamen"
 ],
 answer: "Im Uhrzeigersinn, beginnend bei den dem Stadtzentrum näheren Häusern"
 },
@@ -15,9 +16,10 @@ answer: "Im Uhrzeigersinn, beginnend bei den dem Stadtzentrum näheren Häusern"
 question: "Wo beginnen die Hausnummerierungen bei Straßen, die vom Stadtzentrum aus gesehen in Richtung stadtauswärts führen?",
 options: [
 "Am Beginn der Straße, der dem Stadtzentrum näher liegt",
-"In der Mitte der Straße",
-"Am Ende der Straße",
-"Bei der größten Hausnummer"
+"Am Ende der Straße, das am weitesten vom Zentrum entfernt ist",
+"In der Mitte der Straße mit symmetrischer Verteilung",
+"Am Punkt mit der höchsten Hausnummer",
+"Am verkehrstechnisch wichtigsten Abschnitt der Straße"
 ],
 answer: "Am Beginn der Straße, der dem Stadtzentrum näher liegt"
 },
@@ -26,9 +28,10 @@ answer: "Am Beginn der Straße, der dem Stadtzentrum näher liegt"
 question: "Wo beginnen die Hausnummerierungen bei Straßen, die vom Stadtzentrum aus gesehen querverlaufend sind?",
 options: [
 "Beginnend im Uhrzeigersinn",
-"Gegen den Uhrzeigersinn",
-"In der Straßenmitte",
-"Beim größten Haus"
+"Gegen den Uhrzeigersinn beginnend an der Hauptkreuzung",
+"In der Straßenmitte mit beidseitiger Nummerierung",
+"Beim Gebäude mit der höchsten Hausnummer",
+"Von der verkehrsreichsten Seite ausgehend"
 ],
 answer: "Beginnend im Uhrzeigersinn"
 },
@@ -38,8 +41,10 @@ question: "Sie stehen in einer Straße. Rechts von Ihnen ist eine gerade Hausnum
 options: [
 "Hinter mir",
 "Vor mir",
-"Links von mir",
-"Am Ende der Straße"
+"Direkt an meiner aktuellen Position",
+"Links von mir auf der gegenüberliegenden Seite",
+"Am Ende der Straße mit der höchsten Hausnummer",
+"In beide Richtungen gleichzeitig (kein eindeutiger Beginn)"
 ],
 answer: "Hinter mir"
 },
@@ -50,7 +55,9 @@ options: [
 "Vor mir",
 "Hinter mir",
 "Links von mir",
-"In der Mitte der Straße"
+"Genau an meinem Standort",
+"Am Ende der Straße mit steigender Nummerierung",
+"In der Mitte der Straße ohne klaren Anfang"
 ],
 answer: "Vor mir"
 }
