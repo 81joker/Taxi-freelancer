@@ -54,12 +54,22 @@ const questions = [
         ],
         answer: "Favoritenstraße"
     },
+    {
+        question: "Wie heißt die  Kliebergasse Straße nach dem Gürtel?",
+        options: [
+            "Landgutgasse",
+            "Landgutgasse",
+            "Arndtstraße",
+            "Sechshauser Straße"
+        ],
+        answer: "Landgutgasse"
+    },
 
     {
         question: "Wie heißt die Gudrunstraße nach dem Gürtel?",
         options: [
             "Landgutgasse",
-            "Favoritenstraße",
+            "Wiedner Hauptstraße / Reinprechtsdorfer Straße",
             "Arndtstraße",
             "Felberstraße"
         ],
