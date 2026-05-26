@@ -2,353 +2,353 @@ const questions = [
     {
         question: "Wo liegt das Allgemeine Krankenhaus (AKH)?",
         options: [
-            "Währinger Gürtel 18",
-            "Kundratstraße 37",
-            "Langobardenstraße 122",
-            "Brünner Straße 68"
+            "Bezirke 9. Währinger Gürtel 18",
+            "Bezirke 12. Kundratstraße 37",
+            "Bezirke 22. Langobardenstraße 122",
+            "Bezirke 21. Brünner Straße 68"
         ],
-        answer: "Währinger Gürtel 18",
+        answer: "Bezirke 9. Währinger Gürtel 18",
     },
 
     {
         question: "Wo liegt das AUVA-Traumazentrum Wien Meidling?",
         options: [
-            "Kundratstraße 37",
-            "Donauschingenstraße 13",
-            "Nikolsdorfergasse 32",
-            "Baumgasse 20A"
+            "Bezirke 12. Kundratstraße 37",
+            "Bezirke 20. Donauschingenstraße 13",
+            "Bezirke 5. Nikolsdorfergasse 32",
+            "Bezirke 3. Baumgasse 20A"
         ],
-        answer: "Kundratstraße 37",
+        answer: "Bezirke 12. Kundratstraße 37",
     },
 
     {
         question: "Wo liegt das AUVA-Traumazentrum Wien Lorenz Böhler?",
         options: [
-            "Donauschingenstraße 13",
-            "Kundratstraße 37",
-            "Hans-Sachs-Gasse 10-12",
-            "Brünner Straße 238"
+            "Bezirke 20. Donauschingenstraße 13",
+            "Bezirke 12. Kundratstraße 37",
+            "Bezirke 18. Hans-Sachs-Gasse 10-12",
+            "Bezirke 21. Brünner Straße 238"
         ],
-        answer: "Donauschingenstraße 13",
+        answer: "Bezirke 20. Donauschingenstraße 13",
     },
 
     {
         question: "Wo liegt das Krankenhaus Barmherzige Schwestern?",
         options: [
-            "Stumpergasse 13-15",
-            "Skodagasse 32",
-            "Nikolsdorfergasse 32",
-            "Pelikangasse 15"
+            "Bezirke 6. Stumpergasse 13-15",
+            "Bezirke 8. Skodagasse 32",
+            "Bezirke 5. Nikolsdorfergasse 32",
+            "Bezirke 9. Pelikangasse 15"
         ],
-        answer: "Stumpergasse 13-15",
+        answer: "Bezirke 6. Stumpergasse 13-15",
     },
 
     {
         question: "Wo liegt das Krankenhaus Barmherzige Brüder?",
         options: [
-            "Johannes von Gott-Platz 1",
-            "Stumpergasse 13-15",
-            "Hans-Sachs-Gasse 10-12",
-            "Baumgasse 20A"
+            "Bezirke 2. Johannes von Gott-Platz 1",
+            "Bezirke 6. Stumpergasse 13-15",
+            "Bezirke 18. Hans-Sachs-Gasse 10-12",
+            "Bezirke 3. Baumgasse 20A"
         ],
-        answer: "Johannes von Gott-Platz 1",
+        answer: "Bezirke 2. Johannes von Gott-Platz 1",
     },
 
     {
         question: "Wo liegt die Privatklinik Confraternität?",
         options: [
-            "Skodagasse 32",
-            "Lazarettgasse 16-18",
-            "Pelikanngasse 15",
-            "Sensengasse 2a"
+            "Bezirke 8. Skodagasse 32",
+            "Bezirke 9. Lazarettgasse 16-18",
+            "Bezirke 9. Pelikanngasse 15",
+            "Bezirke 9. Sensengasse 2a"
         ],
-        answer: "Skodagasse 32",
+        answer: "Bezirke 8. Skodagasse 32",
     },
 
     {
         question: "Wo liegt die Klinik Donaustadt (vormals SMZ Ost)?",
         options: [
-            "Langobardenstraße 122",
-            "Lazarettgasse 16-18",
-            "Brünner Straße 238",
-            "Donauschingenstraße 13"
+            "Bezirke 22. Langobardenstraße 122",
+            "Bezirke 9. Lazarettgasse 16-18",
+            "Bezirke 21. Brünner Straße 238",
+            "Bezirke 20. Donauschingenstraße 13"
         ],
-        answer: "Langobardenstraße 122",
+        answer: "Bezirke 22. Langobardenstraße 122",
     },
 
     {
         question: "Wo liegt das Evangelische Krankenhaus?",
         options: [
-            "Hans-Sachs-Gasse 10-12",
-            "Dornbacher Straße 20-30",
-            "Heiligenstädter Straße 55",
-            "Montleartstraße 37"
+            "Bezirke 18. Hans-Sachs-Gasse 10-12",
+            "Bezirke 17. Dornbacher Straße 20-30",
+            "Bezirke 19. Heiligenstädter Straße 55",
+            "Bezirke 16. Montleartstraße 37"
         ],
-        answer: "Hans-Sachs-Gasse 10-12",
+        answer: "Bezirke 18. Hans-Sachs-Gasse 10-12",
     },
 
     {
         question: "Wo liegt das Anton-Proksch-Institut?",
         options: [
-            "Gräfin Zichy Straße 6",
-            "Hans-Sachs-Gasse 10-12",
-            "Speisinger Straße 109",
-            "Auhofstraße 189"
+            "Bezirke 23. Gräfin Zichy Straße 6",
+            "Bezirke 18. Hans-Sachs-Gasse 10-12",
+            "Bezirke 13. Speisinger Straße 109",
+            "Bezirke 13. Auhofstraße 189"
         ],
-        answer: "Gräfin Zichy Straße 6",
+        answer: "Bezirke 23. Gräfin Zichy Straße 6",
     },
 
     {
         question: "Wo liegt das Franziskus Spital Landstraße?",
         options: [
-            "Landstraßer Hauptstraße 4a",
-            "Baumgasse 20A",
-            "Juchgasse 25",
-            "Billrothstraße 78"
+            "Bezirke 3. Landstraßer Hauptstraße 4a",
+            "Bezirke 3. Baumgasse 20A",
+            "Bezirke 3. Juchgasse 25",
+            "Bezirke 19. Billrothstraße 78"
         ],
-        answer: "Landstraßer Hauptstraße 4a",
+        answer: "Bezirke 3. Landstraßer Hauptstraße 4a",
     },
 
     {
         question: "Wo liegt das Franziskus Spital Margareten?",
         options: [
-            "Nikolsdorfergasse 32",
-            "Stumpergasse 13-15",
-            "Kundratstraße 37",
-            "Skodagasse 32"
+            "Bezirke 5. Nikolsdorfergasse 32",
+            "Bezirke 6. Stumpergasse 13-15",
+            "Bezirke 12. Kundratstraße 37",
+            "Bezirke 8. Skodagasse 32"
         ],
-        answer: "Nikolsdorfergasse 32",
+        answer: "Bezirke 5. Nikolsdorfergasse 32",
     },
 
     {
         question: "Wo liegt die Privatklinik Goldenes Kreuz?",
         options: [
-            "Lazarettgasse 16-18",
-            "Währinger Gürtel 18",
-            "Pelikangasse 15",
-            "Löblichgasse 14"
+            "Bezirke 9. Lazarettgasse 16-18",
+            "Bezirke 9. Währinger Gürtel 18",
+            "Bezirke 9. Pelikangasse 15",
+            "Bezirke 9. Löblichgasse 14"
         ],
-        answer: "Lazarettgasse 16-18",
+        answer: "Bezirke 9. Lazarettgasse 16-18",
     },
 
     {
         question: "Wo liegt das Krankenhaus Göttlicher Heiland?",
         options: [
-            "Dornbacher Straße 20-30",
-            "Hans-Sachs-Gasse 10-12",
-            "Alszeile 28",
-            "Montleartstraße 37"
+            "Bezirke 17. Dornbacher Straße 20-30",
+            "Bezirke 18. Hans-Sachs-Gasse 10-12",
+            "Bezirke 17. Alszeile 28",
+            "Bezirke 16. Montleartstraße 37"
         ],
-        answer: "Dornbacher Straße 20-30",
+        answer: "Bezirke 17. Dornbacher Straße 20-30",
     },
 
     {
         question: "Wo liegt das Hanusch Krankenhaus?",
         options: [
-            "Heinrich-Collin Straße 30",
-            "Baumgartner Höhe 1",
-            "Auhofstraße 189",
-            "Speisinger Straße 109"
+            "Bezirke 14. Heinrich-Collin Straße 30",
+            "Bezirke 14. Baumgartner Höhe 1",
+            "Bezirke 13. Auhofstraße 189",
+            "Bezirke 13. Speisinger Straße 109"
         ],
-        answer: "Heinrich-Collin Straße 30",
+        answer: "Bezirke 14. Heinrich-Collin Straße 30",
     },
 
     {
         question: "Wo liegt das Sanitätszentrum Ost (ehem. Heeresspital)?",
         options: [
-            "Brünner Straße 238",
-            "Brünner Gasse 68",
-            "Langobardenstraße 122",
-            "Strebersdorfer Straße 2"
+            "Bezirke 21. Brünner Straße 238",
+            "Bezirke 21. Brünner Gasse 68",
+            "Bezirke 22. Langobardenstraße 122",
+            "Bezirke 21. Strebersdorfer Straße 2"
         ],
-        answer: "Brünner Straße 238",
+        answer: "Bezirke 21. Brünner Straße 238",
     },
 
     {
         question: "Wo liegt das Herz-Jesu-Krankenhaus?",
         options: [
-            "Baumgasse 20A",
-            "Wolkersbergenstraße 1",
-            "Riedelgasse 5",
-            "Speisinger Straße 109"
+            "Bezirke 3. Baumgasse 20A",
+            "Bezirke 13. Wolkersbergenstraße 1",
+            "Bezirke 13. Riedelgasse 5",
+            "Bezirke 13. Speisinger Straße 109"
         ],
-        answer: "Baumgasse 20A",
+        answer: "Bezirke 3. Baumgasse 20A",
     },
 
     {
         question: "Wo liegt die Klinik Hietzing?",
         options: [
-            "Wolkersbergenstraße 1",
-            "Auhofstraße 189",
-            "Heiligenstädter Straße 55",
-            "Montleartstraße 37"
+            "Bezirke 13. Wolkersbergenstraße 1",
+            "Bezirke 13. Auhofstraße 189",
+            "Bezirke 19. Heiligenstädter Straße 55",
+            "Bezirke 16. Montleartstraße 37"
         ],
-        answer: "Wolkersbergenstraße 1",
+        answer: "Bezirke 13. Wolkersbergenstraße 1",
     },
 
     {
         question: "Wo liegt das Neurologische Krankenhaus Rosenhügel?",
         options: [
-            "Riedelgasse 5",
-            "Speisinger Straße 109",
-            "Auhofstraße 189",
-            "Baumgartner Höhe 1"
+            "Bezirke 13. Riedelgasse 5",
+            "Bezirke 13. Speisinger Straße 109",
+            "Bezirke 13. Auhofstraße 189",
+            "Bezirke 14. Baumgartner Höhe 1"
         ],
-        answer: "Riedelgasse 5",
+        answer: "Bezirke 13. Riedelgasse 5",
     },
 
     {
         question: "Wo liegt das Orthopädische Spital Speising?",
         options: [
-            "Speisinger Straße 109",
-            "Riedelgasse 5",
-            "Wolkersbergenstraße 1",
-            "Auhofstraße 189"
+            "Bezirke 13. Speisinger Straße 109",
+            "Bezirke 13. Riedelgasse 5",
+            "Bezirke 13. Wolkersbergenstraße 1",
+            "Bezirke 13. Auhofstraße 189"
         ],
-        answer: "Speisinger Straße 109",
+        answer: "Bezirke 13. Speisinger Straße 109",
     },
 
     {
         question: "Wo liegt das Rudolfiner Haus?",
         options: [
-            "Billrothstraße 78",
-            "Heiligenstädter Straße 55",
-            "Brünner Straße 68",
-            "Löblichgasse 14"
+            "Bezirke 19. Billrothstraße 78",
+            "Bezirke 19. Heiligenstädter Straße 55",
+            "Bezirke 21. Brünner Straße 68",
+            "Bezirke 9. Löblichgasse 14"
         ],
-        answer: "Billrothstraße 78",
+        answer: "Bezirke 19. Billrothstraße 78",
     },
 
     {
         question: "Wo liegt die Klinik Landstraße (vorm. Rudolfstiftung)?",
         options: [
-            "Juchgasse 25",
-            "Landstraßer Hauptstraße 4a",
-            "Nikolsdorfergasse 32",
-            "Kundratstraße 37"
+            "Bezirke 3. Juchgasse 25",
+            "Bezirke 3. Landstraßer Hauptstraße 4a",
+            "Bezirke 5. Nikolsdorfergasse 32",
+            "Bezirke 12. Kundratstraße 37"
         ],
-        answer: "Juchgasse 25",
+        answer: "Bezirke 3. Juchgasse 25",
     },
 
     {
         question: "Wo liegt das Sanatorium Hera?",
         options: [
-            "Löblichgasse 14",
-            "Sensengasse 2a",
-            "Pelikangasse 15",
-            "Juchgasse 25"
+            "Bezirke 9. Löblichgasse 14",
+            "Bezirke 9. Sensengasse 2a",
+            "Bezirke 9. Pelikangasse 15",
+            "Bezirke 3. Juchgasse 25"
         ],
-        answer: "Löblichgasse 14",
+        answer: "Bezirke 9. Löblichgasse 14",
     },
 
     {
         question: "Wo liegt das Sanatorium Liebhartsthal?",
         options: [
-            "Kollburggasse 6-10",
-            "Montleartstraße 37",
-            "Heiligenstädter Straße 55",
-            "Billrothstraße 78"
+            "Bezirke 16. Kollburggasse 6-10",
+            "Bezirke 16. Montleartstraße 37",
+            "Bezirke 19. Heiligenstädter Straße 55",
+            "Bezirke 19. Billrothstraße 78"
         ],
-        answer: "Kollburggasse 6-10",
+        answer: "Bezirke 16. Kollburggasse 6-10",
     },
 
     {
         question: "Wo liegt die Privatklinik Döbling?",
         options: [
-            "Heiligenstädter Straße 55",
-            "Billrothstraße 78",
-            "Kollburggasse 6-10",
-            "Löblichgasse 14"
+            "Bezirke 19. Heiligenstädter Straße 55",
+            "Bezirke 19. Billrothstraße 78",
+            "Bezirke 16. Kollburggasse 6-10",
+            "Bezirke 9. Löblichgasse 14"
         ],
-        answer: "Heiligenstädter Straße 55",
+        answer: "Bezirke 19. Heiligenstädter Straße 55",
     },
 
     {
         question: "Wo liegt die Klinik Penzing?",
         options: [
-            "Baumgartner Höhe 1",
-            "Auhofstraße 189",
-            "Montleartstraße 37",
-            "Speisinger Straße 109"
+            "Bezirke 14. Baumgartner Höhe 1",
+            "Bezirke 13. Auhofstraße 189",
+            "Bezirke 16. Montleartstraße 37",
+            "Bezirke 13. Speisinger Straße 109"
         ],
-        answer: "Baumgartner Höhe 1",
+        answer: "Bezirke 14. Baumgartner Höhe 1",
     },
 
     {
         question: "Wo liegt die Klinik Favoriten?",
         options: [
-            "Kundratstraße 3",
-            "Donauschingenstraße 13",
-            "Nikolsdorfergasse 32",
-            "Baumgasse 20A"
+            "Bezirke 10. Kundratstraße 3",
+            "Bezirke 20. Donauschingenstraße 13",
+            "Bezirke 5. Nikolsdorfergasse 32",
+            "Bezirke 3. Baumgasse 20A"
         ],
-        answer: "Kundratstraße 3",
+        answer: "Bezirke 10. Kundratstraße 3",
     },
 
     {
         question: "Wo liegt das St. Anna Kinderspital?",
         options: [
-            "Kinderspitalgasse 6",
-            "Sensengasse 2a",
-            "Lazarettgasse 16-18",
-            "Skodagasse 32"
+            "Bezirke 9. Kinderspitalgasse 6",
+            "Bezirke 9. Sensengasse 2a",
+            "Bezirke 9. Lazarettgasse 16-18",
+            "Bezirke 8. Skodagasse 32"
         ],
-        answer: "Kinderspitalgasse 6",
+        answer: "Bezirke 9. Kinderspitalgasse 6",
     },
 
     {
         question: "Wo liegt das St. Josef-Krankenhaus?",
         options: [
-            "Auhofstraße 189",
-            "Speisinger Straße 109",
-            "Wolkersbergenstraße 1",
-            "Montleartstraße 37"
+            "Bezirke 13. Auhofstraße 189",
+            "Bezirke 13. Speisinger Straße 109",
+            "Bezirke 13. Wolkersbergenstraße 1",
+            "Bezirke 16. Montleartstraße 37"
         ],
-        answer: "Auhofstraße 189",
+        answer: "Bezirke 13. Auhofstraße 189",
     },
 
     {
         question: "Wo liegt die Universitäts-Zahnklinik?",
         options: [
-            "Sensengasse 2a",
-            "Kinderspitalgasse 6",
-            "Lazarettgasse 16-18",
-            "Skodagasse 32"
+            "Bezirke 9. Sensengasse 2a",
+            "Bezirke 9. Kinderspitalgasse 6",
+            "Bezirke 9. Lazarettgasse 16-18",
+            "Bezirke 8. Skodagasse 32"
         ],
-        answer: "Sensengasse 2a",
+        answer: "Bezirke 9. Sensengasse 2a",
     },
 
     {
         question: "Wo liegt die Klinik Floridsdorf?",
         options: [
-            "Brünner Straße 68",
-            "Brünner Gasse 22",
-            "Langobardenstraße 122",
-            "Langobardenstraße 180"
+            "Bezirke 21. Brünner Straße 68",
+            "Bezirke 21. Brünner Gasse 22",
+            "Bezirke 22. Langobardenstraße 122",
+            "Bezirke 22. Langobardenstraße 180"
         ],
-        answer: "Brünner Straße 68",
+        answer: "Bezirke 21. Brünner Straße 68",
     },
 
     {
         question: "Wo liegt die Klinik Ottakring?",
         options: [
-            "Montleartstraße 37",
-            "Dornbacher Straße 20-30",
-            "Hans-Sachs-Gasse 10-12",
-            "Heinrich-Collin Straße 30"
+            "Bezirke 16. Montleartstraße 37",
+            "Bezirke 17. Dornbacher Straße 20-30",
+            "Bezirke 18. Hans-Sachs-Gasse 10-12",
+            "Bezirke 14. Heinrich-Collin Straße 30"
         ],
-        answer: "Montleartstraße 37",
+        answer: "Bezirke 16. Montleartstraße 37",
     },
 
     {
         question: "Wo liegt die Wiener Privatklinik?",
         options: [
-            "Pelikanngasse 15",
-            "Lazarettgasse 16-18",
-            "Skodagasse 32",
-            "Sensengasse 2a"
+            "Bezirke 9. Pelikanngasse 15",
+            "Bezirke 9. Lazarettgasse 16-18",
+            "Bezirke 8. Skodagasse 32",
+            "Bezirke 9. Sensengasse 2a"
         ],
-        answer: "Pelikanngasse 15",
+        answer: "Bezirke 9. Pelikanngasse 15",
     }
 ];
 // عدد الأسئلة الكلي
