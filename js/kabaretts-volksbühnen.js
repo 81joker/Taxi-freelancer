@@ -112,12 +112,12 @@ const questions = [
     {
         question: "Wo liegt das Schutzhaus der Zukunft?",
         options: [
-            "Auf der Schmelz,verl. Guntherstraße",
+            "Auf der Schmelz",
             "Goldschlagstraße 169",
             "Mariahilfer Straße 81",
             "Hernalser Hauptstraße 55"
         ],
-        answer:  "Auf der Schmelz,verl. Guntherstraße",
+        answer: "Auf der Schmelz",
     },
 
     {
