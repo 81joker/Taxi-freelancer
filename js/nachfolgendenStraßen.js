@@ -58,7 +58,6 @@ const questions = [
         question: "Wie heißt die  Kliebergasse Straße nach dem Gürtel?",
         options: [
             "Landgutgasse",
-            "Landgutgasse",
             "Arndtstraße",
             "Sechshauser Straße"
         ],
