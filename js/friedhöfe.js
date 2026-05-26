@@ -1,259 +1,255 @@
-
-
-
-
 const questions = [
     {
         question: "Wo liegt der Friedhof Aspern?",
         options: [
-            "Langobardenstraße 180",
-            "Waidhausenstraße 52",
-            "Hartäckergasse 65",
-            "Alszeile 28"
+            "Bezirke 22. Langobardenstraße 180",
+            "Bezirke 14. Waidhausenstraße 52",
+            "Bezirke 19. Hartäckergasse 65",
+            "Bezirke 17. Alszeile 28"
         ],
-        answer: "Langobardenstraße 180",
+        answer: "Bezirke 22. Langobardenstraße 180",
     },
 
     {
         question: "Wo liegt der Friedhof Baumgarten?",
         options: [
-            "Waidhäuserstraße 52",
-            "Langobardenstraße 180",
-            "Maxingstraße 15",
-            "Sampwandnergasse 6"
+            "Bezirke 14. Waidhäuserstraße 52",
+            "Bezirke 22. Langobardenstraße 180",
+            "Bezirke 13. Maxingstraße 15",
+            "Bezirke 14. Sampwandnergasse 6"
         ],
-        answer: "Waidhäuserstraße 52",
+        answer: "Bezirke 14. Waidhäuserstraße 52",
     },
 
     {
         question: "Wo liegt der Friedhof Döbling?",
         options: [
-            "Hartäckergasse 65",
-            "Wildgrubgasse 20",
-            "Nottebohmstraße 51",
-            "Alszeile 28"
+            "Bezirke 19. Hartäckergasse 65",
+            "Bezirke 19. Wildgrubgasse 20",
+            "Bezirke 19. Nottebohmstraße 51",
+            "Bezirke 17. Alszeile 28"
         ],
-        answer: "Hartäckergasse 65",
+        answer: "Bezirke 19. Hartäckergasse 65",
     },
 
     {
         question: "Wo liegt der Friedhof Dornbach?",
         options: [
-            "Alszeile 28",
-            "Maxingstraße 15",
-            "Wildgrubgasse 20",
-            "Hartäckergasse 65"
+            "Bezirke 17. Alszeile 28",
+            "Bezirke 13. Maxingstraße 15",
+            "Bezirke 19. Wildgrubgasse 20",
+            "Bezirke 19. Hartäckergasse 65"
         ],
-        answer: "Alszeile 28",
+        answer: "Bezirke 17. Alszeile 28",
     },
 
     {
         question: "Wo liegt die Feuerhalle Simmering?",
         options: [
-            "Simmeringer Hauptstraße 337",
-            "Simmeringer Hauptstraße",
-            "Unter der Kirche 5",
-            "Friedhofstraße 33"
+            "Bezirke 11. Simmeringer Hauptstraße 337",
+            "Bezirke 11. Simmeringer Hauptstraße",
+            "Bezirke 11. Unter der Kirche 5",
+            "Bezirke 10. Friedhofstraße 33"
         ],
-        answer: "Simmeringer Hauptstraße 337",
+        answer: "Bezirke 11. Simmeringer Hauptstraße 337",
     },
 
     {
         question: "Wo liegt der Friedhof Grinzing?",
         options: [
-            "An den Langen Lüssen 33",
-            "Wildgrubgasse 20",
-            "Nottebohmstraße 51",
-            "Hartäckergasse 65"
+            "Bezirke 19. An den Langen Lüssen 33",
+            "Bezirke 19. Wildgrubgasse 20",
+            "Bezirke 19. Nottebohmstraße 51",
+            "Bezirke 19. Hartäckergasse 65"
         ],
-        answer: "An den Langen Lüssen 33",
+        answer: "Bezirke 19. An den Langen Lüssen 33",
     },
 
     {
         question: "Wo liegt der Friedhof Großjedlersdorf?",
         options: [
-            "Strebersdorfer Straße 2",
-            "Langobardenstraße 180",
-            "Stammersdorfer Straße 244-260",
-            "Kolbegasse 34"
+            "Bezirke 21. Strebersdorfer Straße 2",
+            "Bezirke 22. Langobardenstraße 180",
+            "Bezirke 21. Stammersdorfer Straße 244-260",
+            "Bezirke 23. Kolbegasse 34"
         ],
-        answer: "Strebersdorfer Straße 2",
+        answer: "Bezirke 21. Strebersdorfer Straße 2",
     },
 
     {
         question: "Wo liegt der Friedhof Heiligenstadt?",
         options: [
-            "Wildgrubgasse 20",
-            "An den Langen Lüssen 33",
-            "Nottebohmstraße 51",
-            "Hartäckergasse 65"
+            "Bezirke 19. Wildgrubgasse 20",
+            "Bezirke 19. An den Langen Lüssen 33",
+            "Bezirke 19. Nottebohmstraße 51",
+            "Bezirke 19. Hartäckergasse 65"
         ],
-        answer: "Wildgrubgasse 20",
+        answer: "Bezirke 19. Wildgrubgasse 20",
     },
 
     {
         question: "Wo liegt der Friedhof Hernals?",
         options: [
-            "Leopold-Kunschak-Platz 7",
-            "Alszeile 28",
-            "Wildgrubgasse 20",
-            "Maxingstraße 15"
+            "Bezirke 17. Leopold-Kunschak-Platz 7",
+            "Bezirke 17. Alszeile 28",
+            "Bezirke 19. Wildgrubgasse 20",
+            "Bezirke 13. Maxingstraße 15"
         ],
-        answer: "Leopold-Kunschak-Platz 7",
+        answer: "Bezirke 17. Leopold-Kunschak-Platz 7",
     },
 
     {
         question: "Wo liegt der Friedhof Hietzing?",
         options: [
-            "Maxingstraße 15",
-            "Sampwandnergasse 6",
-            "Waidhäuserstraße 52",
-            "Hartäckergasse 65"
+            "Bezirke 13. Maxingstraße 15",
+            "Bezirke 14. Sampwandnergasse 6",
+            "Bezirke 14. Waidhäuserstraße 52",
+            "Bezirke 19. Hartäckergasse 65"
         ],
-        answer: "Maxingstraße 15",
+        answer: "Bezirke 13. Maxingstraße 15",
     },
 
     {
         question: "Wo liegt der Friedhof Hütteldorf?",
         options: [
-            "Sampwandnergasse 6",
-            "Maxingstraße 15",
-            "Waidhäuserstraße 52",
-            "Strebersdorfer Straße 2"
+            "Bezirke 14. Sampwandnergasse 6",
+            "Bezirke 13. Maxingstraße 15",
+            "Bezirke 14. Waidhäuserstraße 52",
+            "Bezirke 21. Strebersdorfer Straße 2"
         ],
-        answer: "Sampwandnergasse 6",
+        answer: "Bezirke 14. Sampwandnergasse 6",
     },
 
     {
         question: "Wo liegt der Friedhof Inzersdorf?",
         options: [
-            "Kolbegasse 34",
-            "Friedhofstraße 6-16",
-            "Friedhofstraße 33",
-            "Langobardenstraße 180"
+            "Bezirke 23. Kolbegasse 34",
+            "Bezirke 23. Friedhofstraße 6-16",
+            "Bezirke 10. Friedhofstraße 33",
+            "Bezirke 22. Langobardenstraße 180"
         ],
-        answer: "Kolbegasse 34",
+        answer: "Bezirke 23. Kolbegasse 34",
     },
 
     {
         question: "Wo liegt der Islamische Friedhof?",
         options: [
-            "Großmarktstraße",
-            "Kolbegasse 34",
-            "Friedhofstraße 6-16",
-            "Langobardenstraße 180"
+            "Bezirke 23. Großmarktstraße",
+            "Bezirke 23. Kolbegasse 34",
+            "Bezirke 23. Friedhofstraße 6-16",
+            "Bezirke 22. Langobardenstraße 180"
         ],
-        answer: "Großmarktstraße",
+        answer: "Bezirke 23. Großmarktstraße",
     },
 
     {
         question: "Wo liegt der Friedhof Mauer?",
         options: [
-            "Friedensstraße 6-16",
-            "Kolbegasse 34",
-            "Großmarktstraße",
-            "Friedhofstraße 33"
+            "Bezirke 23. Friedensstraße 6-16",
+            "Bezirke 23. Kolbegasse 34",
+            "Bezirke 23. Großmarktstraße",
+            "Bezirke 10. Friedhofstraße 33"
         ],
-        answer: "Friedensstraße 6-16",
+        answer: "Bezirke 23. Friedensstraße 6-16",
     },
 
     {
         question: "Wo liegt der Friedhof Meidling?",
         options: [
-            "Eibesbrunner Gasse 1a",
-            "Friedhofstraße 33",
-            "Unter der Kirche 5",
-            "Herivicisgasse 44"
+            "Bezirke 12. Eibesbrunner Gasse 1a",
+            "Bezirke 10. Friedhofstraße 33",
+            "Bezirke 11. Unter der Kirche 5",
+            "Bezirke 12. Herivicisgasse 44"
         ],
-        answer: "Eibesbrunner Gasse 1a",
+        answer: "Bezirke 12. Eibesbrunner Gasse 1a",
     },
 
     {
         question: "Wo liegt der Friedhof Neustift?",
         options: [
-            "Pötzleinsdorfer Höhe 2",
-            "Nottebohmstraße 51",
-            "Wildgrubgasse 20",
-            "An den Langen Lüssen 33"
+            "Bezirke 18. Pötzleinsdorfer Höhe 2",
+            "Bezirke 19. Nottebohmstraße 51",
+            "Bezirke 19. Wildgrubgasse 20",
+            "Bezirke 19. An den Langen Lüssen 33"
         ],
-        answer: "Pötzleinsdorfer Höhe 2",
+        answer: "Bezirke 18. Pötzleinsdorfer Höhe 2",
     },
 
     {
         question: "Wo liegt der Friedhof Oberlaa?",
         options: [
-            "Friedhofstraße 33",
-            "Friedensstraße 6-16",
-            "Kolbegasse 34",
-            "Langobardenstraße 180"
+            "Bezirke 10. Friedhofstraße 33",
+            "Bezirke 23. Friedensstraße 6-16",
+            "Bezirke 23. Kolbegasse 34",
+            "Bezirke 22. Langobardenstraße 180"
         ],
-        answer: "Friedhofstraße 33",
+        answer: "Bezirke 10. Friedhofstraße 33",
     },
 
     {
         question: "Wo liegt der Friedhof Ottakring?",
         options: [
-            "Gallitzinstraße 5",
-            "Alszeile 28",
-            "Maxingstraße 15",
-            "Sampwandnergasse 6"
+            "Bezirke 16. Gallitzinstraße 5",
+            "Bezirke 17. Alszeile 28",
+            "Bezirke 13. Maxingstraße 15",
+            "Bezirke 14. Sampwandnergasse 6"
         ],
-        answer: "Gallitzinstraße 5",
+        answer: "Bezirke 16. Gallitzinstraße 5",
     },
 
     {
         question: "Wo liegt der Friedhof Sievering?",
         options: [
-            "Nottebohmstraße 51",
-            "Wildgrubgasse 20",
-            "An den Langen Lüssen 33",
-            "Hartäckergasse 65"
+            "Bezirke 19. Nottebohmstraße 51",
+            "Bezirke 19. Wildgrubgasse 20",
+            "Bezirke 19. An den Langen Lüssen 33",
+            "Bezirke 19. Hartäckergasse 65"
         ],
-        answer: "Nottebohmstraße 51",
+        answer: "Bezirke 19. Nottebohmstraße 51",
     },
 
     {
         question: "Wo liegt der Friedhof Simmering?",
         options: [
-            "Unter der Kirche 5",
-            "Simmeringer Hauptstraße",
-            "Friedhofstraße 33",
-            "Kolbegasse 34"
+            "Bezirke 11. Unter der Kirche 5",
+            "Bezirke 11. Simmeringer Hauptstraße",
+            "Bezirke 10. Friedhofstraße 33",
+            "Bezirke 23. Kolbegasse 34"
         ],
-        answer: "Unter der Kirche 5",
+        answer: "Bezirke 11. Unter der Kirche 5",
     },
 
     {
         question: "Wo liegt der Stammersdorfer Zentralfriedhof?",
         options: [
-            "Stammersdorfer Straße 244-260",
-            "Strebersdorfer Straße 2",
-            "Langobardenstraße 180",
-            "Kolbegasse 34"
+            "Bezirke 21. Stammersdorfer Straße 244-260",
+            "Bezirke 21. Strebersdorfer Straße 2",
+            "Bezirke 22. Langobardenstraße 180",
+            "Bezirke 23. Kolbegasse 34"
         ],
-        answer: "Stammersdorfer Straße 244-260",
+        answer: "Bezirke 21. Stammersdorfer Straße 244-260",
     },
 
     {
         question: "Wo liegt der Südwestfriedhof?",
         options: [
-            "Herviciusgasse 44",
-            "Unter der Kirche 5",
-            "Friedhofstraße 33",
-            "Kolbegasse 34"
+            "Bezirke 12. Herviciusgasse 44",
+            "Bezirke 11. Unter der Kirche 5",
+            "Bezirke 10. Friedhofstraße 33",
+            "Bezirke 23. Kolbegasse 34"
         ],
-        answer: "Herviciusgasse 44",
+        answer: "Bezirke 12. Herviciusgasse 44",
     },
 
     {
         question: "Wo liegt der Zentralfriedhof?",
         options: [
-            "Simmeringer Hauptstraße",
-            "Simmeringer Hauptstraße 337",
-            "Unter der Kirche 5",
-            "Friedhofstraße 33"
+            "Bezirke 11. Simmeringer Hauptstraße",
+            "Bezirke 11. Simmeringer Hauptstraße 337",
+            "Bezirke 11. Unter der Kirche 5",
+            "Bezirke 10. Friedhofstraße 33"
         ],
-        answer: "Simmeringer Hauptstraße",
+        answer: "Bezirke 11. Simmeringer Hauptstraße",
     },
 ];
 // عدد الأسئلة الكلي
