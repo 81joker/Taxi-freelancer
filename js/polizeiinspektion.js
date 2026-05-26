@@ -3,191 +3,190 @@ const questions = [
     {
         question: "Wo ist die Bundespolizeidirektion Wien?",
         options: [
-            "Schottenring 7-9",
-            "Hernalser Gürtel 6-12",
-            "Dietrichgasse 27",
-            "Deutschmeisterplatz 3"
+            "Bezirke 1. Schottenring 7-9",
+            "Bezirke 8. Hernalser Gürtel 6-12",
+            "Bezirke 3. Dietrichgasse 27",
+            "Bezirke 1. Deutschmeisterplatz 3"
         ],
-        answer: "Schottenring 7-9"
+        answer: "Bezirke 1. Schottenring 7-9"
     },
 
     {
         question: "Wo ist das Fremdenpolizeiliche Büro?",
         options: [
-            "Hernalser Gürtel 6-12",
-            "Schottenring 7-9",
-            "Dietrichgasse 27",
-            "Deutschmeisterplatz 3"
+            "Bezirke 8. Hernalser Gürtel 6-12",
+            "Bezirke 1. Schottenring 7-9",
+            "Bezirke 3. Dietrichgasse 27",
+            "Bezirke 1. Deutschmeisterplatz 3"
         ],
-        answer: "Hernalser Gürtel 6-12"
+        answer: "Bezirke 8. Hernalser Gürtel 6-12"
     },
 
     {
         question: "Wo ist das Verkehrsamt (Führerschein / Taxireferat)?",
         options: [
-            "Dietrichgasse 27",
-            "Hernalser Gürtel 6-12",
-            "Schottenring 7-9",
-            "Deutschmeisterplatz 3"
+            "Bezirke 3. Dietrichgasse 27",
+            "Bezirke 8. Hernalser Gürtel 6-12",
+            "Bezirke 1. Schottenring 7-9",
+            "Bezirke 1. Deutschmeisterplatz 3"
         ],
-        answer: "Dietrichgasse 27"
+        answer: "Bezirke 3. Dietrichgasse 27"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Innere Stadt?",
         options: [
-            "Deutschmeisterplatz 3",
-            "Juchgasse 19",
-            "Viktor-Christ-Gasse 19",
-            "Fuhrmannsgasse 5"
+            "Bezirke 1. Deutschmeisterplatz 3",
+            "Bezirke 3. Juchgasse 19",
+            "Bezirke 5. Viktor-Christ-Gasse 19",
+            "Bezirke 8. Fuhrmannsgasse 5"
         ],
-        answer: "Deutschmeisterplatz 3"
+        answer: "Bezirke 1. Deutschmeisterplatz 3"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Landstraße?",
         options: [
-            "Juchgasse 19",
-            "Deutschmeisterplatz 3",
-            "Viktor-Christ-Gasse 19",
-            "Fuhrmannsgasse 5"
+            "Bezirke 3. Juchgasse 19",
+            "Bezirke 1. Deutschmeisterplatz 3",
+            "Bezirke 5. Viktor-Christ-Gasse 19",
+            "Bezirke 8. Fuhrmannsgasse 5"
         ],
-        answer: "Juchgasse 19"
+        answer: "Bezirke 3. Juchgasse 19"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Margareten (Bezirke 4,5,6)?",
         options: [
-            "Viktor-Christ-Gasse 19",
-            "Juchgasse 19",
-            "Fuhrmannsgasse 5",
-            "Van-der-Nüll-Gasse 11"
+            "Bezirke 5. Viktor-Christ-Gasse 19",
+            "Bezirke 3. Juchgasse 19",
+            "Bezirke 8. Fuhrmannsgasse 5",
+            "Bezirke 10. Van-der-Nüll-Gasse 11"
         ],
-        answer: "Viktor-Christ-Gasse 19"
+        answer: "Bezirke 5. Viktor-Christ-Gasse 19"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Josefstadt (Bezirke 7,8,9)?",
         options: [
-            "Fuhrmannsgasse 5",
-            "Viktor-Christ-Gasse 19",
-            "Van-der-Nüll-Gasse 11",
-            "Enkplatz 3"
+            "Bezirke 8. Fuhrmannsgasse 5",
+            "Bezirke 5. Viktor-Christ-Gasse 19",
+            "Bezirke 10. Van-der-Nüll-Gasse 11",
+            "Bezirke 11. Enkplatz 3"
         ],
-        answer: "Fuhrmannsgasse 5"
+        answer: "Bezirke 8. Fuhrmannsgasse 5"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Favoriten?",
         options: [
-            "Van-der-Nüll-Gasse 11",
-            "Fuhrmannsgasse 5",
-            "Enkplatz 3",
-            "Hohenbergstraße 1"
+            "Bezirke 10. Van-der-Nüll-Gasse 11",
+            "Bezirke 8. Fuhrmannsgasse 5",
+            "Bezirke 11. Enkplatz 3",
+            "Bezirke 12. Hohenbergstraße 1"
         ],
-        answer: "Van-der-Nüll-Gasse 11"
+        answer: "Bezirke 10. Van-der-Nüll-Gasse 11"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Simmering?",
         options: [
-            "Enkplatz 3",
-            "Van-der-Nüll-Gasse 11",
-            "Hohenbergstraße 1",
-            "Tannengasse 6"
+            "Bezirke 11. Enkplatz 3",
+            "Bezirke 10. Van-der-Nüll-Gasse 11",
+            "Bezirke 12. Hohenbergstraße 1",
+            "Bezirke 15. Tannengasse 6"
         ],
-        answer: "Enkplatz 3"
+        answer: "Bezirke 11. Enkplatz 3"
     },
 
     {
-        question: "Wo ist die Polizeiinspektion Meidling?",
+        question: "Wo ist die Polizeiinspektion Meidling f.d. Bezirke 12 und 13?",
         options: [
-            "Hohenbergstraße 1",
-            "Enkplatz 3",
-            "Tannengasse 6",
-            "Wattgasse 15"
+            "Bezirke 12. Hohenbergstraße 1",
+            "Bezirke 11. Enkplatz 3",
+            "Bezirke 15. Tannengasse 6",
+            "Bezirke 16. Wattgasse 15"
         ],
-        answer: "Hohenbergstraße 1"
+        answer: "Bezirke 12. Hohenbergstraße 1"
     },
 
     {
-        question: "Wo ist die Polizeiinspektion Fünfhaus?",
+        question: "Wo ist die Polizeiinspektion Fünfhaus f.d. Bezirke 14 und 15?",
         options: [
-            "Tannengasse 6",
-            "Hohenbergstraße 1",
-            "Wattgasse 15",
-            "Hohe Warte 32"
+            "Bezirke 15. Tannengasse 6",
+            "Bezirke 12. Hohenbergstraße 1",
+            "Bezirke 16. Wattgasse 15",
+            "Bezirke 19. Hohe Warte 32"
         ],
-        answer: "Tannengasse 6"
+        answer: "Bezirke 15. Tannengasse 6"
     },
 
     {
-        question: "Wo ist die Polizeiinspektion Ottakring?",
+        question: "Wo ist die Polizeiinspektion Ottakring f.d. Bezirke 16 und 17 ?",
         options: [
-            "Wattgasse 15",
-            "Tannengasse 6",
-            "Hohe Warte 32",
-            "Pappenheimgasse 33"
+            "Bezirke 16. Wattgasse 15",
+            "Bezirke 15. Tannengasse 6",
+            "Bezirke 19. Hohe Warte 32",
+            "Bezirke 20. Pappenheimgasse 33"
         ],
-        answer: "Wattgasse 15"
+        answer: "Bezirke 16. Wattgasse 15"
     },
 
     {
-        question: "Wo ist die Polizeiinspektion Döbling?",
+        question: "Wo ist die Polizeiinspektion Döbling f.d. Bezirke 18 und 19 ?",
         options: [
-            "Hohe Warte 32",
-            "Wattgasse 15",
-            "Pappenheimgasse 33",
-            "Hermann Bahr Straße 3"
+            "Bezirke 19. Hohe Warte 32",
+            "Bezirke 16. Wattgasse 15",
+            "Bezirke 20. Pappenheimgasse 33",
+            "Bezirke 21. Hermann Bahr Straße 3"
         ],
-        answer: "Hohe Warte 32"
+        answer: "Bezirke 19. Hohe Warte 32"
     },
 
     {
-        question: "Wo ist die Polizeiinspektion Brigittenau?",
+        question: "Wo ist die Polizeiinspektion Brigittenau f.d. Bezirke 2 und 20 ?",
         options: [
-            "Pappenheimgasse 33",
-            "Hohe Warte 32",
-            "Hermann Bahr Straße 3",
-            "Wagramer Straße 89"
+            "Bezirke 20. Pappenheimgasse 33",
+            "Bezirke 19. Hohe Warte 32",
+            "Bezirke 21. Hermann Bahr Straße 3",
+            "Bezirke 22. Wagramer Straße 89"
         ],
-        answer: "Pappenheimgasse 33"
+        answer: "Bezirke 20. Pappenheimgasse 33"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Floridsdorf?",
         options: [
-            "Hermann Bahr Straße 3",
-            "Pappenheimgasse 33",
-            "Wagramer Straße 89",
-            "Lehmanngasse 3a"
+            "Bezirke 21. Hermann Bahr Straße 3",
+            "Bezirke 20. Pappenheimgasse 33",
+            "Bezirke 22. Wagramer Straße 89",
+            "Bezirke 23. Lehmanngasse 3a"
         ],
-        answer: "Hermann Bahr Straße 3"
+        answer: "Bezirke 21. Hermann Bahr Straße 3"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Donaustadt?",
         options: [
-            "Wagramer Straße 89",
-            "Hermann Bahr Straße 3",
-            "Lehmanngasse 3a",
-            "Pappenheimgasse 33"
+            "Bezirke 22. Wagramer Straße 89",
+            "Bezirke 21. Hermann Bahr Straße 3",
+            "Bezirke 23. Lehmanngasse 3a",
+            "Bezirke 20. Pappenheimgasse 33"
         ],
-        answer: "Wagramer Straße 89"
+        answer: "Bezirke 22. Wagramer Straße 89"
     },
 
     {
         question: "Wo ist die Polizeiinspektion Liesing?",
         options: [
-            "Lehmanngasse 3a",
-            "Wagramer Straße 89",
-            "Hermann Bahr Straße 3",
-            "Pappenheimgasse 33"
+            "Bezirke 23. Lehmanngasse 3a",
+            "Bezirke 22. Wagramer Straße 89",
+            "Bezirke 21. Hermann Bahr Straße 3",
+            "Bezirke 20. Pappenheimgasse 33"
         ],
-        answer: "Lehmanngasse 3a"
+        answer: "Bezirke 23. Lehmanngasse 3a"
     },
 ];
-
 // عدد الأسئلة الكلي
 const totalQuestions = questions.length;
 
