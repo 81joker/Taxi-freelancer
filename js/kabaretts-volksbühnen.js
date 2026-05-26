@@ -2,166 +2,166 @@ const questions = [
     {
         question: "Wo liegt das Casa Nova?",
         options: [
-            "Dorotheergasse 6-8",
-            "Liliengasse 2",
-            "Wollzeile 36",
-            "Rotenturmstraße 20"
+            "Bezirke 1. Dorotheergasse 6-8",
+            "Bezirke 1. Liliengasse 2",
+            "Bezirke 1. Wollzeile 36",
+            "Bezirke 1. Rotenturmstraße 20"
         ],
-        answer: "Dorotheergasse 6-8",
+        answer: "Bezirke 1. Dorotheergasse 6-8",
     },
 
     {
         question: "Wo liegt die Eden Bar?",
         options: [
-            "Liliengasse 2",
-            "Dorotheergasse 6-8",
-            "Wollzeile 36",
-            "Seilerstätte 25"
+            "Bezirke 1. Liliengasse 2",
+            "Bezirke 1. Dorotheergasse 6-8",
+            "Bezirke 1. Wollzeile 36",
+            "Bezirke 1. Seilerstätte 25"
         ],
-        answer: "Liliengasse 2",
+        answer: "Bezirke 1. Liliengasse 2",
     },
 
     {
         question: "Wo liegt die Globe Wien - Marx Halle?",
         options: [
-            "Karl-Farkas-Gasse 19",
-            "Rabengasse 3",
-            "Lenaugasse 1A",
-            "Wallensteinplatz 6"
+            "Bezirke 3. Karl-Farkas-Gasse 19",
+            "Bezirke 3. Rabengasse 3",
+            "Bezirke 8. Lenaugasse 1A",
+            "Bezirke 20. Wallensteinplatz 6"
         ],
-        answer: "Karl-Farkas-Gasse 19",
+        answer: "Bezirke 3. Karl-Farkas-Gasse 19",
     },
 
     {
         question: "Wo liegt das Kabarett Niedermair?",
         options: [
-            "Lenaugasse 1A",
-            "Rabengasse 3",
-            "Wallensteinplatz 6",
-            "Wollzeile 36"
+            "Bezirke 8. Lenaugasse 1A",
+            "Bezirke 3. Rabengasse 3",
+            "Bezirke 20. Wallensteinplatz 6",
+            "Bezirke 1. Wollzeile 36"
         ],
-        answer: "Lenaugasse 1A",
+        answer: "Bezirke 8. Lenaugasse 1A",
     },
 
     {
         question: "Wo liegt das Kabarett Vindobona?",
         options: [
-            "Wallensteinplatz 6",
-            "Lenaugasse 1A",
-            "Rabengasse 3",
-            "Goldschlagstraße 169"
+            "Bezirke 20. Wallensteinplatz 6",
+            "Bezirke 8. Lenaugasse 1A",
+            "Bezirke 3. Rabengasse 3",
+            "Bezirke 14. Goldschlagstraße 169"
         ],
-        answer: "Wallensteinplatz 6",
+        answer: "Bezirke 20. Wallensteinplatz 6",
     },
 
     {
         question: "Wo liegt die Kulisse?",
         options: [
-            "Rosensteingasse 39",
-            "Hernalser Hauptstraße 55",
-            "Rabengasse 3",
-            "Spittelberggasse 10"
+            "Bezirke 17. Rosensteingasse 39",
+            "Bezirke 17. Hernalser Hauptstraße 55",
+            "Bezirke 3. Rabengasse 3",
+            "Bezirke 7. Spittelberggasse 10"
         ],
-        answer: "Rosensteingasse 39",
+        answer: "Bezirke 17. Rosensteingasse 39",
     },
 
     {
         question: "Wo liegt das Metropol?",
         options: [
-            "Hernalser Hauptstraße 55",
-            "Rosensteingasse 39",
-            "Wallensteinplatz 6",
-            "Rabengasse 3"
+            "Bezirke 17. Hernalser Hauptstraße 55",
+            "Bezirke 17. Rosensteingasse 39",
+            "Bezirke 20. Wallensteinplatz 6",
+            "Bezirke 3. Rabengasse 3"
         ],
-        answer: "Hernalser Hauptstraße 55",
+        answer: "Bezirke 17. Hernalser Hauptstraße 55",
     },
 
     {
         question: "Wo liegt das Orpheum?",
         options: [
-            "Steigenteschgasse 94b",
-            "Karl-Farkas-Gasse 19",
-            "Goldschlagstraße 169",
-            "Rabengasse 3"
+            "Bezirke 22. Steigenteschgasse 94b",
+            "Bezirke 3. Karl-Farkas-Gasse 19",
+            "Bezirke 14. Goldschlagstraße 169",
+            "Bezirke 3. Rabengasse 3"
         ],
-        answer: "Steigenteschgasse 94b",
+        answer: "Bezirke 22. Steigenteschgasse 94b",
     },
 
     {
         question: "Wo liegt das Rabenhof Theater?",
         options: [
-            "Rabengasse 3",
-            "Lenaugasse 1A",
-            "Spittelberggasse 10",
-            "Liliengasse 2"
+            "Bezirke 3. Rabengasse 3",
+            "Bezirke 8. Lenaugasse 1A",
+            "Bezirke 7. Spittelberggasse 10",
+            "Bezirke 1. Liliengasse 2"
         ],
-        answer: "Rabengasse 3",
+        answer: "Bezirke 3. Rabengasse 3",
     },
 
     {
         question: "Wo liegt die Sargfabrik?",
         options: [
-            "Goldschlagstraße 169",
-            "Mariahilfer Straße 81",
-            "Spittelberggasse 10",
-            "Wollzeile 36"
+            "Bezirke 14. Goldschlagstraße 169",
+            "Bezirke 6. Mariahilfer Straße 81",
+            "Bezirke 7. Spittelberggasse 10",
+            "Bezirke 1. Wollzeile 36"
         ],
-        answer: "Goldschlagstraße 169",
+        answer: "Bezirke 14. Goldschlagstraße 169",
     },
 
     {
         question: "Wo liegt das Schutzhaus der Zukunft?",
         options: [
-            "Auf der Schmelz",
-            "Goldschlagstraße 169",
-            "Mariahilfer Straße 81",
-            "Hernalser Hauptstraße 55"
+            "Bezirke 15.  Auf der Schmelz,verl. Guntherstraße",
+            "Bezirke 14. Goldschlagstraße 169",
+            "Bezirke 6. Mariahilfer Straße 81",
+            "Bezirke 17. Hernalser Hauptstraße 55"
         ],
-        answer: "Auf der Schmelz",
+        answer: "Bezirke 15.  Auf der Schmelz,verl. Guntherstraße",
     },
 
     {
         question: "Wo liegt das Simpl?",
         options: [
-            "Wollzeile 36",
-            "Liliengasse 2",
-            "Dorotheergasse 6-8",
-            "Rabengasse 3"
+            "Bezirke 1. Wollzeile 36",
+            "Bezirke 1. Liliengasse 2",
+            "Bezirke 1. Dorotheergasse 6-8",
+            "Bezirke 3. Rabengasse 3"
         ],
-        answer: "Wollzeile 36",
+        answer: "Bezirke 1. Wollzeile 36",
     },
 
     {
         question: "Wo liegt der Stadtsaal?",
         options: [
-            "Mariahilfer Straße 81",
-            "Wollzeile 36",
-            "Rotenturmstraße 20",
-            "Spittelberggasse 10"
+            "Bezirke 6. Mariahilfer Straße 81",
+            "Bezirke 1. Wollzeile 36",
+            "Bezirke 1. Rotenturmstraße 20",
+            "Bezirke 7. Spittelberggasse 10"
         ],
-        answer: "Mariahilfer Straße 81",
+        answer: "Bezirke 6. Mariahilfer Straße 81",
     },
 
     {
         question: "Wo liegt das Theater Akzent?",
         options: [
-            "Theresianumgasse 18",
-            "Lisztstraße 1",
-            "Lothringerstraße 20",
-            "Seilerstätte 25"
+            "Bezirke 4. Theresianumgasse 18",
+            "Bezirke 3. Lisztstraße 1",
+            "Bezirke 3. Lothringerstraße 20",
+            "Bezirke 1. Seilerstätte 25"
         ],
-        answer: "Theresianumgasse 18",
+        answer: "Bezirke 4. Theresianumgasse 18",
     },
 
     {
         question: "Wo liegt das Theater am Spittelberg?",
         options: [
-            "Spittelberggasse 10",
-            "Rabengasse 3",
-            "Lenaugasse 1A",
-            "Mariahilfer Straße 81"
+            "Bezirke 7. Spittelberggasse 10",
+            "Bezirke 3. Rabengasse 3",
+            "Bezirke 8. Lenaugasse 1A",
+            "Bezirke 6. Mariahilfer Straße 81"
         ],
-        answer: "Spittelberggasse 10",
+        answer: "Bezirke 7. Spittelberggasse 10"
     },
 ];
 // عدد الأسئلة الكلي
