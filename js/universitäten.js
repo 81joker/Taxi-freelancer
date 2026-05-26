@@ -1,112 +1,112 @@
 const questions = [
-   {
+{
 question: "Wo liegt die Universität Wien?",
 options: [
-"Universitätsring 1",
-"WeltHandelsplatz 1",
-"Karlsplatz 13",
-"Gregor Mendel Straße 33"
+"Bezirke 1. Universitätsring 1",
+"Bezirke 2. WeltHandelsplatz 1",
+"Bezirke 4. Karlsplatz 13",
+"Bezirke 18. Gregor Mendel Straße 33"
 ],
-answer: "Universitätsring 1",
+answer: "Bezirke 1. Universitätsring 1",
 },
 
 {
 question: "Wo liegt die Hochschule für angewandte Kunst?",
 options: [
-"Oskar Kokoschka Platz 2",
-"Schillerplatz 3",
-"Universitätsring 1",
-"Karlsplatz 13"
+"Bezirke 1. Oskar Kokoschka Platz 2",
+"Bezirke 1. Schillerplatz 3",
+"Bezirke 1. Universitätsring 1",
+"Bezirke 4. Karlsplatz 13"
 ],
-answer: "Oskar Kokoschka Platz 2",
+answer: "Bezirke 1. Oskar Kokoschka Platz 2",
 },
 
 {
 question: "Wo liegt die Akademie der bildenden Künste?",
 options: [
-"Schillerplatz 3",
-"Oskar Kokoschka Platz 2",
-"Universitätsring 1",
-"Karlsplatz 13"
+"Bezirke 1. Schillerplatz 3",
+"Bezirke 1. Oskar Kokoschka Platz 2",
+"Bezirke 1. Universitätsring 1",
+"Bezirke 4. Karlsplatz 13"
 ],
-answer: "Schillerplatz 3",
+answer: "Bezirke 1. Schillerplatz 3",
 },
 
 {
 question: "Wo liegt die Hochschule für Musik und darstellende Kunst?",
 options: [
-"Lothringerstraße 20",
-"Karlsplatz 13",
-"Universitätsring 1",
-"Oskar Kokoschka Platz 2"
+"Bezirke 3. Lothringerstraße 20",
+"Bezirke 4. Karlsplatz 13",
+"Bezirke 1. Universitätsring 1",
+"Bezirke 1. Oskar Kokoschka Platz 2"
 ],
-answer: "Lothringerstraße 20",
+answer: "Bezirke 3. Lothringerstraße 20",
 },
 
 {
 question: "Wo liegt Tech Gate Vienna?",
 options: [
-"Donau-City-Straße 9",
-"WeltHandelsplatz 1",
-"Veterinärplatz 1",
-"Karlsplatz 13"
+"Bezirke 22. Donau-City-Straße 9",
+"Bezirke 2. WeltHandelsplatz 1",
+"Bezirke 21. Veterinärplatz 1",
+"Bezirke 4. Karlsplatz 13"
 ],
-answer: "Donau-City-Straße 9",
+answer: "Bezirke 22. Donau-City-Straße 9",
 },
 
 {
 question: "Wo liegt die Technische Universität Wien?",
 options: [
-"Karlsplatz 13",
-"Lothringerstraße 20",
-"Universitätsring 1",
-"WeltHandelsplatz 1"
+"Bezirke 4. Karlsplatz 13",
+"Bezirke 3. Lothringerstraße 20",
+"Bezirke 1. Universitätsring 1",
+"Bezirke 2. WeltHandelsplatz 1"
 ],
-answer: "Karlsplatz 13",
+answer: "Bezirke 4. Karlsplatz 13",
 },
 
 {
 question: "Wo liegt die Wirtschaftsuniversität Wien?",
 options: [
-"WeltHandelsplatz 1",
-"Donau-City-Straße 9",
-"Karlsplatz 13",
-"Universitätsring 1"
+"Bezirke 2. WeltHandelsplatz 1",
+"Bezirke 22. Donau-City-Straße 9",
+"Bezirke 4. Karlsplatz 13",
+"Bezirke 1. Universitätsring 1"
 ],
-answer: "WeltHandelsplatz 1",
+answer: "Bezirke 2. WeltHandelsplatz 1",
 },
 
 {
 question: "Wo liegt die Universität für Bodenkultur (BOKU)?",
 options: [
-"Gregor Mendel Straße 33",
-"WeltHandelsplatz 1",
-"Veterinärplatz 1",
-"Karlsplatz 13"
+"Bezirke 18. Gregor Mendel Straße 33",
+"Bezirke 2. WeltHandelsplatz 1",
+"Bezirke 21. Veterinärplatz 1",
+"Bezirke 4. Karlsplatz 13"
 ],
-answer: "Gregor Mendel Straße 33",
+answer: "Bezirke 18. Gregor Mendel Straße 33",
 },
 
 {
 question: "Wo liegt die Veterinärmedizinische Universität?",
 options: [
-"Veterinärplatz 1",
-"Donau-City-Straße 9",
-"WeltHandelsplatz 1",
-"Universitätsring 1"
+"Bezirke 21. Veterinärplatz 1",
+"Bezirke 22. Donau-City-Straße 9",
+"Bezirke 2. WeltHandelsplatz 1",
+"Bezirke 1. Universitätsring 1"
 ],
-answer: "Veterinärplatz 1",
+answer: "Bezirke 21. Veterinärplatz 1",
 },
 
 {
 question: "Wo liegt die Pädagogische Hochschule Wien?",
 options: [
-"Grenzackerstraße 18",
-"Karlsplatz 13",
-"Gregor Mendel Straße 33",
-"WeltHandelsplatz 1"
+"Bezirke 10. Grenzackerstraße 18",
+"Bezirke 4. Karlsplatz 13",
+"Bezirke 18. Gregor Mendel Straße 33",
+"Bezirke 2. WeltHandelsplatz 1"
 ],
-answer: "Grenzackerstraße 18",
+answer: "Bezirke 10. Grenzackerstraße 18",
 },
 ];
 // عدد الأسئلة الكلي

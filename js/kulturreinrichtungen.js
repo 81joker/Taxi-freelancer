@@ -2,165 +2,166 @@ const questions = [
     {
         question: "Wo liegt das Kuratorium der Wiener Pensionistenwohnhäuser (Zentrale) [Pensionisten - Wohnhäuse]?",
         options: [
-            "Seegasse 11",
-            "Rotenturmstraße 20",
-            "Opernring 2",
-            "Lisztstraße 1"
+            "Bezirke 9. Seegasse 11",
+            "Bezirke 1. Rotenturmstraße 20",
+            "Bezirke 1. Opernring 2",
+            "Bezirke 3. Lisztstraße 1"
         ],
-        answer: "Seegasse 11",
+        answer: "Bezirke 9. Seegasse 11",
     },
+
     {
         question: "Wo liegt das Burgtheater?",
         options: [
-            "Universitätsring 2",
-            "Rotenturmstraße 20",
-            "Opernring 2",
-            "Fleischmarkt 24"
+            "Bezirke 1. Universitätsring 2",
+            "Bezirke 1. Rotenturmstraße 20",
+            "Bezirke 1. Opernring 2",
+            "Bezirke 1. Fleischmarkt 24"
         ],
-        answer: "Universitätsring 2",
+        answer: "Bezirke 1. Universitätsring 2",
     },
 
     {
         question: "Wo liegen die Kammerspiele?",
         options: [
-            "Rotenturmstraße 20",
-            "Universitätsring 2",
-            "Seilerstätte 25",
-            "Opernring 2"
+            "Bezirke 1. Rotenturmstraße 20",
+            "Bezirke 1. Universitätsring 2",
+            "Bezirke 1. Seilerstätte 25",
+            "Bezirke 1. Opernring 2"
         ],
-        answer: "Rotenturmstraße 20",
+        answer: "Bezirke 1. Rotenturmstraße 20",
     },
 
     {
         question: "Wo liegen die Musikvereinssäle (Gesellschaft der Musikfreunde)?",
         options: [
-            "Musikverein Platz 1",
-            "Universitätsring 2",
-            "Opernring 2",
-            "Lothringerstraße 20"
+            "Bezirke 1. Musikverein Platz 1",
+            "Bezirke 1. Universitätsring 2",
+            "Bezirke 1. Opernring 2",
+            "Bezirke 3. Lothringerstraße 20"
         ],
-        answer: "Musikverein Platz 1",
+        answer: "Bezirke 1. Musikverein Platz 1",
     },
 
     {
         question: "Wo liegt das Ronacher Etablissement?",
         options: [
-            "Seilerstätte 25",
-            "Rotenturmstraße 20",
-            "Fleischmarkt 24",
-            "Opernring 2"
+            "Bezirke 1. Seilerstätte 25",
+            "Bezirke 1. Rotenturmstraße 20",
+            "Bezirke 1. Fleischmarkt 24",
+            "Bezirke 1. Opernring 2"
         ],
-        answer: " Seilerstätte/Himmelpfortg. 25",
+        answer: "Bezirke 1. Seilerstätte/Himmelpfortg. 25",
     },
 
     {
         question: "Wo liegt die Staatsoper?",
         options: [
-            "Opernring 2",
-            "Musikverein Platz 1",
-            "Seilerstätte 25",
-            "Universitätsring 2"
+            "Bezirke 1. Opernring 2",
+            "Bezirke 1. Musikverein Platz 1",
+            "Bezirke 1. Seilerstätte 25",
+            "Bezirke 1. Universitätsring 2"
         ],
-        answer: "Opernring 2",
+        answer: "Bezirke 1. Opernring 2",
     },
 
     {
         question: "Wo liegt die Wiener Kammeroper?",
         options: [
-            "Fleischmarkt 24",
-            "Opernring 2",
-            "Rotenturmstraße 20",
-            "Seilerstätte 25"
+            "Bezirke 1. Fleischmarkt 24",
+            "Bezirke 1. Opernring 2",
+            "Bezirke 1. Rotenturmstraße 20",
+            "Bezirke 1. Seilerstätte 25"
         ],
-        answer: "Fleischmarkt 24",
+        answer: "Bezirke 1. Fleischmarkt 24",
     },
 
     {
         question: "Wo liegt das Akademietheater?",
         options: [
-            "Lisztstraße 1",
-            "Lothringerstraße 20",
-            "Opernring 2",
-            "Universitätsring 2"
+            "Bezirke 3. Lisztstraße 1",
+            "Bezirke 3. Lothringerstraße 20",
+            "Bezirke 1. Opernring 2",
+            "Bezirke 1. Universitätsring 2"
         ],
-        answer: "Lisztstraße 1",
+        answer: "Bezirke 3. Lisztstraße 1",
     },
 
     {
         question: "Wo liegt das Konzerthaus?",
         options: [
-            "Lothringerstraße 20",
-            "Lisztstraße 1",
-            "Opernring 2",
-            "Musikverein Platz 1"
+            "Bezirke 3. Lothringerstraße 20",
+            "Bezirke 3. Lisztstraße 1",
+            "Bezirke 1. Opernring 2",
+            "Bezirke 1. Musikverein Platz 1"
         ],
-        answer: "Lothringerstraße 20",
+        answer: "Bezirke 3. Lothringerstraße 20",
     },
 
     {
         question: "Wo liegt das Raimundtheater?",
         options: [
-            "Wallgasse 18-20",
-            "Linke Wienzeile 6",
-            "Arthur-Schnitzler-Platz 1",
-            "Währinger Straße 78"
+            "Bezirke 6. Wallgasse 18-20",
+            "Bezirke 6. Linke Wienzeile 6",
+            "Bezirke 7. Arthur-Schnitzler-Platz 1",
+            "Bezirke 9. Währinger Straße 78"
         ],
-        answer: "Wallgasse 18-20",
+        answer: "Bezirke 6. Wallgasse 18-20",
     },
 
     {
         question: "Wo liegt das Theater an der Wien?",
         options: [
-            "Linke Wienzeile 6",
-            "Wallgasse 18-20",
-            "Arthur-Schnitzler-Platz 1",
-            "Josefstädter Straße 26"
+            "Bezirke 6. Linke Wienzeile 6",
+            "Bezirke 6. Wallgasse 18-20",
+            "Bezirke 7. Arthur-Schnitzler-Platz 1",
+            "Bezirke 8. Josefstädter Straße 26"
         ],
-        answer: "Linke Wienzeile 6",
+        answer: "Bezirke 6. Linke Wienzeile 6",
     },
 
     {
         question: "Wo liegt das Volkstheater?",
         options: [
-            "Arthur-Schnitzler-Platz 1",
-            "Josefstädter Straße 26",
-            "Währinger Straße 78",
-            "Wallgasse 18-20"
+            "Bezirke 7. Arthur-Schnitzler-Platz 1",
+            "Bezirke 8. Josefstädter Straße 26",
+            "Bezirke 9. Währinger Straße 78",
+            "Bezirke 6. Wallgasse 18-20"
         ],
-        answer: "Arthur-Schnitzler-Platz 1",
+        answer: "Bezirke 7. Arthur-Schnitzler-Platz 1",
     },
 
     {
         question: "Wo liegt das Theater in der Josefstadt?",
         options: [
-            "Josefstädter Straße 26",
-            "Arthur-Schnitzler-Platz 1",
-            "Währinger Straße 78",
-            "Wallgasse 18-20"
+            "Bezirke 8. Josefstädter Straße 26",
+            "Bezirke 7. Arthur-Schnitzler-Platz 1",
+            "Bezirke 9. Währinger Straße 78",
+            "Bezirke 6. Wallgasse 18-20"
         ],
-        answer: "Josefstädter Straße 26",
+        answer: "Bezirke 8. Josefstädter Straße 26",
     },
 
     {
         question: "Wo liegt die Volksoper?",
         options: [
-            "Währinger Straße 78",
-            "Josefstädter Straße 26",
-            "Wallgasse 18-20",
-            "Linke Wienzeile 6"
+            "Bezirke 9. Währinger Straße 78",
+            "Bezirke 8. Josefstädter Straße 26",
+            "Bezirke 6. Wallgasse 18-20",
+            "Bezirke 6. Linke Wienzeile 6"
         ],
-        answer: "Währinger Straße 78",
+        answer: "Bezirke 9. Währinger Straße 78",
     },
 
     {
         question: "Wo liegt die Stadthalle?",
         options: [
-            "Roland-Rainer-Platz 1",
-            "Währinger Straße 78",
-            "Arthur-Schnitzler-Platz 1",
-            "Wallgasse 18-20"
+            "Bezirke 15. Roland-Rainer-Platz 1",
+            "Bezirke 9. Währinger Straße 78",
+            "Bezirke 7. Arthur-Schnitzler-Platz 1",
+            "Bezirke 6. Wallgasse 18-20"
         ],
-        answer: "Roland-Rainer-Platz 1",
+        answer: "Bezirke 15. Roland-Rainer-Platz 1",
     },
 ];
 // عدد الأسئلة الكلي

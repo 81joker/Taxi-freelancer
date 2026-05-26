@@ -2,133 +2,133 @@ const questions = [
     {
         question: "Wo ist ORF Rundfunk (Massenmedien)?",
         options: [
-            "Argentinierstraße 30a",
-            "Heiligenstädter Lände 27c",
-            "Würzburggasse 30",
-            "Muthgasse 2"
+            "Bezirke 4. Argentinierstraße 30a",
+            "Bezirke 19. Heiligenstädter Lände 27c",
+            "Bezirke 13. Würzburggasse 30",
+            "Bezirke 19. Muthgasse 2"
         ],
-        answer: "Argentinierstraße 30a"
+        answer: "Bezirke 4. Argentinierstraße 30a"
     },
 
     {
         question: "Wo ist ORF Rundfunk Ö3 (Massenmedien)?",
         options: [
-            "Heiligenstädter Lände 27c",
-            "Argentinierstraße 30a",
-            "Würzburggasse 30",
-            "Muthgasse 2"
+            "Bezirke 19. Heiligenstädter Lände 27c",
+            "Bezirke 4. Argentinierstraße 30a",
+            "Bezirke 13. Würzburggasse 30",
+            "Bezirke 19. Muthgasse 2"
         ],
-        answer: "Heiligenstädter Lände 27c"
+        answer: "Bezirke 19. Heiligenstädter Lände 27c"
     },
 
     {
         question: "Wo ist ORF Fernsehen (Massenmedien)?",
         options: [
-            "Würzburggasse 30",
-            "Heiligenstädter Lände 27c",
-            "Argentinierstraße 30a",
-            "Muthgasse 2"
+            "Bezirke 13. Würzburggasse 30",
+            "Bezirke 19. Heiligenstädter Lände 27c",
+            "Bezirke 4. Argentinierstraße 30a",
+            "Bezirke 19. Muthgasse 2"
         ],
-        answer: "Würzburggasse 30"
+        answer: "Bezirke 13. Würzburggasse 30"
     },
 
     {
         question: "Wo ist die Kronen Zeitung Redaktion (Massenmedien)?",
         options: [
-            "Muthgasse 2",
-            "Würzburggasse 30",
-            "Leopold-Ungar-Platz 1",
-            "Richard-Strauss-Straße 16"
+            "Bezirke 19. Muthgasse 2",
+            "Bezirke 13. Würzburggasse 30",
+            "Bezirke 19. Leopold-Ungar-Platz 1",
+            "Bezirke 23. Richard-Strauss-Straße 16"
         ],
-        answer: "Muthgasse 2"
+        answer: "Bezirke 19. Muthgasse 2"
     },
 
     {
         question: "Wo ist die Kurier Redaktion (Massenmedien)?",
         options: [
-            "Leopold-Ungar-Platz 1",
-            "Muthgasse 2",
-            "Argentinierstraße 30a",
-            "Würzburggasse 30"
+            "Bezirke 19. Leopold-Ungar-Platz 1",
+            "Bezirke 19. Muthgasse 2",
+            "Bezirke 4. Argentinierstraße 30a",
+            "Bezirke 13. Würzburggasse 30"
         ],
-        answer: "Leopold-Ungar-Platz 1"
+        answer: "Bezirke 19. Leopold-Ungar-Platz 1"
     },
 
     {
         question: "Wo ist das Druckzentrum Media-Print (Massenmedien)?",
         options: [
-            "Richard-Strauss-Straße 16",
-            "Leopold-Ungar-Platz 1",
-            "Muthgasse 2",
-            "Würzburggasse 30"
+            "Bezirke 23. Richard-Strauss-Straße 16",
+            "Bezirke 19. Leopold-Ungar-Platz 1",
+            "Bezirke 19. Muthgasse 2",
+            "Bezirke 13. Würzburggasse 30"
         ],
-        answer: "Richard-Strauss-Straße 16"
+        answer: "Bezirke 23. Richard-Strauss-Straße 16"
     },
 
     {
         question: "Wo ist die Österreichische Staatsdruckerei (Druckerei)?",
         options: [
-            "Tenschertstraße 7",
-            "Laimgrubengasse 10",
-            "Prinz Eugen Straße 20-22",
-            "Wiedner Hauptstraße 63"
+            "Bezirke 23. Tenschertstraße 7",
+            "Bezirke 6. Laimgrubengasse 10",
+            "Bezirke 4. Prinz Eugen Straße 20-22",
+            "Bezirke 4. Wiedner Hauptstraße 63"
         ],
-        answer: "Tenschertstraße 7"
+        answer: "Bezirke 23. Tenschertstraße 7"
     },
 
     {
         question: "Wo ist die APA Austria Presseagentur (IPZ)?",
         options: [
-            "Laimgrubengasse 10",
-            "Tenschertstraße 7",
-            "Prinz Eugen Straße 20-22",
-            "Wiedner Hauptstraße 63"
+            "Bezirke 6. Laimgrubengasse 10",
+            "Bezirke 23. Tenschertstraße 7",
+            "Bezirke 4. Prinz Eugen Straße 20-22",
+            "Bezirke 4. Wiedner Hauptstraße 63"
         ],
-        answer: "Laimgrubengasse 10"
+        answer: "Bezirke 6. Laimgrubengasse 10"
     },
 
     {
         question: "Wo ist die Arbeiterkammer Wien (Kammer)?",
         options: [
-            "Prinz Eugen Straße 20-22",
-            "Wiedner Hauptstraße 63",
-            "Straße der Wiener Wirtschaft 1",
-            "Laimgrubengasse 10"
+            "Bezirke 4. Prinz Eugen Straße 20-22",
+            "Bezirke 4. Wiedner Hauptstraße 63",
+            "Bezirke 2. Straße der Wiener Wirtschaft 1",
+            "Bezirke 6. Laimgrubengasse 10"
         ],
-        answer: "Prinz Eugen Straße 20-22"
+        answer: "Bezirke 4. Prinz Eugen Straße 20-22"
     },
 
     {
         question: "Wo ist die Wirtschaftskammer Österreich (Kammer)?",
         options: [
-            "Wiedner Hauptstraße 63",
-            "Prinz Eugen Straße 20-22",
-            "Straße der Wiener Wirtschaft 1",
-            "Laimgrubengasse 10"
+            "Bezirke 4. Wiedner Hauptstraße 63",
+            "Bezirke 4. Prinz Eugen Straße 20-22",
+            "Bezirke 2. Straße der Wiener Wirtschaft 1",
+            "Bezirke 6. Laimgrubengasse 10"
         ],
-        answer: "Wiedner Hauptstraße 63"
+        answer: "Bezirke 4. Wiedner Hauptstraße 63"
     },
 
     {
         question: "Wo ist die Wirtschaftskammer Wien (Kammer)?",
         options: [
-            "Straße der Wiener Wirtschaft 1",
-            "Wiedner Hauptstraße 63",
-            "Prinz Eugen Straße 20-22",
-            "Laimgrubengasse 10"
+            "Bezirke 2. Straße der Wiener Wirtschaft 1",
+            "Bezirke 4. Wiedner Hauptstraße 63",
+            "Bezirke 4. Prinz Eugen Straße 20-22",
+            "Bezirke 6. Laimgrubengasse 10"
         ],
-        answer: "Straße der Wiener Wirtschaft 1"
+        answer: "Bezirke 2. Straße der Wiener Wirtschaft 1"
     },
 
     {
         question: "Wo ist die Fachgruppe Wien für Personenbeförderungsgewerbe?",
         options: [
-            "Straße der Wiener Wirtschaft 1",
-            "Wiedner Hauptstraße 63",
-            "Prinz Eugen Straße 20-22",
-            "Tenschertstraße 7"
+            "Bezirke 2. Straße der Wiener Wirtschaft 1",
+            "Bezirke 4. Wiedner Hauptstraße 63",
+            "Bezirke 4. Prinz Eugen Straße 20-22",
+            "Bezirke 23. Tenschertstraße 7"
         ],
-        answer: "Straße der Wiener Wirtschaft 1"
+        answer: "Bezirke 2. Straße der Wiener Wirtschaft 1"
     },
 
 ];

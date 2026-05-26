@@ -2,144 +2,144 @@ const questions = [
     {
         question: "Wo liegt die Albertina?",
         options: [
-            "Albertinaplatz 1",
-            "Stubenring 5",
-            "Burgring 5",
-            "Burgring 7"
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 1. Stubenring 5",
+            "Bezirke 1. Burgring 5",
+            "Bezirke 1. Burgring 7"
         ],
-        answer: "Albertinaplatz 1",
+        answer: "Bezirke 1. Albertinaplatz 1",
     },
 
     {
         question: "Wo liegt das Museum für angewandte Kunst (MAK)?",
         options: [
-            "Stubenring 5",
-            "Albertinaplatz 1",
-            "Burgring 5",
-            "Friedrichstraße 12"
+            "Bezirke 1. Stubenring 5",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 1. Burgring 5",
+            "Bezirke 4. Friedrichstraße 12"
         ],
-        answer: "Stubenring 5",
+        answer: "Bezirke 1. Stubenring 5",
     },
 
     {
         question: "Wo liegt das Kunsthistorische Museum?",
         options: [
-            "Burgring 5",
-            "Burgring 7",
-            "Albertinaplatz 1",
-            "Stubenring 5"
+            "Bezirke 1. Burgring 5",
+            "Bezirke 1. Burgring 7",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 1. Stubenring 5"
         ],
-        answer: "Burgring 5",
+        answer: "Bezirke 1. Burgring 5",
     },
 
     {
         question: "Wo liegt das Naturhistorische Museum?",
         options: [
-            "Burgring 7",
-            "Burgring 5",
-            "Albertinaplatz 1",
-            "Friedrichstraße 12"
+            "Bezirke 1. Burgring 7",
+            "Bezirke 1. Burgring 5",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 4. Friedrichstraße 12"
         ],
-        answer: "Burgring 7",
+        answer: "Bezirke 1. Burgring 7",
     },
 
     {
         question: "Wo liegt die Secession?",
         options: [
-            "Friedrichstraße 12",
-            "Burgring 5",
-            "Albertinaplatz 1",
-            "Stubenring 5"
+            "Bezirke 4. Friedrichstraße 12",
+            "Bezirke 1. Burgring 5",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 1. Stubenring 5"
         ],
-        answer: "Friedrichstraße 12",
+        answer: "Bezirke 4. Friedrichstraße 12",
     },
 
     {
         question: "Wo liegt das Weltmuseum Wien?",
         options: [
-            "Neue Burg (Heldenplatz)",
-            "Albertinaplatz 1",
-            "Burgring 5",
-            "Museumsplatz 1"
+            "Bezirke 1. Neue Burg (Heldenplatz)",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 1. Burgring 5",
+            "Bezirke 7. Museumsplatz 1"
         ],
-        answer: "Neue Burg (Heldenplatz)",
+        answer: "Bezirke 1. Neue Burg (Heldenplatz)",
     },
 
     {
         question: "Wo liegt das Sissi Museum Wien?",
         options: [
-            "Hofburg / Michaelerkuppel",
-            "Albertinaplatz 1",
-            "Burgring 7",
-            "Stubenring 5"
+            "Bezirke 1. Hofburg / Michaelerkuppel",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 1. Burgring 7",
+            "Bezirke 1. Stubenring 5"
         ],
-        answer: "Hofburg / Michaelerkuppel",
+        answer: "Bezirke 1. Hofburg / Michaelerkuppel",
     },
 
     {
         question: "Wo liegt die Kaisergruft (Kapuzinergruft)?",
         options: [
-            "Tegetthoffstraße 2 / Neuer Markt",
-            "Albertinaplatz 1",
-            "Burgring 5",
-            "Stubenring 5"
+            "Bezirke 1. Tegetthoffstraße 2 / Neuer Markt",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 1. Burgring 5",
+            "Bezirke 1. Stubenring 5"
         ],
-        answer: "Tegetthoffstraße 2 / Neuer Markt",
+        answer: "Bezirke 1. Tegetthoffstraße 2 / Neuer Markt",
     },
 
     {
         question: "Wo liegt das Heeresgeschichtliche Museum?",
         options: [
-            "Arsenal Objekt 1",
-            "Museumsplatz 1",
-            "Burgring 7",
-            "Albertinaplatz 1"
+            "Bezirke 3. Arsenal Objekt 1",
+            "Bezirke 7. Museumsplatz 1",
+            "Bezirke 1. Burgring 7",
+            "Bezirke 1. Albertinaplatz 1"
         ],
-        answer: "Arsenal Objekt 1",
+        answer: "Bezirke 3. Arsenal Objekt 1",
     },
 
     {
         question: "Wo liegt das KunstHaus Wien?",
         options: [
-            "Untere Weißgerberstraße 13",
-            "Karlsplatz 8",
-            "Albertinaplatz 1",
-            "Burgring 5"
+            "Bezirke 3. Untere Weißgerberstraße 13",
+            "Bezirke 4. Karlsplatz 8",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 1. Burgring 5"
         ],
-        answer: "Untere Weißgerberstraße 13",
+        answer: "Bezirke 3. Untere Weißgerberstraße 13",
     },
 
     {
         question: "Wo liegt das Historische Museum der Stadt Wien?",
         options: [
-            "Karlsplatz 8",
-            "Untere Weißgerberstraße 13",
-            "Museumsplatz 1",
-            "Burgring 7"
+            "Bezirke 4. Karlsplatz 8",
+            "Bezirke 3. Untere Weißgerberstraße 13",
+            "Bezirke 7. Museumsplatz 1",
+            "Bezirke 1. Burgring 7"
         ],
-        answer: "Karlsplatz 8",
+        answer: "Bezirke 4. Karlsplatz 8",
     },
 
     {
         question: "Wo liegt das Museumsquartier?",
         options: [
-            "Museumsplatz 1",
-            "Burgring 5",
-            "Albertinaplatz 1",
-            "Karlsplatz 8"
+            "Bezirke 7. Museumsplatz 1",
+            "Bezirke 1. Burgring 5",
+            "Bezirke 1. Albertinaplatz 1",
+            "Bezirke 4. Karlsplatz 8"
         ],
-        answer: "Museumsplatz 1",
+        answer: "Bezirke 7. Museumsplatz 1",
     },
 
     {
         question: "Wo liegt das Technische Museum?",
         options: [
-            "Mariahilfer Straße 212",
-            "Museumsplatz 1",
-            "Karlsplatz 8",
-            "Burgring 7"
+            "Bezirke 14. Mariahilfer Straße 212",
+            "Bezirke 7. Museumsplatz 1",
+            "Bezirke 4. Karlsplatz 8",
+            "Bezirke 1. Burgring 7"
         ],
-        answer: "Mariahilfer Straße 212",
+        answer: "Bezirke 14. Mariahilfer Straße 212",
     },
 ];
 // عدد الأسئلة الكلي

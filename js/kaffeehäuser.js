@@ -2,165 +2,165 @@ const questions = [
     {
         question: "Wo ist das Café Central?",
         options: [
-            "Herrengasse 14",
-            "Rathausplatz 8",
-            "Dorotheergasse 6",
-            "Universitätsring 4"
+            "Bezirke 1. Herrengasse 14",
+            "Bezirke 1. Rathausplatz 8",
+            "Bezirke 1. Dorotheergasse 6",
+            "Bezirke 1. Universitätsring 4"
         ],
-        answer: "Herrengasse 14"
+        answer: "Bezirke 1. Herrengasse 14"
     },
 
     {
         question: "Wo ist das Café Einstein?",
         options: [
-            "Rathausplatz 8",
-            "Herrengasse 14",
-            "Dorotheergasse 6",
-            "Albertinaplatz 2"
+            "Bezirke 1. Rathausplatz 8",
+            "Bezirke 1. Herrengasse 14",
+            "Bezirke 1. Dorotheergasse 6",
+            "Bezirke 1. Albertinaplatz 2"
         ],
-        answer: "Rathausplatz 8"
+        answer: "Bezirke 1. Rathausplatz 8"
     },
 
     {
         question: "Wo ist das Café Hawelka?",
         options: [
-            "Dorotheergasse 6",
-            "Rathausplatz 8",
-            "Universitätsring 4",
-            "Operngasse 7"
+            "Bezirke 1. Dorotheergasse 6",
+            "Bezirke 1. Rathausplatz 8",
+            "Bezirke 1. Universitätsring 4",
+            "Bezirke 1. Operngasse 7"
         ],
-        answer: "Dorotheergasse 6"
+        answer: "Bezirke 1. Dorotheergasse 6"
     },
 
     {
         question: "Wo ist das Café Landtmann?",
         options: [
-            "Universitätsring 4",
-            "Albertinaplatz 2",
-            "Dorotheergasse 6",
-            "Operngasse 7"
+            "Bezirke 1. Universitätsring 4",
+            "Bezirke 1. Albertinaplatz 2",
+            "Bezirke 1. Dorotheergasse 6",
+            "Bezirke 1. Operngasse 7"
         ],
-        answer: "Universitätsring 4"
+        answer: "Bezirke 1. Universitätsring 4"
     },
 
     {
         question: "Wo ist das Café Mozart?",
         options: [
-            "Albertinaplatz 2",
-            "Universitätsring 4",
-            "Operngasse 7",
-            "Stubenring 24"
+            "Bezirke 1. Albertinaplatz 2",
+            "Bezirke 1. Universitätsring 4",
+            "Bezirke 1. Operngasse 7",
+            "Bezirke 1. Stubenring 24"
         ],
-        answer: "Albertinaplatz 2"
+        answer: "Bezirke 1. Albertinaplatz 2"
     },
 
     {
         question: "Wo ist das Café Museum?",
         options: [
-            "Operngasse 7",
-            "Albertinaplatz 2",
-            "Stubenring 24",
-            "Kärntner Ring 17"
+            "Bezirke 1. Operngasse 7",
+            "Bezirke 1. Albertinaplatz 2",
+            "Bezirke 1. Stubenring 24",
+            "Bezirke 1. Kärntner Ring 17"
         ],
-        answer: "Operngasse 7"
+        answer: "Bezirke 1. Operngasse 7"
     },
 
     {
         question: "Wo ist das Café Prückel?",
         options: [
-            "Stubenring 24",
-            "Operngasse 7",
-            "Kärntner Ring 17",
-            "Linke Wienzeile 22"
+            "Bezirke 1. Stubenring 24",
+            "Bezirke 1. Operngasse 7",
+            "Bezirke 1. Kärntner Ring 17",
+            "Bezirke 6. Linke Wienzeile 22"
         ],
-        answer: "Stubenring 24"
+        answer: "Bezirke 1. Stubenring 24"
     },
 
     {
         question: "Wo ist das Café Schwarzenberg?",
         options: [
-            "Kärntner Ring 17",
-            "Stubenring 24",
-            "Linke Wienzeile 22",
-            "Mariahilfer Straße 73"
+            "Bezirke 1. Kärntner Ring 17",
+            "Bezirke 1. Stubenring 24",
+            "Bezirke 6. Linke Wienzeile 22",
+            "Bezirke 6. Mariahilfer Straße 73"
         ],
-        answer: "Kärntner Ring 17"
+        answer: "Bezirke 1. Kärntner Ring 17"
     },
 
     {
         question: "Wo ist das Café Lusthaus?",
         options: [
-            "Freudenau 254 / Aspernallee",
-            "Kärntner Ring 17",
-            "Linke Wienzeile 22",
-            "Gumpendorfer Straße 11"
+            "Bezirke 2. Freudenau 254 / Aspernallee",
+            "Bezirke 1. Kärntner Ring 17",
+            "Bezirke 6. Linke Wienzeile 22",
+            "Bezirke 6. Gumpendorfer Straße 11"
         ],
-        answer: "Freudenau 254 / Aspernallee"
+        answer: "Bezirke 2. Freudenau 254 / Aspernallee"
     },
 
     {
         question: "Wo ist das Café Drechsler?",
         options: [
-            "Linke Wienzeile 22",
-            "Mariahilfer Straße 73",
-            "Gumpendorfer Straße 11",
-            "Josefstädter Straße 2"
+            "Bezirke 6. Linke Wienzeile 22",
+            "Bezirke 6. Mariahilfer Straße 73",
+            "Bezirke 6. Gumpendorfer Straße 11",
+            "Bezirke 8. Josefstädter Straße 2"
         ],
-        answer: "Linke Wienzeile 22"
+        answer: "Bezirke 6. Linke Wienzeile 22"
     },
 
     {
         question: "Wo ist das Café Ritter?",
         options: [
-            "Mariahilfer Straße 73",
-            "Linke Wienzeile 22",
-            "Gumpendorfer Straße 11",
-            "Josefstädter Straße 66"
+            "Bezirke 6. Mariahilfer Straße 73",
+            "Bezirke 6. Linke Wienzeile 22",
+            "Bezirke 6. Gumpendorfer Straße 11",
+            "Bezirke 8. Josefstädter Straße 66"
         ],
-        answer: "Mariahilfer Straße 73"
+        answer: "Bezirke 6. Mariahilfer Straße 73"
     },
 
     {
         question: "Wo ist das Café Sperl?",
         options: [
-            "Gumpendorfer Straße 11",
-            "Mariahilfer Straße 73",
-            "Josefstädter Straße 2",
-            "Josefstädter Straße 66"
+            "Bezirke 6. Gumpendorfer Straße 11",
+            "Bezirke 6. Mariahilfer Straße 73",
+            "Bezirke 8. Josefstädter Straße 2",
+            "Bezirke 8. Josefstädter Straße 66"
         ],
-        answer: "Gumpendorfer Straße 11"
+        answer: "Bezirke 6. Gumpendorfer Straße 11"
     },
 
     {
         question: "Wo ist das Café Eiles?",
         options: [
-            "Josefstädter Straße 2",
-            "Gumpendorfer Straße 11",
-            "Auhofstraße 2"
+            "Bezirke 8. Josefstädter Straße 2",
+            "Bezirke 6. Gumpendorfer Straße 11",
+            "Bezirke 13. Auhofstraße 2"
         ],
-        answer: "Josefstädter Straße 2"
+        answer: "Bezirke 8. Josefstädter Straße 2"
     },
 
     {
         question: "Wo ist das Café Hummel?",
         options: [
-            "Josefstädter Straße 66",
-            "Gumpendorfer Straße 11",
-            "Auhofstraße 2",
-            "Mariahilfer Straße 73"
+            "Bezirke 8. Josefstädter Straße 66",
+            "Bezirke 6. Gumpendorfer Straße 11",
+            "Bezirke 13. Auhofstraße 2",
+            "Bezirke 6. Mariahilfer Straße 73"
         ],
-        answer: "Josefstädter Straße 66"
+        answer: "Bezirke 8. Josefstädter Straße 66"
     },
 
     {
         question: "Wo ist das Café Dommayer?",
         options: [
-            "Auhofstraße 2",
-            "Josefstädter Straße 66",
-            "Gumpendorfer Straße 11",
-            "Linke Wienzeile 22"
+            "Bezirke 13. Auhofstraße 2",
+            "Bezirke 8. Josefstädter Straße 66",
+            "Bezirke 6. Gumpendorfer Straße 11",
+            "Bezirke 6. Linke Wienzeile 22"
         ],
-        answer: "Auhofstraße 2"
+        answer: "Bezirke 13. Auhofstraße 2"
     },
 ];
 // عدد الأسئلة الكلي

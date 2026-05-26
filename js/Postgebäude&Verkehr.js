@@ -3,287 +3,287 @@ const questions = [
     {
         question: "Wo ist das Hauptpostamt (Postamt)?",
         options: [
-            "Fleischmarkt 19",
-            "Althanstraße 10",
-            "Europaplatz 3",
-            "Halban Kurz Straße 11"
+            "Bezirke 1. Fleischmarkt 19",
+            "Bezirke 9. Althanstraße 10",
+            "Bezirke 15. Europaplatz 3",
+            "Bezirke 23. Halban Kurz Straße 11"
         ],
-        answer: "Fleischmarkt 19"
+        answer: "Bezirke 1. Fleischmarkt 19"
     },
 
     {
         question: "Wo ist das Postamt Franz-Josefs-Bahnhof (Postamt)?",
         options: [
-            "Althanstraße 10",
-            "Fleischmarkt 19",
-            "Europaplatz 3",
-            "Halban Kurz Straße 11"
+            "Bezirke 9. Althanstraße 10",
+            "Bezirke 1. Fleischmarkt 19",
+            "Bezirke 15. Europaplatz 3",
+            "Bezirke 23. Halban Kurz Straße 11"
         ],
-        answer: "Althanstraße 10"
+        answer: "Bezirke 9. Althanstraße 10"
     },
 
     {
         question: "Wo ist das Postamt Westbahnhof (Postamt)?",
         options: [
-            "Europaplatz 3",
-            "Fleischmarkt 19",
-            "Althanstraße 10",
-            "Halban Kurz Straße 11"
+            "Bezirke 15. Europaplatz 3",
+            "Bezirke 1. Fleischmarkt 19",
+            "Bezirke 9. Althanstraße 10",
+            "Bezirke 23. Halban Kurz Straße 11"
         ],
-        answer: "Europaplatz 3"
+        answer: "Bezirke 15. Europaplatz 3"
     },
 
     {
         question: "Wo ist das Post-Verteilerzentrum (Post)?",
         options: [
-            "Halban Kurz Straße 11",
-            "Europaplatz 3",
-            "Althanstraße 10",
-            "Fleischmarkt 19"
+            "Bezirke 23. Halban Kurz Straße 11",
+            "Bezirke 15. Europaplatz 3",
+            "Bezirke 9. Althanstraße 10",
+            "Bezirke 1. Fleischmarkt 19"
         ],
-        answer: "Halban Kurz Straße 11"
+        answer: "Bezirke 23. Halban Kurz Straße 11"
     },
 
     {
         question: "Wo ist der Hauptbahnhof Wien (Bahnhof)?",
         options: [
-            "Am Hauptbahnhof 1",
-            "Nordbergstraße",
-            "Europaplatz",
-            "Landstraßer Hauptstraße"
+            "Bezirke 10. Am Hauptbahnhof 1",
+            "Bezirke 9. Nordbergstraße",
+            "Bezirke 15. Europaplatz",
+            "Bezirke 3. Landstraßer Hauptstraße"
         ],
-        answer: "Am Hauptbahnhof 1"
+        answer: "Bezirke 10. Am Hauptbahnhof 1"
     },
 
     {
         question: "Wo ist der Franz-Josefs-Bahnhof (Bahnhof)?",
         options: [
-            "Nordbergstraße",
-            "Europaplatz",
-            "Landstraßer Hauptstraße",
-            "Praterstern"
+            "Bezirke 9. Nordbergstraße",
+            "Bezirke 15. Europaplatz",
+            "Bezirke 3. Landstraßer Hauptstraße",
+            "Bezirke 2. Praterstern"
         ],
-        answer: "Nordbergstraße"
+        answer: "Bezirke 9. Nordbergstraße"
     },
 
     {
         question: "Wo ist der Westbahnhof (Bahnhof)?",
         options: [
-            "Europaplatz / Felberstraße",
-            "Nordbergstraße",
-            "Landstraßer Hauptstraße",
-            "Praterstern"
+            "Bezirke 15. Europaplatz / Felberstraße",
+            "Bezirke 9. Nordbergstraße",
+            "Bezirke 3. Landstraßer Hauptstraße",
+            "Bezirke 2. Praterstern"
         ],
-        answer: "Europaplatz / Felberstraße"
+        answer: "Bezirke 15. Europaplatz / Felberstraße"
     },
 
     {
         question: "Wo ist der Bahnhof Wien Mitte (Bahnhof)?",
         options: [
-            "Landstraßer Hauptstraße",
-            "Europaplatz",
-            "Nordbergstraße",
-            "Praterstern"
+            "Bezirke 3. Landstraßer Hauptstraße",
+            "Bezirke 15. Europaplatz",
+            "Bezirke 9. Nordbergstraße",
+            "Bezirke 2. Praterstern"
         ],
-        answer: "Landstraßer Hauptstraße"
+        answer: "Bezirke 3. Landstraßer Hauptstraße"
     },
 
     {
         question: "Wo ist der City-Air-Terminal CAT (Bahnhof / Flughafen Zug)?",
         options: [
-            "Gigergasse / Marxergasse",
-            "Landstraßer Hauptstraße",
-            "Praterstern",
-            "Europaplatz"
+            "Bezirke 3. Gigergasse / Marxergasse",
+            "Bezirke 3. Landstraßer Hauptstraße",
+            "Bezirke 2. Praterstern",
+            "Bezirke 15. Europaplatz"
         ],
-        answer: "Gigergasse / Marxergasse"
+        answer: "Bezirke 3. Gigergasse / Marxergasse"
     },
 
     {
         question: "Wo ist der Bahnhof Wien Nord (Bahnhof)?",
         options: [
-            "Praterstern",
-            "Europaplatz",
-            "Nordbergstraße",
-            "Landstraßer Hauptstraße"
+            "Bezirke 2. Praterstern",
+            "Bezirke 15. Europaplatz",
+            "Bezirke 9. Nordbergstraße",
+            "Bezirke 3. Landstraßer Hauptstraße"
         ],
-        answer: "Praterstern"
+        answer: "Bezirke 2. Praterstern"
     },
 
     {
         question: "Wo ist der Bahnhof Hütteldorf (Bahnhof)?",
         options: [
-            "Keißlergasse",
-            "Praterstern",
-            "Eichenstraße",
-            "Europaplatz"
+            "Bezirke 14. Keißlergasse",
+            "Bezirke 2. Praterstern",
+            "Bezirke 12. Eichenstraße",
+            "Bezirke 15. Europaplatz"
         ],
-        answer: "Keißlergasse"
+        answer: "Bezirke 14. Keißlergasse"
     },
 
     {
         question: "Wo ist der Bahnhof Meidling (Bahnhof)?",
         options: [
-            "Eichenstraße",
-            "Keißlergasse",
-            "Europaplatz",
-            "Nordbergstraße"
+            "Bezirke 12. Eichenstraße",
+            "Bezirke 14. Keißlergasse",
+            "Bezirke 15. Europaplatz",
+            "Bezirke 9. Nordbergstraße"
         ],
-        answer: "Eichenstraße"
+        answer: "Bezirke 12. Eichenstraße"
     },
 
     {
         question: "Wo ist der Autobusbahnhof Erdberg (Internationale Busse)?",
         options: [
-            "Erdbergstraße / U3",
-            "Südtirolerplatz",
-            "Floridsdorf",
-            "Dr. Adolf Schärf Platz"
+            "Bezirke 3. Erdbergstraße / U3",
+            "Bezirke 4. Südtirolerplatz",
+            "Bezirke 21. Floridsdorf",
+            "Bezirke 22. Dr. Adolf Schärf Platz"
         ],
-        answer: "Erdbergstraße / U3"
+        answer: "Bezirke 3. Erdbergstraße / U3"
     },
 
     {
         question: "Wo ist der Autobusbahnhof Südtiroler Platz (Busbahnhof)?",
         options: [
-            "Südtirolerplatz / Wiedner Gürtel / U1",
-            "Erdbergstraße",
-            "Floridsdorf",
-            "Simmeringer Platz"
+            "Bezirke 4. Südtirolerplatz / Wiedner Gürtel / U1",
+            "Bezirke 3. Erdbergstraße",
+            "Bezirke 21. Floridsdorf",
+            "Bezirke 11. Simmeringer Platz"
         ],
-        answer: "Südtirolerplatz / Wiedner Gürtel / U1"
+        answer: "Bezirke 4. Südtirolerplatz / Wiedner Gürtel / U1"
     },
 
     {
         question: "Wo ist der Autobusbahnhof Floridsdorf (Busbahnhof)?",
         options: [
-            "Floridsdorf / Schloßhofer Straße / U6",
-            "Erdbergstraße",
-            "Dr. Adolf Schärf Platz",
-            "Simmeringer Platz"
+            "Bezirke 21. Floridsdorf / Schloßhofer Straße / U6",
+            "Bezirke 3. Erdbergstraße",
+            "Bezirke 22. Dr. Adolf Schärf Platz",
+            "Bezirke 11. Simmeringer Platz"
         ],
-        answer: "Floridsdorf / Schloßhofer Straße / U6"
+        answer: "Bezirke 21. Floridsdorf / Schloßhofer Straße / U6"
     },
 
     {
         question: "Wo ist der Autobusbahnhof Kagran (Busbahnhof)?",
         options: [
-            "Dr. Adolf Schärf Platz / U1",
-            "Floridsdorf",
-            "Erdbergstraße",
-            "Simmeringer Platz"
+            "Bezirke 22. Dr. Adolf Schärf Platz / U1",
+            "Bezirke 21. Floridsdorf",
+            "Bezirke 3. Erdbergstraße",
+            "Bezirke 11. Simmeringer Platz"
         ],
-        answer: "Dr. Adolf Schärf Platz / U1"
+        answer: "Bezirke 22. Dr. Adolf Schärf Platz / U1"
     },
 
     {
         question: "Wo ist der Autobusbahnhof Simmering (Busbahnhof)?",
         options: [
-            "Simmeringer Platz / U3",
-            "Floridsdorf",
-            "Erdbergstraße",
-            "Kagran"
+            "Bezirke 11. Simmeringer Platz / U3",
+            "Bezirke 21. Floridsdorf",
+            "Bezirke 3. Erdbergstraße",
+            "Bezirke 22. Kagran"
         ],
-        answer: "Simmeringer Platz / U3"
+        answer: "Bezirke 11. Simmeringer Platz / U3"
     },
 
     {
         question: "Wo ist das Vienna Busterminal Stadion Center (Busbahnhof)?",
         options: [
-            "Olympiaplatz / Engerthstraße 242",
-            "Simmeringer Platz",
-            "Erdbergstraße",
-            "Floridsdorf"
+            "Bezirke 2. Olympiaplatz / Engerthstraße 242",
+            "Bezirke 11. Simmeringer Platz",
+            "Bezirke 3. Erdbergstraße",
+            "Bezirke 21. Floridsdorf"
         ],
-        answer: "Olympiaplatz / Engerthstraße 242"
+        answer: "Bezirke 2. Olympiaplatz / Engerthstraße 242"
     },
 
     {
         question: "Wo ist das DDSG Schifffahrtszentrum Wien Reichsbrücke (Schifffahrt)?",
         options: [
-            "Handelskai 265",
-            "Franz-Josefs-Kai",
-            "Seitenhafenstraße 15",
-            "Freudenauer Hafenstraße"
+            "Bezirke 22. Handelskai 265",
+            "Bezirke 1. Franz-Josefs-Kai",
+            "Bezirke 11. Seitenhafenstraße 15",
+            "Bezirke 2. Freudenauer Hafenstraße"
         ],
-        answer: "Handelskai 265"
+        answer: "Bezirke 22. Handelskai 265"
     },
 
     {
         question: "Wo ist die Dampfschiffstation Schwedenbrücke (Schifffahrt)?",
         options: [
-            "Franz-Josefs-Kai / Schwedenbrücke",
-            "Handelskai 265",
-            "Seitenhafenstraße 15",
-            "Freudenauer Hafenstraße"
+            "Bezirke 1. Franz-Josefs-Kai / Schwedenbrücke",
+            "Bezirke 22. Handelskai 265",
+            "Bezirke 11. Seitenhafenstraße 15",
+            "Bezirke 2. Freudenauer Hafenstraße"
         ],
-        answer: "Franz-Josefs-Kai / Schwedenbrücke"
+        answer: "Bezirke 1. Franz-Josefs-Kai / Schwedenbrücke"
     },
 
     {
         question: "Wo ist der Wiener Hafen Zollfreizone (Hafen)?",
         options: [
-            "Seitenhafenstraße 15",
-            "Handelskai 265",
-            "Freudenauer Hafenstraße",
-            "Kuchelauer Hafenstraße"
+            "Bezirke 11. Seitenhafenstraße 15",
+            "Bezirke 22. Handelskai 265",
+            "Bezirke 2. Freudenauer Hafenstraße",
+            "Bezirke 19. Kuchelauer Hafenstraße"
         ],
-        answer: "Seitenhafenstraße 15"
+        answer: "Bezirke 11. Seitenhafenstraße 15"
     },
 
     {
         question: "Wo ist der Freudenauer Hafen (Hafen)?",
         options: [
-            "Freudenauer Hafenstraße 8-10",
-            "Seitenhafenstraße 15",
-            "Alberner Hafen Zufahrtsstraße",
-            "Kuchelauer Hafenstraße"
+            "Bezirke 2. Freudenauer Hafenstraße 8-10",
+            "Bezirke 11. Seitenhafenstraße 15",
+            "Bezirke 11. Alberner Hafen Zufahrtsstraße",
+            "Bezirke 19. Kuchelauer Hafenstraße"
         ],
-        answer: "Freudenauer Hafenstraße 8-10"
+        answer: "Bezirke 2. Freudenauer Hafenstraße 8-10"
     },
 
     {
         question: "Wo ist der Alberner Hafen (Hafen)?",
         options: [
-            "Alberner Hafen Zufahrtsstraße",
-            "Freudenauer Hafenstraße",
-            "Kuchelauer Hafenstraße",
-            "Seitenhafenstraße"
+            "Bezirke 11. Alberner Hafen Zufahrtsstraße",
+            "Bezirke 2. Freudenauer Hafenstraße",
+            "Bezirke 19. Kuchelauer Hafenstraße",
+            "Bezirke 11. Seitenhafenstraße"
         ],
-        answer: "Alberner Hafen Zufahrtsstraße"
+        answer: "Bezirke 11. Alberner Hafen Zufahrtsstraße"
     },
 
     {
         question: "Wo ist der Kuchelauer Hafen (Hafen)?",
         options: [
-            "Kuchelauer Hafenstraße",
-            "Freudenauer Hafenstraße",
-            "Alberner Hafen Zufahrtsstraße",
-            "Seitenhafenstraße"
+            "Bezirke 19. Kuchelauer Hafenstraße",
+            "Bezirke 2. Freudenauer Hafenstraße",
+            "Bezirke 11. Alberner Hafen Zufahrtsstraße",
+            "Bezirke 11. Seitenhafenstraße"
         ],
-        answer: "Kuchelauer Hafenstraße"
+        answer: "Bezirke 19. Kuchelauer Hafenstraße"
     },
 
     {
         question: "Wo ist die KFZ Verwahrstelle der MA 48 (KFZ Verkehr)?",
         options: [
-            "Jedletzbergerstraße 1",
-            "Trauzlgasse 1",
-            "Kuchelauer Hafenstraße",
-            "Seitenhafenstraße"
+            "Bezirke 21. Jedletzbergerstraße 1",
+            "Bezirke 21. Trauzlgasse 1",
+            "Bezirke 19. Kuchelauer Hafenstraße",
+            "Bezirke 11. Seitenhafenstraße"
         ],
-        answer: "Jedletzbergerstraße 1"
+        answer: "Bezirke 21. Jedletzbergerstraße 1"
     },
 
     {
         question: "Wo ist die Bundesanstalt Verkehr Bundesprüfanstalt (Verkehrsamt)?",
         options: [
-            "Trauzlgasse 1",
-            "Jedletzbergerstraße 1",
-            "Freudenauer Hafenstraße",
-            "Kuchelauer Hafenstraße"
+            "Bezirke 21. Trauzlgasse 1",
+            "Bezirke 21. Jedletzbergerstraße 1",
+            "Bezirke 2. Freudenauer Hafenstraße",
+            "Bezirke 19. Kuchelauer Hafenstraße"
         ],
-        answer: "Trauzlgasse 1"
+        answer: "Bezirke 21. Trauzlgasse 1"
     }
 
 ];

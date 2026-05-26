@@ -47,6 +47,7 @@ const routes = {
     gürtel: "js/gürtel.js",
 
     sehenswürdigkeiten02: "js/sehenswürdigkeiten02.js",
+    wichtige_strassen_ring: "js/wichtige_strassen_ring.js",
 };
 
 const script = document.createElement("script");
