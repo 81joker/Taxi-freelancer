@@ -48,6 +48,8 @@ body {
   transition: background 0.2s, transform 0.1s;
   font-weight: 500;
   -webkit-tap-highlight-color: transparent;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 #answers button:hover {
